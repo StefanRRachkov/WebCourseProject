@@ -42,15 +42,15 @@ The project contains 5 tables: Users, Ref_Library, Pending_Refs, Owned_Refs, Exp
 
 ## How-To
 ### Create a DB Server
-#### MSSQL 
+#### * MSSQL 
 Try downloading MS SQL Server Management Studio and it will forward you to SQL Server. There is tutorial with everything needed.
-#### MySQL
+#### * MySQL
 A helpful tutorial - https://docs.oracle.com/en/java/java-components/advanced-management-console/2.22/install-guide/mysql-database-installation-and-configuration-advanced-management-console.html#JSAMI-GUID-12323233-07E3-45C2-B77A-F35B3BBA6592
 ### Create the Database
-#### Initial Step
+#### * Initial Step
 Pull InitialScript.sql and execute just:
 `CREATE DATABASE WEB_TAKE_A_REF;`
-#### Create the tables
+#### * Create the tables
 After the initial step, run the rest of the script and all the tables should be ready to go
 ### Identity Error
 In case of error with Identity(1,1). Change all from Identity(1,1) to AUTO_INCREMENT and everything should be fine
