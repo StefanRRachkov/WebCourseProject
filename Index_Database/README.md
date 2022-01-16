@@ -53,3 +53,5 @@ Pull InitialScript.sql and execute just:
 After the initial step, run the rest of the script and all the tables should be ready to go
 ### Identity Error
 In case of error with Identity(1,1). Change all from Identity(1,1) to AUTO_INCREMENT and everything should be fine
+### Use Versions
+Look at which version is your script, if there is new one, pull the update script and apply the updates. The other way is to use `DROP DATABASE WEB_TAKE_A_REF` and create the new one with the latest version.
