@@ -2,14 +2,13 @@
 
 The project contains 5 tables: Users, Ref_Library, Pending_Refs, Owned_Refs, Exported_Refs. There is a visual representation of the relations in the initial readme: https://github.com/gospodinove/WebCourseProject#readme
 
-## Tables
+## Tables - Version 1.01
 ### USERS
 | Column_Name | Type | Constraint |
 |:--:|:--:|:--:|
 | User_ID | Integer | Primary Key |
-| Username | String | - |
 | Password | String | - |
-| E-Mail | String | - |
+| E-Mail | String | Unique |
 
 ### REF_LIBRARY
 | Column_Name | Type | Constraint |
@@ -54,3 +53,5 @@ Pull InitialScript.sql and execute just:
 After the initial step, run the rest of the script and all the tables should be ready to go
 ### Identity Error
 In case of error with Identity(1,1). Change all from Identity(1,1) to AUTO_INCREMENT and everything should be fine
+### Use Versions
+Look at which version is your script, if there is new one, pull the update script and apply the updates. The other way is to use `DROP DATABASE WEB_TAKE_A_REF` and create the new one with the latest version.
