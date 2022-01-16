@@ -9,3 +9,4 @@ This is the repo for the final course project of WEB 2021/2022 course @ FMI Sofi
 * /Index_FrontEnd - HTML, JS, CSS
 * /Index_BackEnd - PHP, JS
 * /Index_Database - SQL
+* /Index_Database/VersionUpdate - When there is an update on some of the tables you should execute these scripts
