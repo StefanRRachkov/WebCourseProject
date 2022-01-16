@@ -2,14 +2,13 @@
 
 The project contains 5 tables: Users, Ref_Library, Pending_Refs, Owned_Refs, Exported_Refs. There is a visual representation of the relations in the initial readme: https://github.com/gospodinove/WebCourseProject#readme
 
-## Tables
+## Tables - Version 1.01
 ### USERS
 | Column_Name | Type | Constraint |
 |:--:|:--:|:--:|
 | User_ID | Integer | Primary Key |
-| Username | String | - |
 | Password | String | - |
-| E-Mail | String | - |
+| E-Mail | String | Unique |
 
 ### REF_LIBRARY
 | Column_Name | Type | Constraint |
