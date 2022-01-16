@@ -58,7 +58,7 @@
                 <br>Read texts on different topics or provide other users with interesting
                 information on your favourite topics.
             </p>
-            <a href="" class="contact-btn">Take a look to know more!</a>
+            <a href="search-a-ref.html" class="contact-btn">Take a look to know more!</a>
         </div>
 
     </section>
