@@ -118,15 +118,19 @@ nav {
     margin: 0 auto;
 }
 
-.upload-drag-and-drop-pad {
+.drag-and-drop-pad {
     height: 200px;
     border-radius: 20px;
     border: 10px grey dashed;
     margin: 0 auto 20px auto;
     position: relative;
 }
+.drag-and-drop-pad-over {
+    border-color: #630737;
+    border-style: solid;
+}
 
-.upload-drag-and-drop-pad .upload-drag-and-drop-pad-label {
+.drag-and-drop-pad .drag-and-drop-pad-label {
     color: grey;
     margin: 0;
     position: absolute;
