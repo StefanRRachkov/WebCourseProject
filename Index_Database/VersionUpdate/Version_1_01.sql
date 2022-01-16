@@ -12,8 +12,8 @@ ALTER TABLE USERS
 DROP COLUMN Username;
 
 -- For MSSQL use this query
-ALTER TABLE USERS
-ADD CONSTRAINT UQ_Account UNIQUE ([E-Mail]); 
+-- ALTER TABLE USERS
+-- ADD CONSTRAINT UQ_Account UNIQUE ([E-Mail]); 
 
 -- For MySQL use this query
 ALTER TABLE USERS
