@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="import.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="import.css">
     <title> Take-a-ref </title>
 </head>
 
@@ -50,13 +50,13 @@
         </nav>
     </section>
 
-    <section class="upload" <? echo $hidden ?>>
+    <section class="upload">
         <div class="upload-form-container">
             <div id="drop-pad" class="drag-and-drop-pad">
                 <div class="drag-and-drop-pad-label">Drop file here</div>
             </div>
 
-            <form id="file-form" action="../../Index_BackEnd" method="POST">
+            <form id="file-form" action="../../Index_BackEnd/import.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name="uploaded-file" id="file-input" hidden>
                 <button id="upload-file-button" class="button">Upload file manually</button>
                 <input type="submit" id="file-form-submit-button" class="button" disabled>
