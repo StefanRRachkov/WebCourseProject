@@ -59,7 +59,7 @@
             <form id="file-form" action="../../Index_BackEnd/import.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name="uploaded-file" id="file-input" hidden>
                 <button id="upload-file-button" class="button">Upload file manually</button>
-                <input type="submit" id="file-form-submit-button" class="button" disabled>
+                <input type="submit" name="submit" id="file-form-submit-button" class="button" disabled>
             </form>
         </div>
     </section>
