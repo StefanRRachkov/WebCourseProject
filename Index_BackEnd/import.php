@@ -18,11 +18,15 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
       array_push($valuesOfInterest, array($data[4], $data[5], $data[10]));
   }
 
-  DBConnection::sharedInstance()->storeReferats($valuesOfInterest);
+  $result = DBConnection::sharedInstance()->storeReferats($valuesOfInterest);
+
+  if ($result != null) {
+    $_SESSION['csvFileUploadError'] = $result;
+  }
 
   fclose($handle);
 
-  finish(false);
+  finish($result != null);
 }
 
 function finish($hasError){

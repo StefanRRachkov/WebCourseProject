@@ -12,11 +12,8 @@
 <?php
     session_start();
 
-    if (isset($_SESSION['user'])) {
-        $hidden = 'hidden';
-    }else{
-        $hidden='';
-    }
+    $isLoggedIn = isset($_SESSION['user']);
+    $hasError = isset($_SESSION['csvFileUploadError']);
 ?>
 
 <body>
@@ -25,7 +22,7 @@
             <a href="index.php"><img src="../logo.png" height="100px"></a>
             
             <?php
-            if (isset($_SESSION['user'])) {
+            if ($isLoggedIn) {
                 echo '<font color="yellow">'.$_SESSION['user'].'</font>';
             }
             ?>
@@ -33,13 +30,13 @@
             <div class="nav-links">
                 <ul>
                     <li><a href="">HOME</a></li>
-                    <?php if ($hidden){
+                    <?php if ($isLoggedIn){
                             echo ' <li><a href="logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
                     ?>
-                    <?php if ($hidden){
+                    <?php if ($isLoggedIn){
                             echo ' <li><a href="">MY PROFILE</a></li>';
                         }
                     ?>
@@ -61,6 +58,13 @@
                 <button id="upload-file-button" class="button">Upload file manually</button>
                 <input type="submit" name="submit" id="file-form-submit-button" class="button" disabled>
             </form>
+
+            <?php 
+                if($hasError){
+                    echo "<br><font color='yellow'>".$_SESSION['csvFileUploadError']."</font>";
+                    unset($_SESSION['csvFileUploadError']);
+                }
+            ?>
         </div>
     </section>
 

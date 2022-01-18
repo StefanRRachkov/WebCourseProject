@@ -50,7 +50,7 @@ class DBConnection {
       $this->$connection->commit();
     } catch (PDOException $e) {
       $this->$connection->rollback();
-      echo "Error: " . $e->getMessage();
+      return $e->getMessage();
     }
   }
 }
