@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="../main.css">
     <title>Take-A-Ref</title>
 </head>
+
+<?php
+    include '../backend/search.php';
+?>
+
 <body>
     <div class="header-content">
         <nav>
@@ -34,34 +39,7 @@
     </div>
     <div class="display">
         <div class="library">
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                <button class="btn">Take-a-Ref</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                <button class="btn">Take-a-Ref</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                <button class="btn">Take-a-Ref</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="content">
-                <h2 class="title">Explore The Galaxy</h2>
-                <p class="copy">Seriously, straight up, just blast off into outer space today</p>
-                <button class="btn">Take-a-Ref</button>
-              </div>
-            </div>
+
         </div>
     </div>
     <section class="footer">
@@ -80,5 +58,29 @@
 </html>
 
 <script>
+  var library = <?php echo json_encode($result); ?>;
+  var library_content = document.getElementsByClassName('library')[0];
 
+  library.forEach(ref => {
+    var ref_card = document.createElement("div");
+    ref_card.classList.add("card");
+
+    var ref_content = document.createElement("div");
+    ref_content.classList.add("content");
+
+    var ref_title = document.createElement("h2");
+    ref_title.classList.add("title");
+    ref_title.innerHTML = ref["Title"];
+
+    var ref_btn = document.createElement("button");
+    ref_btn.classList.add("btn");
+    ref_btn.innerHTML = "Take-a-Ref";
+
+    ref_content.append(ref_title);
+    ref_content.append(ref_btn);
+    
+    ref_card.append(ref_content);
+
+    library_content.append(ref_card);
+  });
 </script>
