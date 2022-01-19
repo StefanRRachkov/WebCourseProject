@@ -58,7 +58,7 @@ class DBConnection {
     $hashed_password = sha1($password);
   
     try {
-      $sql = 'SELECT * FROM Users WHERE email=? and password = ?';
+      $sql = 'SELECT * FROM USERS WHERE email=? and password = ?';
       $stmt = $this->$connection->prepare($sql);
       $result = $stmt->execute(array($email, $hashed_password));
   
@@ -71,7 +71,6 @@ class DBConnection {
     }
     catch(Exception $e) {
       $_SESSION['loginError'] = "No connection with DB";
-      //var_dump($e->getMessage());
     }
   }
 
@@ -93,11 +92,9 @@ class DBConnection {
     
     $hashed_password = sha1($password);
     
-    //---------insert record in DB--------------------------------------
     try {
-      $conn = new PDO('mysql:host=localhost;dbname=web_take_a_ref', 'root', '');	
-      $sql = 'INSERT INTO Users (email, password) VALUES (?, ?)';
-      $stmt = $conn->prepare($sql);
+      $sql = 'INSERT INTO USERS (email, password) VALUES (?, ?)';
+      $stmt = $this->$connection->prepare($sql);
       $result = $stmt->execute(array($email, $hashed_password));
     
       if ($result && $stmt->rowCount() == 1) {
@@ -107,21 +104,20 @@ class DBConnection {
     }
     catch(Exception $e) {
       $error = $stmt->errorInfo();
-        if ($error[1] == 1062) {
+
+      if ($error[1] == 1062) {
         $_SESSION['regError'] = 'Email is already registered';
-        } 
-      else{
+      } else {
         $_SESSION['regError'] = "No connection with DB<br>".$e->getMessage();
       }
-      //var_dump($e->getMessage());
+      
       $this->finishRegister();
     }
   }
 
   private function finishRegister(){
-    header('Location: index.php#login');
+    header('Location: ../index.php#login');
     exit();
   }
 }
-
 ?>

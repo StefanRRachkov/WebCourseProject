@@ -16,11 +16,7 @@
 <?php
     session_start();
 
-    if (isset($_SESSION['user'])) {
-        $hidden = 'hidden';
-    }else{
-        $hidden='';
-    }
+    $isLoggedIn = isset($_SESSION['user']);
 ?>
 
 <body>
@@ -36,15 +32,16 @@
             
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <?php if ($hidden){
-                            echo ' <li><a href="logout.php">LOG OUT</a></li>';
+                    <li><a href="#">HOME</a></li>
+                    <?php if ($isLoggedIn){
+                            echo ' <li><a href="backend/logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
                     ?>
-                    <?php if ($hidden){
+                    <?php if ($isLoggedIn){
                             echo ' <li><a href="">MY PROFILE</a></li>';
+                            echo ' <li><a href="import">IMPORT</a></li>';
                         }
                     ?>
                     <!-- <li><a href="">MY PROFILE</a></li> -->
@@ -63,11 +60,11 @@
 
     </section>
 
-    <section class="login" <?php echo $hidden; ?>>
+    <section class="login" <?php echo $isLoggedIn ? 'hidden' : '' ?>>
         <h2 id="login">Log In/Register</h2>
 
         <div class="signup">
-            <form class="signup-col" method="post" action="login.php">
+            <form class="signup-col" method="post" action="backend/login.php">
                 <h3>Login Here</h3>
 
                 <?php 
@@ -86,7 +83,7 @@
                 <button>Log In</button>
             </form>
 
-            <form class="signup-col" method="post" action="register.php">
+            <form class="signup-col" method="post" action="backend/register.php">
                 <h3>Register Here</h3>
 
                 <?php 

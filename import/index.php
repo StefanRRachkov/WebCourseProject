@@ -33,7 +33,7 @@
             
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
+                    <li><a href="../">HOME</a></li>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="logout.php">LOG OUT</a></li>';
                         }else{
@@ -42,6 +42,7 @@
                     ?>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="">MY PROFILE</a></li>';
+                            echo ' <li><a href="#">IMPORT</a></li>';
                         }
                     ?>
                     <!-- <li><a href="">MY PROFILE</a></li> -->

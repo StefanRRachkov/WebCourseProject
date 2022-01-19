@@ -6,8 +6,9 @@
 
 	$email = $_POST['email'];
 	$password = $_POST['pass'];
-	$conn = DBConnection::sharedInstance()->login($email, $password);
+	
+	DBConnection::sharedInstance()->login($email, $password);
 
-	header('Location: index.php#login');
+	header('Location: ../index.php#login');
 
 ?>

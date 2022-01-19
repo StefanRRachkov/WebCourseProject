@@ -9,6 +9,6 @@ $email = $_POST['email'];
 $password = $_POST['pass'];
 $pass2 = $_POST['pass2'];
 
-$conn = DBConnection::sharedInstance()->register($email, $password, $pass2);
+DBConnection::sharedInstance()->register($email, $password, $pass2);
 
 ?>
