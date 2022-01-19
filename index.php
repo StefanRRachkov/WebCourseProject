@@ -26,7 +26,7 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.php"><img src="logo.png" height="100px"></a>
+            <a href="index.php"><img src="assets/logo.png" height="100px"></a>
             
             <?php
             if (isset($_SESSION['user'])) {

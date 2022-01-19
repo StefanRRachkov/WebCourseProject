@@ -1,6 +1,6 @@
 <?php
 
-	include '../Index_BackEnd/DBConnection.php';
+	include 'DBConnection.php';
 
 	session_start();
 
