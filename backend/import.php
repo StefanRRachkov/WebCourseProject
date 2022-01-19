@@ -30,7 +30,7 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
 }
 
 function finish($hasError){
-  header('Location: ../Index_FrontEnd/'.($hasError ? 'import' : 'search'));
+  header('Location: ../'.($hasError ? 'import' : 'search'));
   exit();
 }
 ?>
