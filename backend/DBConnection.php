@@ -118,7 +118,7 @@ class DBConnection {
     }
   }
 
-  public function finishRegister(){
+  private function finishRegister(){
     header('Location: index.php#login');
     exit();
   }
