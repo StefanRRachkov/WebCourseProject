@@ -20,7 +20,7 @@ There are two main parts
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
 ```
-```php
+```html
     <div id="wrap">
       <form name="form" method="post" action="#" autocomplete="on">
        <input id="search" name="search" type="text" placeholder="What're we looking for ?">
@@ -29,7 +29,7 @@ There are two main parts
     </div>
 ```
 * Display Library:
-```php
+```javascript
   var library = <?php 
       echo json_encode($result); 
     ?>;
