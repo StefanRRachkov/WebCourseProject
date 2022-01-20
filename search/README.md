@@ -1,12 +1,60 @@
-# Web Course Project - Lucy, Emo, Stefan
+# Search
 
-This is the repo for the final course project of WEB 2021/2022 course @ FMI Sofia
+##Main View:
+![Screenshot 2022-01-20 025319](https://user-images.githubusercontent.com/25185815/150242725-dac07ba3-0979-4220-8971-9679e75b8d8f.png)
 
-### Representation of the project
-![264487468_206146535041213_7672053342408956119_n](https://user-images.githubusercontent.com/25185815/149627859-eccc4de5-6fef-4ca6-b0c0-fa5a69ba685e.png)
+##Description:
+There are two main parts
+*Search functionality:
+```php
+    $condition = '';
+    if(!empty($_POST['search']))
+    {
+        $condition = $_POST['search'];
+    }
 
-### Navigate through the repo
-* /Index_FrontEnd - HTML, JS, CSS
-* /Index_BackEnd - PHP, JS
-* /Index_Database - SQL
-* /Index_Database/VersionUpdate - When there is an update on some of the tables you should execute these scripts
+    $result = DBConnection::sharedInstance()->getReferatsWithConditions($condition);
+```
+```php
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE Title LIKE '%{$str_condition}%'");
+
+    return $query->fetchAll(PDO::FETCH_ASSOC);
+```
+```php
+    <div id="wrap">
+      <form name="form" method="post" action="#" autocomplete="on">
+       <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+       <input id="search_submit" value="Rechercher" type="submit">
+      </form>
+    </div>
+```
+*Display Library:
+```php
+  var library = <?php 
+      echo json_encode($result); 
+    ?>;
+  var library_content = document.getElementsByClassName('library')[0];
+
+  library.forEach(ref => {
+    var ref_card = document.createElement("div");
+    ref_card.classList.add("card");
+
+    var ref_content = document.createElement("div");
+    ref_content.classList.add("content");
+
+    var ref_title = document.createElement("h2");
+    ref_title.classList.add("title");
+    ref_title.innerHTML = ref["Title"];
+
+    var ref_btn = document.createElement("button");
+    ref_btn.classList.add("btn");
+    ref_btn.innerHTML = "Take-a-Ref";
+
+    ref_content.append(ref_title);
+    ref_content.append(ref_btn);
+    
+    ref_card.append(ref_content);
+
+    library_content.append(ref_card);
+  });
+```
