@@ -49,9 +49,11 @@
     <section class="profile">
         <div class="profile-container">
             <?php 
-                $error = $_SESSION['profileError'];
-                echo $error != null ? "<font color='red'>$error</font>" : null;
-                unset($_SESSION['profileError']);
+                if(isset($_SESSION['profileError'])){
+                    $error = $_SESSION['profileError'];
+                    echo $error != null ? "<font color='red'>$error</font>" : null;
+                    unset($_SESSION['profileError']);
+                }
             ?>
 
             <h2><?php echo $userData['EMail']; ?></h2>

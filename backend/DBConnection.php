@@ -30,10 +30,10 @@ class DBConnection {
     return self::$instance;
   }
 
-  public function getReferatsWithConditions($str_condition){
+  public function getReferatsWithConditions($userId, $str_condition){
     global $connection;
 
-    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE Title LIKE '%{$str_condition}%'");
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE TITLE LIKE '%{$str_condition}%' AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId})");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
@@ -156,6 +156,18 @@ class DBConnection {
       $sql = "DELETE FROM OWNED_REFS WHERE USER_ID = {$userId} AND BOOK_ID = {$referatId}";
       echo $sql;
       $this->$connection->exec($sql);
+    } catch (Exception $e) {
+      $_SESSION['profileError'] = $e->getMessage();
+    }
+  }
+
+  public function takeReferat($userId, $referatId){
+    global $connection;
+
+    try {
+      $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DURATION) VALUES(?, ?, ?)";
+      $this->$connection->prepare($sql)->execute(array($userId, $referatId, 5));
+
     } catch (Exception $e) {
       $_SESSION['profileError'] = $e->getMessage();
     }

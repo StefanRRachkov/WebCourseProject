@@ -7,5 +7,7 @@
         $condition = $_POST['search'];
     }
 
-    $result = DBConnection::sharedInstance()->getReferatsWithConditions($condition);
+    $userId = $_SESSION['user'];
+
+    $result = DBConnection::sharedInstance()->getReferatsWithConditions($userId, $condition);
 ?>

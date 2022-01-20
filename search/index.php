@@ -12,8 +12,9 @@
 </head>
 
 <?php
-    include '../backend/search.php';
     session_start();
+
+    include '../backend/search.php';
 
     $isLoggedIn = isset($_SESSION['user']);
 
@@ -92,26 +93,39 @@
     ref_title.classList.add("title");
     ref_title.innerHTML = ref["Title"];
 
-    var ref_btn_form = document.createElement("form");    
-    ref_btn_form.setAttribute("method", "get");
-    ref_btn_form.setAttribute("action", "");
-
     var ref_btn = document.createElement("button");
     ref_btn.setAttribute("id", ref["Book_ID"]);
     ref_btn.classList.add("btn");
+    ref_btn.setAttribute("onclick", "takeAReferat(event)");
     ref_btn.innerHTML = "Take-a-Ref";
     
     ref_btn.addEventListener("click", () => {
         
     }); 
 
-    ref_btn_form.append(ref_btn);
-
     ref_content.append(ref_title);
-    ref_content.append(ref_btn_form);
+    ref_content.append(ref_btn);
     
     ref_card.append(ref_content);
 
     library_content.append(ref_card);
   });
+
+  function takeAReferat(e) {
+        const element = e.target;
+        const referatID = element.getAttribute("id");
+      
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "../backend/takeReferat.php");
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.onreadystatechange = () => {
+            if (xhttp.readyState !== 4 || xhttp.status !== 200) {
+                return;
+            }
+            element.closest(".card").remove();
+        };
+        xhttp.send("referatId="+referatID);
+
+        reload();
+  }
 </script>
