@@ -48,8 +48,10 @@
 
     <section class="profile">
         <?php 
-            $error = $_SESSION['profileError'];
-            echo $error != null ? "<font color='yellow'>$error</font>" : null; 
+            if(isset($_SESSION['profileError'])){
+                $error = $_SESSION['profileError'];
+                echo $error != null ? "<font color='yellow'>$error</font>" : null; 
+            }
         ?>
 
         <div class="profile-container">
