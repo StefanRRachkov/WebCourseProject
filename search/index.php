@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <link rel="stylesheet" href="search-a-ref.css">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="search.css">
     <title>Take-A-Ref</title>
 </head>
 
 <?php
     include '../backend/search.php';
+    session_start();
 ?>
 
 <body>
@@ -28,11 +29,12 @@
             </div>
         </nav>
     </div>
-    <div class="main-content">
+    <div id="search_box" class="main-content">
         <div class="search-box">
             <div id="wrap">
-              <form action="" autocomplete="on">
-              <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="Rechercher" type="submit">
+              <form name="form" method="post" action="#" autocomplete="on">
+                <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+                <input id="search_submit" value="Rechercher" type="submit">
               </form>
             </div>
         </div>
@@ -58,7 +60,9 @@
 </html>
 
 <script>
-  var library = <?php echo json_encode($result); ?>;
+  var library = <?php 
+      echo json_encode($result); 
+    ?>;
   var library_content = document.getElementsByClassName('library')[0];
 
   library.forEach(ref => {

@@ -10,7 +10,9 @@ class DBConnection {
 
   private static $instance = null;
 
-  private function __construct() {
+  private function __construct()  {
+    global $connection;
+
     $this->$connection = new PDO("mysql:host={$this->host};dbname={$this->database}", $this->user, $this->password);
 
     $this->$connection->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
@@ -29,13 +31,25 @@ class DBConnection {
   }
 
   public function getAllFrom($table) {
+    global $connection;
+
     $query = $this->$connection->query("SELECT * FROM {$table}") or die('failed');
+
+    return $query->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function getReferatsWithConditions($str_condition){
+    global $connection;
+
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE Title LIKE '%{$str_condition}%'");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
 
   // $data: array of tuples
   public function storeReferats($data) {
+    global $connection;
+
     try {
       $this->$connection->beginTransaction();
 
@@ -55,6 +69,8 @@ class DBConnection {
   }
 
   public function login($email, $password){
+    global $connection;
+
     $hashed_password = sha1($password);
   
     try {
@@ -75,6 +91,8 @@ class DBConnection {
   }
 
   public function register($email, $password, $pass2) {
+    global $connection;
+    
     if(strlen($password) < 6){
       $_SESSION['regError'] = "Password is too short";
       $this->finishRegister();
