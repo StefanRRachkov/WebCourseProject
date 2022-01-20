@@ -149,6 +149,18 @@ class DBConnection {
     }
   }
 
+  public function returnReferat($userId, $referatId) {
+    global $connection;
+
+    try {
+      $sql = "DELETE FROM OWNED_REFS WHERE USER_ID = {$userId} AND BOOK_ID = {$referatId}";
+      echo $sql;
+      $this->$connection->exec($sql);
+    } catch (Exception $e) {
+      $_SESSION['profileError'] = $e->getMessage();
+    }
+  }
+
   private function finishRegister(){
     header('Location: ../index.php#login');
     exit();

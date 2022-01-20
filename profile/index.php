@@ -47,14 +47,13 @@
     </section>
 
     <section class="profile">
-        <?php 
-            if(isset($_SESSION['profileError'])){
-                $error = $_SESSION['profileError'];
-                echo $error != null ? "<font color='yellow'>$error</font>" : null; 
-            }
-        ?>
-
         <div class="profile-container">
+            <?php 
+                $error = $_SESSION['profileError'];
+                echo $error != null ? "<font color='red'>$error</font>" : null;
+                unset($_SESSION['profileError']);
+            ?>
+
             <h2><?php echo $userData['EMail']; ?></h2>
 
             <p>Taken by you:</p>
@@ -63,8 +62,9 @@
                 <?php 
                     foreach ($referats as $ref) {
                         $title = $ref['Title'];
+                        $id = $ref['Book_ID'];
 
-                        $button = "<button>Return</button>";
+                        $button = "<button class='return-button' referat-id=$id onClick='remove(event)'>Return</button>";
 
                         echo "<li><a href='#'>$title</a>$button</li>";
                     }
@@ -85,5 +85,27 @@
 
         </div>
     </section>
+
+    <script>
+        function remove(event) {
+            const element = event.target
+            const referatId = element.getAttribute('referat-id')
+
+            const xhttp = new XMLHttpRequest()
+            xhttp.open("POST", "../backend/returnReferat.php")
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+            xhttp.onload = function() {
+                console.log('done', referatId)
+            }
+            xhttp.onreadystatechange = () => {
+                if (xhttp.readyState !== 4 || xhttp.status !== 200) {
+                    return
+                }
+
+                element.closest('li').remove()
+            }
+            xhttp.send("referatId="+referatId)
+        }
+    </script>
 </body>
 </html>
