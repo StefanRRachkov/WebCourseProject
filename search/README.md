@@ -5,7 +5,7 @@
 
 ## Description:
 There are two main parts
-*Search functionality:
+* Search functionality:
 ```php
     $condition = '';
     if(!empty($_POST['search']))
@@ -28,7 +28,7 @@ There are two main parts
       </form>
     </div>
 ```
-*Display Library:
+* Display Library:
 ```php
   var library = <?php 
       echo json_encode($result); 
