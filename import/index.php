@@ -35,7 +35,7 @@
                 <ul>
                     <li><a href="../">HOME</a></li>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
+                            echo ' <li><a href="logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
@@ -58,10 +58,10 @@
                 <div class="drag-and-drop-pad-label">Drop file here</div>
             </div>
 
-            <form id="file-form" action="../backend/import.php" method="POST" enctype="multipart/form-data">
+            <form id="file-form" action="../../backend/import.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name="uploaded-file" id="file-input" hidden>
                 <button id="upload-file-button" class="button">Upload file manually</button>
-                <input type="submit" name="submit" id="file-form-submit-button" class="button" value="Import" disabled>
+                <input type="submit" name="submit" id="file-form-submit-button" class="button" disabled>
             </form>
 
             <?php 
