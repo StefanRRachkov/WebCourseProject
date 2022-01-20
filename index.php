@@ -24,12 +24,6 @@
         <nav>
             <a href="index.php"><img src="assets/logo.png" height="100px"></a>
             
-            <?php
-            if (isset($_SESSION['user'])) {
-                echo '<font color="yellow">'.$_SESSION['user'].'</font>';
-            }
-            ?>
-            
             <div class="nav-links">
                 <ul>
                     <li><a href="#">HOME</a></li>

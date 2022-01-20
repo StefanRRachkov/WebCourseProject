@@ -70,13 +70,13 @@ class DBConnection {
     try {
       $sql = 'SELECT * FROM USERS WHERE email=? and password = ?';
       $stmt = $this->$connection->prepare($sql);
-      $result = $stmt->execute(array($email, $hashed_password));
+      $stmt->execute(array($email, $hashed_password));
+      $stmt->setFetchMode(PDO::FETCH_ASSOC);
+      $result = $stmt->fetchAll();
   
       if ($result && $stmt->rowCount() == 1) {
-        $_SESSION['user'] = $email;
-        $_SESSION['userID'] = $result['User_ID'];
-      }
-      else{
+        $_SESSION['user'] = $result[0]['User_ID'];
+      } else {
         $_SESSION['loginError'] = "Wrong email or password";
       }
     }
@@ -111,8 +111,9 @@ class DBConnection {
       $result = $stmt->execute(array($email, $hashed_password));
     
       if ($result && $stmt->rowCount() == 1) {
-        $_SESSION['user'] = $email;
+        $_SESSION['user'] = $this->$connection->lastInsertId();
       }
+
       $this->finishRegister();
     }
     catch(Exception $e) {
@@ -129,7 +130,7 @@ class DBConnection {
   }
 
   public function fetchUserData($userId) {
-    
+
   }
 
   private function finishRegister(){

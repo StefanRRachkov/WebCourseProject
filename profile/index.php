@@ -23,20 +23,20 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.php"><img src="../assets/logo.png" height="100px"></a>
+            <a href="../"><img src="../assets/logo.png" height="100px"></a>
             
             <div class="nav-links">
                 <ul>
                     <li><a href="../">HOME</a></li>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="logout.php">LOG OUT</a></li>';
+                            echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
                     ?>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="">MY PROFILE</a></li>';
-                            echo ' <li><a href="#">IMPORT</a></li>';
+                            echo ' <li><a href="../import">IMPORT</a></li>';
                         }
                     ?>
                     <li><a href="#aboutUs">ABOUT US</a></li>

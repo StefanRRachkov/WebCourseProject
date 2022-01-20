@@ -25,17 +25,11 @@
         <nav>
             <a href="index.php"><img src="../assets/logo.png" height="100px"></a>
             
-            <?php
-            if ($isLoggedIn) {
-                echo '<font color="yellow">'.$_SESSION['user'].'</font>';
-            }
-            ?>
-            
             <div class="nav-links">
                 <ul>
                     <li><a href="../">HOME</a></li>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="logout.php">LOG OUT</a></li>';
+                            echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
