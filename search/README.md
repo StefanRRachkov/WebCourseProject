@@ -1,9 +1,9 @@
 # Search
 
-##Main View:
+## Main View:
 ![Screenshot 2022-01-20 025319](https://user-images.githubusercontent.com/25185815/150242725-dac07ba3-0979-4220-8971-9679e75b8d8f.png)
 
-##Description:
+## Description:
 There are two main parts
 *Search functionality:
 ```php
