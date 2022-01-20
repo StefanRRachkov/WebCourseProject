@@ -35,7 +35,7 @@
                 <ul>
                     <li><a href="../">HOME</a></li>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="logout.php">LOG OUT</a></li>';
+                            echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
                         }else{
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }

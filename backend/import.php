@@ -15,18 +15,29 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
   $valuesOfInterest = array();
 
   while (($data = fgetcsv($handle, 10000)) !== FALSE) {
+      if (count($data) < 10) {
+          $_SESSION['csvFileUploadError'] = 'The file has an unsupported structure';
+          break;
+      }
+
       array_push($valuesOfInterest, array($data[4], $data[5], $data[10]));
   }
 
-  $result = DBConnection::sharedInstance()->storeReferats($valuesOfInterest);
+  if (count($valuesOfInterest) < 2) {
+    $_SESSION['csvFileUploadError'] = 'The file has an unsupported structure';
+  }
 
-  if ($result != null) {
-    $_SESSION['csvFileUploadError'] = $result;
+  if (!isset($_SESSION['csvFileUploadError'])) {
+      $result = DBConnection::sharedInstance()->storeReferats($valuesOfInterest);
+
+      if ($result != null) {
+        $_SESSION['csvFileUploadError'] = $result;
+      }
   }
 
   fclose($handle);
 
-  finish($result != null);
+  finish(isset($_SESSION['csvFileUploadError']));
 }
 
 function finish($hasError){
