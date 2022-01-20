@@ -82,6 +82,7 @@ class DBConnection {
   
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $email;
+        $_SESSION['userID'] = $result['User_ID'];
       }
       else{
         $_SESSION['loginError'] = "Wrong email or password";
