@@ -10,8 +10,9 @@
 </head>
 
 <?php
-    include '../backend/profile.php';
     session_start();
+
+    include '../backend/profile.php';
 
     $isLoggedIn = isset($_SESSION['user']);
 
@@ -46,7 +47,28 @@
     </section>
 
     <section class="profile">
+        <?php 
+            $error = $_SESSION['profileError'];
+            echo $error != null ? "<font color='yellow'>$error</font>" : null; 
+        ?>
 
+        <div class="profile-container">
+            <h2><?php echo $userData['EMail']; ?></h2>
+
+            <p>Taken by you:</p>
+
+            <ul class="referat-list">
+                <?php 
+                    foreach ($referats as $ref) {
+                        $title = $ref['Title'];
+
+                        $button = "<button>Return</button>";
+
+                        echo "<li><a href='#'>$title</a>$button</li>";
+                    }
+                ?>
+            </ul>
+        </div>
     </section>
 
     <section class="footer">

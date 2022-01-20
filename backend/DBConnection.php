@@ -130,7 +130,23 @@ class DBConnection {
   }
 
   public function fetchUserData($userId) {
+    global $connection;
 
+    try {
+      $userStatement = $this->$connection->query("SELECT * FROM USERS WHERE USER_ID = $userId");
+      $userData = $userStatement->fetchAll(PDO::FETCH_ASSOC)[0];
+
+      $referatsStatemet = $this->$connection->query("SELECT * FROM REF_LIBRARY AS LIB JOIN OWNED_REFS AS OWN ON LIB.Book_ID = OWN.Book_ID WHERE OWN.User_ID = $userId");
+      $referats = $referatsStatemet->fetchAll(PDO::FETCH_ASSOC);
+
+      if ($userData) {
+        return array('userData' => $userData, 'referats' => $referats);
+      } else {
+        return null;
+      }
+    } catch(Exception $e) {
+      $_SESSION['profileError'] = "No connection with DB";
+    }
   }
 
   private function finishRegister(){

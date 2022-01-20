@@ -2,6 +2,13 @@
 
 include 'DBConnection.php';
 
-// $userData = DBConnection::sharedInstance()->fetchUserData('id');
+$userId = $_SESSION['user'];
+
+$data = DBConnection::sharedInstance()->fetchUserData($userId);
+
+if ($data) {
+  $userData = $data['userData'];
+  $referats = $data['referats'];
+}
 
 ?>
