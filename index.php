@@ -40,11 +40,10 @@
                         }
                     ?>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="">MY PROFILE</a></li>';
+                            echo ' <li><a href="profile">MY PROFILE</a></li>';
                             echo ' <li><a href="import">IMPORT</a></li>';
                         }
                     ?>
-                    <!-- <li><a href="">MY PROFILE</a></li> -->
                     <li><a href="#aboutUs">ABOUT US</a></li>
                 </ul>
             </div>

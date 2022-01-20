@@ -30,14 +30,6 @@ class DBConnection {
     return self::$instance;
   }
 
-  public function getAllFrom($table) {
-    global $connection;
-
-    $query = $this->$connection->query("SELECT * FROM {$table}") or die('failed');
-
-    return $query->fetchAll(PDO::FETCH_ASSOC);
-  }
-
   public function getReferatsWithConditions($str_condition){
     global $connection;
 
@@ -134,6 +126,10 @@ class DBConnection {
       
       $this->finishRegister();
     }
+  }
+
+  public function fetchUserData($userId) {
+    
   }
 
   private function finishRegister(){

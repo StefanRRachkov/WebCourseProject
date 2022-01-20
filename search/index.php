@@ -36,7 +36,7 @@
                         }
                     ?>
                     <?php if ($isLoggedIn){
-                            echo ' <li><a href="">MY PROFILE</a></li>';
+                            echo ' <li><a href="../profile">MY PROFILE</a></li>';
                             echo ' <li><a href="../import/index.php">IMPORT</a></li>';
                         }
                     ?>
