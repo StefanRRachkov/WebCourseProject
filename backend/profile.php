@@ -2,6 +2,6 @@
 
 include 'DBConnection.php';
 
-$userData = DBConnection::sharedInstance()->fetchUserData();
+// $userData = DBConnection::sharedInstance()->fetchUserData('id');
 
 ?>
