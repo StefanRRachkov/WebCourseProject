@@ -54,7 +54,7 @@
             </div>
 
             <form id="file-form" action="../backend/import.php" method="POST" enctype="multipart/form-data">
-                <input type="file" name="uploaded-file" id="file-input" hidden>
+                <input type="file" name="uploaded-file" id="file-input" hidden required>
                 <button id="upload-file-button" class="button">Upload file manually</button>
                 <input type="submit" name="submit" value="Import" id="file-form-submit-button" class="button" disabled>
             </form>
@@ -93,6 +93,10 @@
 
         if (event.dataTransfer.files.length) {
             fileInput.files = event.dataTransfer.files;
+
+            uploadFileButton.innerHTML = event.dataTransfer.files[0].name;
+            
+            submitButton.disabled = false;
         }
 
         dropPad.classList.remove('drag-and-drop-pad-over')
@@ -113,14 +117,6 @@
         event.preventDefault();
 
         document.getElementById('file-input').click();
-    });
-
-    fileInput.addEventListener('change', (event) => {
-        const fileName = fileInput.files[0].name;
-
-        uploadFileButton.innerHTML = fileName;
-        
-        submitButton.disabled = false;
     });
 </script>
 </html>
