@@ -33,7 +33,7 @@
         <div class="search-box">
             <div id="wrap">
               <form name="form" method="post" action="#" autocomplete="on">
-                <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+                <input id="search" name="search" type="text" placeholder="What are we looking for ?">
                 <input id="search_submit" value="Rechercher" type="submit">
               </form>
             </div>
