@@ -14,6 +14,12 @@
 <?php
     include '../backend/search.php';
     session_start();
+    
+    $isLoggedIn = isset($_SESSION['user']);
+
+    if (!$isLoggedIn) {
+        header('Location: ../index.php');  
+    }
 ?>
 
 <body>
@@ -76,12 +82,23 @@
     ref_title.classList.add("title");
     ref_title.innerHTML = ref["Title"];
 
+    var ref_btn_form = document.createElement("form");    
+    ref_btn_form.setAttribute("method", "get");
+    ref_btn_form.setAttribute("action", "");
+
     var ref_btn = document.createElement("button");
+    ref_btn.setAttribute("id", ref["Book_ID"]);
     ref_btn.classList.add("btn");
     ref_btn.innerHTML = "Take-a-Ref";
+    
+    ref_btn.addEventListener("click", () => {
+        
+    }); 
+
+    ref_btn_form.append(ref_btn);
 
     ref_content.append(ref_title);
-    ref_content.append(ref_btn);
+    ref_content.append(ref_btn_form);
     
     ref_card.append(ref_content);
 
