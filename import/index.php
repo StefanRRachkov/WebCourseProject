@@ -29,9 +29,10 @@
             <div class="nav-links">
                 <ul>
                     <li><a href="../">HOME</a></li>
-                    <?php if ($isLoggedIn){
+                    <?php 
+                        if ($isLoggedIn) {
                             echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
-                        }else{
+                        } else {
                             echo ' <li><a href="#login">LOG IN</a></li>';
                         }
                     ?>
@@ -55,7 +56,7 @@
             <form id="file-form" action="../../backend/import.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name="uploaded-file" id="file-input" hidden>
                 <button id="upload-file-button" class="button">Upload file manually</button>
-                <input type="submit" name="submit" id="file-form-submit-button" class="button" disabled>
+                <input type="submit" name="submit" value="Import" id="file-form-submit-button" class="button" disabled>
             </form>
 
             <?php 
