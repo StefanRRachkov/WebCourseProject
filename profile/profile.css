@@ -136,3 +136,7 @@ nav {
     bottom: 0;
     right: 0;
 }
+
+.empty-message {
+    text-align: center;
+}

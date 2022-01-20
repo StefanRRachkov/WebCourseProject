@@ -58,7 +58,9 @@
 
             <p>Taken by you:</p>
 
-            <ul class="referat-list">
+            <p class='empty-message' <?php echo count($referats) > 0 ? 'hidden' : '' ?>>You have not taken any referats :(</p>
+
+            <ul class="referat-list" <?php echo count($referats) == 0 ? 'hidden' : '' ?>>
                 <?php 
                     foreach ($referats as $ref) {
                         $title = $ref['Title'];
@@ -94,17 +96,32 @@
             const xhttp = new XMLHttpRequest()
             xhttp.open("POST", "../backend/returnReferat.php")
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
-            xhttp.onload = function() {
-                console.log('done', referatId)
-            }
             xhttp.onreadystatechange = () => {
                 if (xhttp.readyState !== 4 || xhttp.status !== 200) {
                     return
                 }
 
                 element.closest('li').remove()
+
+                maybeShowEmptyMessage()
             }
             xhttp.send("referatId="+referatId)
+        }
+
+        function maybeShowEmptyMessage() {
+            const list = document.getElementsByClassName('referat-list')[0]
+
+            if (list.childElementCount > 0) {
+                return
+            }
+
+            const emptyMessageElement = document.createElement('p')
+            emptyMessageElement.classList.add("empty-message")
+            emptyMessageElement.append('You have not taken any referats :(')
+
+            list.parentElement.appendChild(emptyMessageElement)
+
+            list.remove()
         }
     </script>
 </body>
