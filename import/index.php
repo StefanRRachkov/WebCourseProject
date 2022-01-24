@@ -94,9 +94,7 @@
         if (event.dataTransfer.files.length) {
             fileInput.files = event.dataTransfer.files;
 
-            uploadFileButton.innerHTML = event.dataTransfer.files[0].name;
-            
-            submitButton.disabled = false;
+            changeButtonState(event.dataTransfer.files[0].name);
         }
 
         dropPad.classList.remove('drag-and-drop-pad-over')
@@ -116,7 +114,21 @@
     uploadFileButton.addEventListener("click", (event) => {
         event.preventDefault();
 
-        document.getElementById('file-input').click();
+        fileInput.click();
+
     });
+
+    fileInput.addEventListener("change", (event) => {
+        changeButtonState(fileInput.files[0].name);
+
+    });
+
+    function changeButtonState(title){
+        uploadFileButton.innerHTML = title;
+        submitButton.disabled = false;
+    }
+
+
+
 </script>
 </html>
