@@ -3,12 +3,16 @@
 class DBConnection {
   private $connection;
 
+  private static $instance = null;
+
+  // CONFIGURATION
   private $host = 'localhost';
   private $user = 'root';
   private $password = '';
   private $database = 'WEB_TAKE_A_REF';
 
-  private static $instance = null;
+  private $maxExportsPerReferat = 5;
+  private $referatTakenDaysCount = 5;
 
   private function __construct()  {
     global $connection;
@@ -51,7 +55,7 @@ class DBConnection {
 
         if (count($dataRow) == 3) {
           $this->$connection->prepare("INSERT INTO REF_LIBRARY (Title, Ref, Keywords, Max_Exports) VALUES (?, ?, ?, ?)")
-             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], 5));;
+             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $this->maxExportsPerReferat));;
         }
       }
 
@@ -62,7 +66,7 @@ class DBConnection {
     }
   }
 
-  public function login($email, $password){
+  public function login($email, $password) {
     global $connection;
 
     $hashed_password = sha1($password);
@@ -79,8 +83,7 @@ class DBConnection {
       } else {
         $_SESSION['loginError'] = "Wrong email or password";
       }
-    }
-    catch(Exception $e) {
+    } catch(Exception $e) {
       $_SESSION['loginError'] = "No connection with DB";
     }
   }
@@ -166,7 +169,7 @@ class DBConnection {
 
     try {
       $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DURATION) VALUES(?, ?, ?)";
-      $this->$connection->prepare($sql)->execute(array($userId, $referatId, 5));
+      $this->$connection->prepare($sql)->execute(array($userId, $referatId, $this->referatTakenDaysCount));
 
     } catch (Exception $e) {
       $_SESSION['profileError'] = $e->getMessage();

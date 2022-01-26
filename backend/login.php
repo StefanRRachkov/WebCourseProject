@@ -1,14 +1,14 @@
 <?php
 
-	include 'DBConnection.php';
+include 'DBConnection.php';
 
-	session_start();
+session_start();
 
-	$email = $_POST['email'];
-	$password = $_POST['pass'];
-	
-	DBConnection::sharedInstance()->login($email, $password);
+$email = $_POST['email'];
+$password = $_POST['pass'];
 
-	header('Location: ../index.php#login');
+DBConnection::sharedInstance()->login($email, $password);
+
+header('Location: ../index.php#login');
 
 ?>
