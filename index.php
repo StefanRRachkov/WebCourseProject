@@ -26,7 +26,7 @@
             
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="">HOME</a></li>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="backend/logout.php">LOG OUT</a></li>';
                         }else{
@@ -38,7 +38,7 @@
                             echo ' <li><a href="import">IMPORT</a></li>';
                         }
                     ?>
-                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="aboutus/aboutUs.php">ABOUT US</a></li>
                 </ul>
             </div>
         </nav>
@@ -85,6 +85,11 @@
                     unset($_SESSION['regError']);
                     }
                 ?>
+                <label for="name"> First name </label>
+                <input id="name" name="name" type="text" placeholder="First name" required>
+
+                <label for="name2"> Last Name </label>
+                <input id="name2" name="name2" type="text" placeholder="Last Name" required>
 
                 <label for="email"> E-mail </label>
                 <input id="email" name="email" type="email" placeholder="E-mail" required>
@@ -102,14 +107,12 @@
     </section>
 
     <section class="footer">
-        <h4 id="aboutUs" >About Us</h4>
-        <p>Тhree colleagues from the Faculty of Mathematics and Informatics 
+        <p>Тhis website is a course project ot three colleagues from the Faculty of Mathematics and Informatics 
             at Sofia University </p>
         <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <a href="https://www.facebook.com/lusi.ivanova.17/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/stefan.rachkov/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/emanuil-gospodinov" target="_blank"><i class="fa fa-linkedin"></i></a>
 
         </div>
     </section>
