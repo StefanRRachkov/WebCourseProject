@@ -32,7 +32,7 @@
                         if ($isLoggedIn) {
                             echo ' <li><a href="../backend/logout.php">LOG OUT</a></li>';
                         } else {
-                            echo ' <li><a href="#login">LOG IN</a></li>';
+                            echo ' <li><a href="../">LOG IN</a></li>';
                         }
                     ?>
                     <?php if ($isLoggedIn){
