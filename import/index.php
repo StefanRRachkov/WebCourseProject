@@ -55,7 +55,16 @@
 
             <form id="file-form" action="../backend/import.php" method="POST" enctype="multipart/form-data">
                 <input type="file" name="uploaded-file" id="file-input" hidden required>
+
                 <button id="upload-file-button" class="button">Upload file manually</button>
+
+                <label for="edition">Edition</label>
+            <select name="edition" id="edition" class="edition-picker">
+                    <option value="17">17</option>
+                    <option value="16">16</option>
+                    <option value="15">15</option>
+                </select>
+
                 <input type="submit" name="submit" value="Import" id="file-form-submit-button" class="button" disabled>
             </form>
 

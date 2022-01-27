@@ -98,6 +98,18 @@ nav {
     margin-top: 20px;
 }
 
+.edition-picker {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
 .upload-form-container {
     width: 500px;
     margin: 0 auto;
@@ -135,7 +147,7 @@ nav {
     background-color: #630737;
     border-radius: 10px;
     border: none;
-    margin-top: 10px;
+    margin: 5px 0;
 }
 .button:hover {
     cursor: pointer;

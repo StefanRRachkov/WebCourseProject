@@ -4,6 +4,8 @@ include 'DBConnection.php';
 session_start();
 unset($_SESSION['csvFileUploadError']);
 
+$edition = $_POST['edition'];
+
 $csvMimes = array('text/x-comma-separated-values', 'text/comma-separated-values', 'application/octet-stream', 'application/vnd.ms-excel', 'application/x-csv', 'text/x-csv', 'text/csv', 'application/csv', 'application/excel', 'application/vnd.msexcel', 'text/plain');
 
 if (!in_array($_FILES['uploaded-file']['type'], $csvMimes)) {
@@ -28,7 +30,7 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
   }
 
   if (!isset($_SESSION['csvFileUploadError'])) {
-      $result = DBConnection::sharedInstance()->storeReferats($valuesOfInterest);
+      $result = DBConnection::sharedInstance()->storeReferats($valuesOfInterest, $edition);
 
       if ($result != null) {
         $_SESSION['csvFileUploadError'] = $result;

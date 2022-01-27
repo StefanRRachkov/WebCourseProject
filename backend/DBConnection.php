@@ -43,7 +43,7 @@ class DBConnection {
   }
 
   // $data: array of tuples
-  public function storeReferats($data) {
+  public function storeReferats($data, $edition) {
     global $connection;
 
     try {
@@ -54,8 +54,8 @@ class DBConnection {
         $dataRow = $data[$i];
 
         if (count($dataRow) == 3) {
-          $this->$connection->prepare("INSERT INTO REF_LIBRARY (Title, Ref, Keywords, Max_Exports) VALUES (?, ?, ?, ?)")
-             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $this->maxExportsPerReferat));;
+          $this->$connection->prepare("INSERT INTO REF_LIBRARY (Title, Ref, Keywords, Max_Exports, Edition) VALUES (?, ?, ?, ?, ?)")
+             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $this->maxExportsPerReferat, $edition));
         }
       }
 
