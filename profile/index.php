@@ -40,7 +40,7 @@
                             echo ' <li><a href="../import">IMPORT</a></li>';
                         }
                     ?>
-                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="../aboutus/aboutUs.php">ABOUT US</a></li>
                 </ul>
             </div>
         </nav>
@@ -78,15 +78,12 @@
     </section>
 
     <section class="footer">
-        <h4 id="aboutUs" >About Us</h4>
-        <p>Тhree colleagues from the Faculty of Mathematics and Informatics 
+        <p>Тhis website is a course project ot three colleagues from the Faculty of Mathematics and Informatics 
             at Sofia University </p>
         <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
-
+            <a href="https://www.facebook.com/lusi.ivanova.17/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/stefan.rachkov/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/emanuil-gospodinov" target="_blank"><i class="fa fa-linkedin"></i></a>
         </div>
     </section>
 
