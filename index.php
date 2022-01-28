@@ -93,6 +93,13 @@
 
                 <label for="email"> E-mail </label>
                 <input id="email" name="email" type="email" placeholder="E-mail" required>
+
+                <label for="ed"> Web Course Edition </label>
+                <select id="ed" name="ed" required>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                </select>
                 
                 <label for="pass"> Password </label>
                 <input id="pass" name="pass" type="password" placeholder="Password" required>
