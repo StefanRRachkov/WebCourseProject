@@ -68,7 +68,7 @@
 
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 <style>
-body, html {
+/* body, html {
   height: 100%;
   margin: 0;
   font-family:sans-serif;
@@ -107,7 +107,7 @@ body, html {
   top: 40%;
   left: 10%;
   color: white;
-}
+} */
 
 
 </style>
