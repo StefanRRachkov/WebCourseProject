@@ -176,6 +176,18 @@ class DBConnection {
     }
   }
 
+  public function getCourseEditions() {
+    global $connection;
+
+    try {
+      $query = $this->$connection->query('SELECT CourseEditionID FROM COURSE_EDITION ORDER BY CourseEditionID DESC');
+      return $query->fetchAll(PDO::FETCH_ASSOC);
+    } catch (Exception $e) {
+      $_SESSION['importError'] = 'No connection with DB';
+      return array();
+    }
+  }
+
   private function finishRegister(){
     header('Location: ../index.php#login');
     exit();
