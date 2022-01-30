@@ -22,7 +22,8 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
           break;
       }
 
-      array_push($valuesOfInterest, array($data[4], $data[5], $data[10]));
+      // id, title, references, keywords
+      array_push($valuesOfInterest, array($data[3] == '' ? NULL : $data[3], $data[4], $data[5], $data[10]));
   }
 
   if (count($valuesOfInterest) < 2) {
