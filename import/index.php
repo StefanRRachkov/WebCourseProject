@@ -11,6 +11,7 @@
 </head>
 
 <?php
+    include '../backend/DBConnection.php';
     session_start();
 
     $isLoggedIn = isset($_SESSION['user']);
@@ -19,6 +20,8 @@
     if (!$isLoggedIn) {
         header('Location: ../index.php');
     }
+
+    $courseEditions = DBConnection::sharedInstance()->getCourseEditions();
 ?>
 
 <body>
@@ -59,10 +62,13 @@
                 <button id="upload-file-button" class="button">Upload file manually</button>
 
                 <label for="edition">Edition</label>
-            <select name="edition" id="edition" class="edition-picker">
-                    <option value="17">17</option>
-                    <option value="16">16</option>
-                    <option value="15">15</option>
+                <select name="edition" id="edition" class="edition-picker">
+                    <?php 
+                        foreach ($courseEditions as $value) {
+                            $edition = $value['CourseEditionID'];
+                            echo "<option value='$edition'>$edition</option>";
+                        } 
+                    ?>
                 </select>
 
                 <input type="submit" name="submit" value="Import" id="file-form-submit-button" class="button" disabled>
