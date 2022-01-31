@@ -42,7 +42,8 @@
                         }
                     ?>
                     <li><a href="../aboutus/aboutUs.php">ABOUT US</a></li>
-                </ul>
+                    <li><a href="#">COURSE EDITION</a></li>
+                </ul>   
             </div>
         </nav>
     </div>
@@ -58,7 +59,12 @@
     </div>
     <div class="display">
         <div class="library">
-
+        </div>
+    </div>
+    <div class="pagination-wrapper">
+        <div class="pagination">
+            <a id="prev" class="prev page-numbers" href="#">previous</a>
+            <a id="next" class="next page-numbers" href="#">next</a>
         </div>
     </div>
     <section class="footer">
@@ -68,6 +74,7 @@
             <a href="https://www.facebook.com/lusi.ivanova.17/" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/stefan.rachkov/" target="_blank"><i class="fa fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/emanuil-gospodinov" target="_blank"><i class="fa fa-linkedin"></i></a>
+
         </div>
     </section>
 </body>
@@ -78,6 +85,10 @@
       echo json_encode($result); 
     ?>;
   var library_content = document.getElementsByClassName('library')[0];
+  var ref_card_list = [];
+
+  var library_page = 0;
+  var library_displayed_content = 8;
 
   library.forEach(ref => {
     var ref_card = document.createElement("div");
@@ -104,9 +115,38 @@
     ref_content.append(ref_btn);
     
     ref_card.append(ref_content);
-
-    library_content.append(ref_card);
+    
+    ref_card_list.push(ref_card);
   });
+
+  var prev_btn = document.getElementById("prev");
+  var next_btn = document.getElementById("next");
+
+  prev_btn.addEventListener('click', (e)=>{
+      if(prev_btn.classList.contains("page-disabled"))
+      {
+          console.log("Can't go back");
+      }
+      else
+      {
+          library_page--;
+          reloadPage();
+      }
+  })
+
+  next_btn.addEventListener('click', (e)=>{
+      if(next_btn.classList.contains("page-disabled"))
+      {
+          console.log("Can't go next");
+      }
+      else
+      {
+          library_page++;
+          reloadPage();
+      }
+  })
+
+  loadPage();
 
   function takeAReferat(e) {
         const element = e.target;
@@ -119,10 +159,61 @@
             if (xhttp.readyState !== 4 || xhttp.status !== 200) {
                 return;
             }
-            element.closest(".card").remove();
         };
         xhttp.send("referatId="+referatID);
 
-        reload();
+        removeFromLibrary(referatID);
+        reloadPage();
+  }
+
+  function loadPage() {
+    let start_index = library_page * library_displayed_content;
+    let end_index = start_index + library_displayed_content;
+    for (let index = start_index; index < end_index && index < ref_card_list.length; index++) {
+        library_content.append(ref_card_list[index]);
+    }
+
+    prev_btn.classList.remove("page-disabled");
+    next_btn.classList.remove("page-disabled");
+
+    if(library_page == 0)
+    {
+        prev_btn.classList.add("page-disabled");
+    }
+    if(library_page >= Math.floor(ref_card_list.length / library_displayed_content))
+    {
+        next_btn.classList.add("page-disabled");
+    }
+  }
+
+  function unloadPage() {
+      while(library_content.firstChild)
+      {
+          library_content.removeChild(library_content.firstChild);
+      }
+  }
+
+  function reloadPage()
+  {
+      unloadPage();
+      loadPage();
+  }
+
+  function removeFromLibrary(id)
+  {
+    let start_index = library_page * library_displayed_content;
+        let end_index = start_index + library_displayed_content;
+        for (let index = start_index; index < end_index && index < ref_card_list.length; index++) {
+            let card = ref_card_list[index];
+            let card_content = card.firstChild;
+            let card_content_button = card_content.lastChild;
+
+            let card_content_button_id = card_content_button.getAttribute("id");
+            if(card_content_button_id == id)
+            {
+                ref_card_list.splice(index, 1);
+                return;
+            }
+        }
   }
 </script>

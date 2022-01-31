@@ -37,7 +37,7 @@ class DBConnection {
   public function getReferatsWithConditions($userId, $str_condition){
     global $connection;
 
-    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE TITLE LIKE '%{$str_condition}%' AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId})");
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId})");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
@@ -88,7 +88,7 @@ class DBConnection {
     }
   }
 
-  public function register($email, $password, $pass2) {
+  public function register($email, $password, $pass2, $first_name, $last_name, $course_edition) {
     global $connection;
     
     if(strlen($password) < 6){
@@ -109,9 +109,9 @@ class DBConnection {
     $hashed_password = sha1($password);
     
     try {
-      $sql = 'INSERT INTO USERS (email, password) VALUES (?, ?)';
+      $sql = 'INSERT INTO USERS (email, password, firstname, lastname, courseedition) VALUES (?, ?, ?, ?, ?)';
       $stmt = $this->$connection->prepare($sql);
-      $result = $stmt->execute(array($email, $hashed_password));
+      $result = $stmt->execute(array($email, $hashed_password, $first_name, $last_name, $course_edition));
     
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $this->$connection->lastInsertId();
@@ -176,7 +176,7 @@ class DBConnection {
     }
   }
 
-  public function getCourseEditions() {
+    public function getCourseEditions() {
     global $connection;
 
     try {

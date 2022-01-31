@@ -8,7 +8,10 @@ unset($_SESSION['regError']);
 $email = $_POST['email'];
 $password = $_POST['pass'];
 $pass2 = $_POST['pass2'];
+$first_name = $_POST['name'];
+$last_name = $_POST['name2'];
+$course_edition = $_POST['ed'];
 
-DBConnection::sharedInstance()->register($email, $password, $pass2);
+DBConnection::sharedInstance()->register($email, $password, $pass2, $first_name, $last_name, $course_edition);
 
 ?>

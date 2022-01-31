@@ -258,3 +258,40 @@ input[type="submit"]:hover {
     transition-duration: 0s;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.pagination-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.pagination {
+	display: inline-block;
+	height: 70px;
+	margin-top: 70px;
+	padding: 0 25px;
+	border-radius: 35px;
+	background-color: #eee;
+}
+
+.page-numbers {
+	display: block;
+	padding: 0 25px;
+	float: left;
+	transition: 400ms ease;
+	color: #595959;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	line-height: 70px;
+}
+
+.page-disabled {
+  display: none;
+}
+.page-numbers:hover {
+		background-color: #3f51b5;
+		color: #fff;
+  }
