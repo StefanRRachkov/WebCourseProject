@@ -1,0 +1,2169 @@
+w17,,,Номер на тема,Тема,"Примерни ресурси (разделени със ,)",Ваши ресурси (links),Съдържание на презентацията,Съдържание на мини-примерчета/проектчета,Резюме на презентацията,ключови думи,(Не)формални забележки
+,,0,0,[MP] Изисквания за писане на реферат по w17ed,"[1] http://learn.fmi.uni-sofia.bg, Система за електронно обучение за курса по World-Wide Web технологии, последно посетена на 2013-03-26 (основен-онлайн), last visited: 2021-11-02
+",,"1. Какво е производителност на уеб приложение.
+2. Защо е важна производителността.
+3. RAIL моделът.
+4. Добрите практики.
+5. Съвети и трикове за оптимизации.",Презентация на примерен инстурмент от Google за измерване на производителността https://web.dev/measure/,Презентацията цели да покаже защо е важно уеб приложенията ни да зареждат бързо и да бъдат интерактивни. Ще се покажат примерни съвети и трикове за оптмизации. Също и добрите практики разработени от Google.,"web performance, javascript diet, RAIL моделът, lazy loading, caching, slow network, optmiziations, best practices",
+1,2013_14,3,1,"HTML5 - част 1 семантични тагове, тагове за форми. Примери.","[0] http://diveintohtml5.info/semantics.html 
+[1] http://www.w3schools.com/html/html5_semantic_elements.asp
+[2] http://webdesign.about.com/od/htmltags/a/why-semantic-html.htm
+[3] http://www.adobe.com/devnet/html5/articles/semantic-markup.html
+[4] http://www.w3schools.com/html/html5_semantic_elements.asp
+[5] http://webdesign.about.com/od/htmltags/a/why-semantic-html.htm
+[6] http://www.adobe.com/devnet/html5/articles/semantic-markup.html[4] http://html5doctor.com/html5-forms-input-types/
+[7] http://www.adobe.com/devnet/archive/html5/articles/semantic-markup.html,
+[8] https://internetingishard.com/html-and-css/semantic-html/,","[1] “HTML Semantic Elements”, 
+https://www.w3schools.com/html/html5_semantic_elements.asp
+[2] Developerdrive Staff, “What Are Semantic Html Tags And How To Use Them”, 
+https://www.developerdrive.com/what-are-semantic-html-tags/
+[3] Mark Pilgrim, “New Semantic Elements In HTML5”, 
+http://diveintohtml5.info/semantics.html
+[4] HTML Form Elements, 
+https://www.w3schools.com/html/html_form_elements.asp","1. Семантични тагове - значение
+2. Класически + примери
+3. Нови за HTML5 + примери
+4. Тагове за форми - значение и примери",Примерен код за таговете,Презентацията цели да покаже защо е важно да се използва семантичен HTML код. Ще се разгледат основните семантични тагове и тагове за форми. Ще бъдат посочени и примери.,"семантични тагове, тагове за форми, семантичен HTML, HTML5",
+2,2020,4,2,Latex - сравнение с HTML,"[1] https://dev.to/hoffmann/lets-find-something-better-then-latex
+[2] https://tex.stackexchange.com/questions/78215/what-is-the-difference-between-latex-and-html
+[3] https://swetava.wordpress.com/2013/10/31/a-short-history-of-tex-and-latex/
+[4] https://tex.stackexchange.com/questions/6776/what-are-tex-and-latex
+[5] https://vertex-academy.com/tutorials/en/html-history/
+[6] https://en.wikipedia.org/wiki/HTML#History
+[7] https://www.w3.org/Consortium/mission
+[8] https://html.com/html5/#All_About_Rats
+[9] https://tex.stackexchange.com/questions/940/what-professions-use-tex-latex-besides-cs
+[10] https://www.educba.com/uses-of-html/
+[11] https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler#Introduction
+[12] https://tex.stackexchange.com/questions/21863/tex-distribution-and-engine
+[13] https://www.overleaf.com/learn/latex/Articles/The_TeX_family_tree:_LaTeX,_pdfTeX,_XeTeX,_LuaTeX_and_ConTeXt 
+[14] https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#HTML_Parser
+[15] https://www.overleaf.com/","[1] LaTeX – A document preparation system: https://www.latex-project.org/
+[2] Overleaf: CV темплейти: https://www.overleaf.com/latex/templates/ 
+[3] Overleaf: Примери  с диаграми: https://www.overleaf.com/learn/latex/Pgfplots_package","1. HTML и LaTeX - основни прилики и разлики
+2. Използване на LaTeX, компилация и редактори
+3. ""Deep-dive"" с примери","Има примерен код на основните действия с LaTeX, както и примери за някои по-интересни опции като различни диаграми, псевдокод, презентации или CV изработка.","Презентацията цели да запознае слушателя с LaTeX основите, да покаже синтаксиса и да демонстрира разнообразие от действия, които могат да се изпълняват посредством LaTeX. За целта се използва като въведение приликата с добре познатия HTML, но и се набляга на разликата в употребата им.","latex, документ, tex, дистрибуция, компилатор, tikz, verbatim, пакет",
+2,2013_14,7,3,"CSS: стилове, класове, селектори","[1] http://w3schools.com/css/css_syntax.asp
+[2] http://w3schools.com/css/css_id_class.asp
+[3] Joel Sklar - Principles of Web Design, 4th Edition
+[4] http://iliasky.com/www/kn14/05-html-css-1.html
+[5] https://www.w3schools.com/cssref/sel_nth-child.asp
+[6] https://www.w3.org/TR/selectors-4/
+[7]https://vineetgupta22.wordpress.com/2011/07/09/inline-vs-internal-vs-external-css/
+[8] https://developer.mozilla.org/en-US/docs/Web/Guide/CSS
+[9]https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css
+[10]https://www.educative.io/edpresso/the-class-attribute-in-css
+[11]https://www.w3schools.com/css/css_attribute_selectors.asp
+[12]https://www.w3schools.com/html/html_css.asp
+[13]https://www.w3schools.com/css/css_intro.asp","[1].CSS стилове - w3schools [https://www.w3schools.com/html/html_css.asp]
+[2].Kласове в CSS - Erin Glass публикуван на 12.10.2020 - [https://www.digitalocean.com/community/tutorials/how-to-create-classes-with-css]
+[3]Селектори в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors]
+[4]* селектор в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors][5]type селектори в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors][6]Id селектори в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors].    [7]Атрибут селектори в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors] [8]Псевдо селектори в CSS - [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes] [9]Приоритет на селектори в CSS - Аnna Fitzgerald 8.7.2020 - [https://blog.hubspot.com/website/css-specificity]  ",1.Стилове в CSS 2.Класове в CSS 3.Атрибути в CSS 4.Приоритети на селекторите в CSS,"Има примерен код, който демострира всеки един от изброените селектори.","Презентацията има за цел да запознае читателя с видовете селектори в CSS, както и да разбере какъв е техния приоритет за да ги използва по правилен начин.","class, selector, attribute, priority, tag",
+2,2013_14,8,4,"CSS: layouts, box model","[1] http://www.w3schools.com/css/css_boxmodel.asp
+[2] http://learn.shayhowe.com/html-css/opening-the-box-model/
+[3] http://www.adobe.com/devnet/archive/html5/articles/semantic-markup.html
+[4] https://css-tricks.com/the-css-box-model/
+[5] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+[6] https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model","[1] https://learn.shayhowe.com/html-css/opening-the-box-model/ 
+[2] https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model 
+[3] https://www.w3schools.com/cssref/pr_class_display.asp
+[4] https://www.w3schools.com/html/html_blocks.asp
+[5] https://css-tricks.com/the-lengths-of-css/
+[6] https://css-tricks.com/almanac/properties/t/top-right-bottom-left/
+[7] https://css-tricks.com/the-css-box-model/
+[8] https://www.w3schools.com/css/css_border.asp","1. Какво представлява box model-а в CSS.
+2. Елементи на бокс модела
+3. CSS свойства тясно свързани с бокс модела","Примерен код за елементите на 
+бокс модела и свойствата 
+свързани с него. ","Всеки човек, използващ CSS, трябва
+да бъде добре запознат с бокс модела. 
+Целта на презентацията е да се 
+изяснят детайлите на бокс модела 
+и да се попълнят пропуските около него, 
+за да се изчистят всякакви неясноти 
+и да може да се борави с бокс модела свободно.  ","CSS, box model, details, properties",
+2,2013_14,8,5,"CSS: layouts, flexbox","[1] http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+[2] https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+[3]https://www.w3schools.com/css/css_website_layout.asp
+[4]https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction 
+[5] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox
+[6]https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+[7]https://www.smashingmagazine.com/2018/10/flexbox-use-cases/
+[8]https://www.smashingmagazine.com/2018/08/flexbox-alignment/
+[9] https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/
+[10] https://www.youtube.com/watch?v=qm0IfG1GyZU&t=346s&ab_channel=GoogleChromeDevelopers
+[11] https://torquemag.io/2020/02/flexbox-tutorial/",[1] https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox,1.Какво е Flexbox 2.основни понятия 3.Как се дефинира 4.Свойства на родителския елемент 5.Свойства на елементите на ковтейнера 6.Къде се използва,примерен код и изброяване на всички възможни стойности на отделните свойства,"Flexbox доста улеснява работат ни със CSS, като ни помага да правим по-лесно отделни елементи на нашата уеб страница. Презентацията има за цел да запознае студентите с Flexbox, както и да им покаже неговите възможности - как, къде и защо може да се използва.","CSS, flexbox, navigation, buttons, properties, style",
+2,,,6,Новости в Php 8+,"[1] https://wiki.php.net/rfc#php_81
+[2] https://stitcher.io/blog/attributes-in-php-8","[1]https://www.php.net/releases/8.0/en.php
+[2] https://kinsta.com/blog/php-8/
+[3] https://stitcher.io/blog/new-in-php-8
+",,"Има примерен код , с който се показват разлики между PHP 7 и PHP 8",Показва как са изчистили някои грешки от предходната версия на PHP,"PHP, Атрибути, Конструктор, Оператор за сравнение, Оператот Nullsafe, вградени функции",
+1,2013,20,7,Анимации с CSS с използване на трансформации,"[1] CSS: Animation Using CSS Transforms,  http://www.the-art-of-web.com/css/css-animation/#.UVKerzaexNk, последно посетен на 2013-03-27
+[2] Easy CSS Animation With Transition & Transforms, http://webdesignerwall.com/tutorials/easy-css-animation-transition-transforms, последно посетен на 24-11-2018 
+[3] Transform, https://css-tricks.com/almanac/properties/t/transform/, автор: Sara Cope, последно посетен на 24-11-2018
+[4] RotateX, https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX , последно посетен на 16-12-2018","[1]CSS 2D Transforms, https://www.w3schools.com/css/css3_2dtransforms.asp, последно посетен на 17.11.2021
+[2]CSS 3D Transforms, https://www.w3schools.com/css/css3_3dtransforms.asp, последно посетен на 17.11.2021
+[3]CSS Animations, https://www.w3schools.com/css/css3_animations.asp, последно посетен на 18.11.2021
+[4]The World of CSS Transforms https://www.joshwcomeau.com/css/transforms/, автор Josh Comeau последно обновен 28.09.2021 ,последно посетен на 17.11.2021","CSS 2D трансформации - Синтаксис, CSS 3D трансформации, CSS анимации","Примери за CSS трансформации, които показват раличните видове трансформации и примери за анимации с тези трансформации","CSS трансформациите ни позволяват да преместваме, мащабираме, завъртаме и изкривяваме дадени обекти в 2D и в 3D среда. Css ни позволява да правим анимации със HTML обекти, без да използваме JavaScript. ","Трансформации, translate(), scale(), skew(), matrix(), rotate(), анимации, @keyframes",
+1,2013,22,,Еммет синтаксис,"[1] https://docs.emmet.io/abbreviations/syntax/
+[2] [1] https://docs.emmet.io/cheat-sheet/ 
+[3] https://scotch.io/bar-talk/8-emmet-tips-you-might-not-know",,,,,,
+2,2013_14,18,9,"DOM дърво, обхождане и манипулация","[1] http://oreilly.com/catalog/jscript4/chapter/ch17.html
+[2] http://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/
+[3] http://javascript.info/tutorial/dom
+[4] http://www.w3.org/DOM/
+[1] https://www.w3schools.com/js/js_htmldom.asp 
+[2] http://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/
+[4] https://www.w3schools.com/jsref/dom_obj_event.
+[5] https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers
+",[1]https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events [2]https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model [3]https://levelup.gitconnected.com/useful-dom-traversal-methods-d2b55cf8e25c [4]https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors [5]https://www.w3schools.com/css/css_selectors.asp [6]https://www.w3schools.com/jquery/jquery_traversing.asp,"Основни понятия свързани с ДОМ, ДОМ и JavaScript, Методи за достъп и използване на документа, CSS селектори (Xpath), Типове данни, Събития, управление на събитя",Има пример и код и после възможност да се изпробва посредством малко демо (което за момент е забранено в анонимната версия),-,"dom, traverse, css selector, xpath, event, event handler",
+1,2013,86,10,Работа със сесии и cookies (от страна насървъра и клиента). Local Storage API,"[1] http://www.w3schools.com/php/php_sessions.asp, 
+[2] http://www.w3schools.com/php/php_cookies.asp,
+[3] http://php.net/manual/en/function.setcookie.php, 
+[4] http://www.w3schools.com/js/js_cookies.asp https://www.tutorialspoint.com/php/php_cookies.htm, https://www.tutorialspoint.com/javascript/javascript_cookies.htm, http://www.infosectoday.com/Articles/Cookie_Tampering.htm
+[5] https://cookies.insites.com/
+[6] http://www.allaboutcookies.org/cookies/
+[7] http://php.net/manual/en/features.cookies.php
+[8] https://www.w3schools.com/js/js_cookies.asp
+[9[ http://tutorials.jenkov.com/html5/local-storage.html","[13] https://en.wikipedia.org/wiki/Web_storage#Local_and_session_storage,
+[14] https://en.wikipedia.org/wiki/HTTP_cookie,
+[15] https://www.tutorialspoint.com/php/php_sessions.htm,
+[16] https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage,
+[17] https://www.w3schools.com/jsref/prop_win_localstorage.asp","Какво са бисквитките, Какво е Local Storage и Session Storage, Как се работи с бисквитки и двата вида Local и Session Storage, Примери","Има малки примери с код, които показват как се четат/пишат бисквитки в JS и PHP, също и как може да се ползва Local и Session storage в JS и PHP","Презентира какво са бисквитките, local и session storage","web storage, local storage, session storage, cookies, Java Script, PHP",
+2,2013_14,11,11,HTML мета-тагове и SEO,"[1] http://www.distilled.net/blog/seo/7-technical-seo-wins-for-web-developers
+[2] http://katemats.com/what-every-programmer-should-know-about-seo
+[3] http://www.inqbation.com/technical-seo-a-programmers-guide-to-seo
+[4] http://www.techwyse.com/blog/search-engine-optimization/seo-guide-for-programmers-and-developers
+[5] http://www.techwyse.com/blog/search-engine-optimization/meta-tags-101
+[6] http://www.techwyse.com/blog/search-engine-optimization/outsourced-vs-in-house-seo-marketing/ https://en.wikipedia.org/wiki/Web_search_engine
+[7] https://neilpatel.com/blog/html-tags-for-seo/
+[8] https://www.wordstream.com/blog/ws/2013/07/24/follow-nofollow-links","1. https://neilpatel.com/what-is-seo/
+2. https://searchengineland.com/guide/what-is-seo
+3.https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags
+4.https://www.99signals.com/meta-tags-seo/#what-are-meta-tags
+5.https://www.getcredo.com/html-meta-tags-for-seo/
+6.https://www.w3schools.com/tags/tag_meta.asp
+7.https://www.educba.com/meta-tag-in-html/","1.Въведение в мета-таговете 2.Списък с мета-таговете 3.Атрибути на мета-таговете 4. Въведение в SEO 5.Как работи SEO 6. Фактори, влияещи върху SEO 7.Важни мета-такове за SEO ",,"Въведение в SEO и мета-таговете, кои мета-тагове се използват за SEO и защо  ","seo, meta tags: meta desrciption, meta title, meta viewport, meta robots, meta charset",
+2,2013_14,21,12,Протокол HTTP версия 2.0+,"[1] https://blog.cloudflare.com/http-2-for-web-developers/ , [2] https://en.wikipedia.org/wiki/HTTP/2  https://http2.github.io/faq/
+[3] https://http2.github.io/http2-spec/compression.html
+[4] https://developers.google.com/speed/pagespeed/service/InlineSmallResources
+[5] https://www.maxcdn.com/one/visual-glossary/domain-sharding-2/
+[6] http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html
+[7] Mike Bishop, ""HTTP and QUIC Updates, QUIC and HTTP"", IETF 103, Bangkok, November 8, 2018;",[8]https://http3-explained.haxx.se/en/criticism#udp-is-slow-in-kernels ," 1.        Какво е HTTP ? 2. Чайникът, 3. Как изглеждат нещата от страна на браузърите през годините и защо HTTP 2.0 е по-добър ? 4. Лоши практики, от HTTP 1.1 , 5. Добри Практики за HTTP 2.0, 6. HTTP 3.0 ","Спазен е стилът на официалните документи на HTTP, да са леснодостъпни за четене. Авторът се е опитал да даде отговор на базовите въпроси касаещит един web разработчик на сайтове, в този смисъл рефeратът е отправна точка за по-задълбочени знания за работата на HTTP.","Въведение в HTTP, Защо ни трябват нови версии на HTTP,как всъщност с новите версии старите хакове се превръщат в лоши способи, Добри практики, HTTP 3.0 ","http, http3, http1.1, http2, http good practices, speedup web page loading",
+1,2013,26,13,CSS Preprocessor/LESS и SASS,"[1] http://lesscss.org/ 
+[2] http://sass-lang.com/documentation/file.SASS_REFERENCE.html 
+[3] https://htmlmag.com/article/an-introduction-to-css-preprocessors-sass-less-stylus
+[4]https://www.quora.com/What-is-the-difference-between-less-and-Sass,  
+[5]https://css-tricks.com/sass-vs-less/ , ",,,,,,
+1,2020,32,,External Data Representation (XDR),"https://tools.ietf.org/html/rfc4506
+https://docs.oracle.com/cd/E19504-01/802-5885/6i9k4u0c5/index.html",,,,,,
+1,2020,35,15,Svelte web tool,[1] https://svelte.dev/tutorial/basics,,,,,,
+1,2020,37,16,Fetch API and XHR,"[1] https://developers.google.com/web/updates/2015/03/introduction-to-fetch
+[2] https://gomakethings.com/why-i-still-use-xhr-instead-of-the-fetch-api/
+[3] https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+[4]https://developers.google.com/web/updates/2015/03/introduction-to-fetch
+[5]https://www.w3schools.com/js/js_async.asp
+[6]https://en.wikipedia.org/wiki/ECMAScript
+[7]https://www.w3schools.com/xml/ajax_intro.asp
+[8]https://blog.avenuecode.com/callback-hell-promises-and-async/await
+[9]http://callbackhell.com/""
+[10]https://blog.trigent.com/synchronous-vs-asynchronous-request-handling/
+[11]https://medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c  
+[12] https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+",,"Въведение
+- Какво е XHR?
+- Какво е Fetch API?
+Защо са ни нужни?
+- Проблемът
+- Решението - AJAX
+XHR
+- Специфичности на XHR
+Fetch API
+- jQuery
+- JS promices
+- CORS
+- Специфичности на Fetch API
+XHR или Fetch API?
+- Предимства на XHR
+- Предимства на Fetch API
+- Кое да използваме?","Ще разгледам какви опции имам за динамични примери. Идеята ми е да има пример за работа с Fetch API с няколко вида заявки (GET, POST) и да покажа как да си обработим грешките/отговора. Също да покажа как може да използваме инструментите на браузъра за да следим какво става.","Идеята на презентацията е да щрихова голямата картина на клиентската страна на УЕБ програмирането и да покаже къде се намират разглежданите иструменти. Целта е да запознае с идеята зад тях, а след това да покаже нагледен пример за употреба.","Защо?, УЕБ, Fetch API, XHR, AJAX, CORS, JS Promises",Тук искам да отделя повече време за креативно творчество предвид ограничаващият формат на тестовите въпроси и желанието ми да не са ужасно скучни. Форматиранито на тази таблица е интересно преживяване :)
+1,2020,39,17,Използване на git за - добри практики,"[1] https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices/
+[2] https://www.specbee.com/blogs/git-best-practices-how-make-most-git
+[3] https://www.toptal.com/git/tips-and-practices
+[4] https://www.atlassian.com/git/tutorials/what-is-git
+[5] https://sethrobertson.github.io/GitBestPractices/
+[6] https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+",7.https://www.educba.com/meta-tag-in-html/,,,,,
+1,2013,40,18,Network Etiquette - общуване в уеб,"[1] https://tools.ietf.org/html/rfc1855 [2] http://www.albion.com/netiquette/corerules.html 
+[2] https://www.businessemailetiquette.com/business-e-mail-etiquette-basics/ 
+[3] http://www.businessinsider.com/email-etiquette-rules-everyone-should-know-2014-9?op=1
+[4] https://www.businessnewsdaily.com/8262-email-etiquette-tips.html
+[1.] Elizabeth Hartney, BSc., MSc., MA, PhD, 10 Basic Rules of Netiquette or Internet Etiquette
+[https://www.verywellmind.com/ten-rules-of-netiquette-22285], последно посетен 13 Януари 2020.
+[2.] Virginia Shea, Netiquette
+[http://www.albion.com/netiquette/book/0963702513FC.html], последно посетен Октимври 2004.
+[3.] Wikipedia, Etiquette in technology
+[https://en.wikipedia.org/wiki/Etiquette_in_technology], последно посетен 5 Ноември 2020.
+[4.] Shing-Ling Sarina Chen, Netiquette social behaviour.
+[https://www.britannica.com/topic/netiquette]","[1] https://coursedesign.colostate.edu/obj/corerulesnet.html
+[2] https://networketiquette.net/
+[3] https://www.baltimoresun.com/news/bs-xpm-1999-01-25-9901250195-story.html
+[4] Netiquette guide, Florifa Atlantic University
+[5] ""GUI Bloopers""  - Jeff Johnson",,,,,
+1,2013,57,19,Инструменти за стрес-тестове на уеб приложения,"[2] https://loadimpact.com/website-testing
+[3] https://stackoverflow.com/questions/9750509/load-vs-stress-testing
+[4] https://prateekvjoshi.com/2013/08/21/why-do-we-need-performance-testing/
+[6] https://geteasyqa.com/blog/best-tools-load-testing/
+[7] https://www.devcurry.com/2010/07/10-free-tools-to-loadstress-test-your.html
+[8] https://www.guru99.com/web-application-testing.html
+[9]https://www.guru99.com/load-testing-tutorial.html
+[10] https://www.guru99.com/stress-testing-tutorial.html
+[1]- https://qa.world/distributed-load-testing/
+[2]- https://www.testbytes.net/blog/stress-testing/
+[3]- https://support.smartbear.com/loadninja/docs/general-info/about.html
+[4]- https://geoserver.geo-solutions.it/educational/en/enterprise/jmeter.html
+[5]- https://www.edureka.co/blog/jmeter-tutorial/#:~:text=Apache%20JMeter%20is%20a%20testing,functional%20testing%20of%20web%20applications.
+[6]- https://reviews.financesonline.com/p/webload/
+[7]- https://comparecamp.com/webload-review-pricing-pros-cons-features/
+[8]- https://www.automation-consultants.com/products/ibm-products/rational-performance-tester
+[9]- https://www.loadview-testing.com/performance-testing-tools/
+[10]- https://www.capterra.com/p/204026/LoadView/
+[11]- https://www.linkedin.com/pulse/what-jmeter-why-use-advantages-disadvantages-private-limited
+","[1] https://stackoverflow.com/questions/9750509/load-vs-stress-testing
+[2] https://www.guru99.com/performance-vs-load-vs-stress-testing.html
+[3] https://www.geeksforgeeks.org/difference-between-web-application-and-website/
+[4] https://en.wikipedia.org/wiki/Web_application
+[5] https://theqalead.com/tools/load-testing-tools/
+[6] https://www.guru99.com/introduction-to-hp-loadrunner-and-its-archtecture.html
+[7] https://www.redpill-linpro.com/sysadvent/2015/12/14/jmeter.html
+[8] http://testingfreak.com/jmeter/stepping-thread-group/
+[9] http://www.anujgakhar.com/2010/06/23/stress-testing-your-website-with-apache-jmeter/",Какво е уеб приложение?                Какво е стрес-тест?                     Няколко инструмента за стрес-тестване,"Кратка информация за това както са уеб приложения, стрес-тестване и смисълът от него, както и запознаване с някои популярни инструменти","Презентацията цели да запознае слушателите със същността на реферата без да се навлиза в подрбоности. На всеки на когото му стане интересно, може да посети страницата на реферата и да открие допълнителна информация и демо.","Уеб, приложение, тест, стрес-тест, тестване на производителността, LoadRunner, JMeter, инструмент, провеждане, пренатоварване, натоварване,",
+1,2013,60,20,Тестване на уеб приложения със Selenium web driver. Примери.,"[1] http://www.seleniumhq.org/projects/webdriver/ 
+[2] http://www.guru99.com/introduction-webdriver-comparison-selenium-rc.html
+[3] https://www.seleniumhq.org/docs/03_webdriver.jsp
+[4] https://www.softwaretestingmaterial.com/selenium-webdriver-architecture
+[5]http://www.aosabook.org/en/selenium.html 
+[6] https://www.guru99.com/selenium-tutorial.html
+[7] https://www.toolsqa.com/selenium-tutorial
+[8] https://devhints.io/xpath","
+[1] Introduction to Selenium components
+https://qatechhub.com/introduction-to-selenium-components/
+[2] Selenium definition, how it works, why we need it
+https://www.browserstack.com/selenium/
+[3] Web Scrapping with Selenium Python
+https://medium.com/ml-book/web-scraping-using-selenium-python-3be7b8762747
+[4] RSelenium
+https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html
+[5] Web Scrapping with RSelenium
+https://fabriciusbr.medium.com/using-rselenium-for-task-automation-and-web-scraping-250c4f2f5979
+[6] Selenium exceptions
+https://www.softwaretestinghelp.com/exception-handling-framework-selenium-tutorial-19/",,,,,
+2,2020,81,21,"Платформи за колаборативна работа по софтуерни и уеб проекти (zoom, teams, jitsi, etc) и отдалечено екстремно програмиране","[1]  http://www.extremeprogramming.org/
+[2] zoom.us
+[3] https://jitsi.org/
+https://www.kanbanchi.com/what-is-collaboration-software-part-i
+https://blog.bit.ai/how-digital-collaboration-workplace-improves-workflows/
+https://www.techfunnel.com/information-technology/11-best-virtual-meeting-platforms-for-business/
+https://slack.com/intl/en-bg/help/articles/115004071768-What-is-Slack-
+https://www.microsoft.com/en-us/microsoft-365/blog/2016/11/02/introducing-microsoft-teams-the-chat-based-workspace-in-office-365/
+https://www.pocket-lint.com/apps/news/151426-what-is-zoom-and-how-does-it-work-plus-tips-and-tricks
+https://www.sherweb.com/blog/office-365/skype-for-business/
+http://www.extremeprogramming.org/when.html
+http://www.kircher-schwanninger.de/michael/publications/xp2001.pdf",,,,,"Extreme Programming, Zoom, Collaboration software, jitsy, google workplace",
+2,2020,83,22,CSS modules and Interoperable CSS,"[1] https://github.com/css-modules/css-modules
+[2]https://glenmaddern.com/articles/interoperable-css","[1] https://css-tricks.com/css-modules-part-1-need/
+[2] https://blog.logrocket.com/a-deep-dive-into-css-modules/
+[3] https://learncss101.com/css-modules-vs-styled-components
+[4] https://www.sitepoint.com/understanding-css-modules-methodology/
+[5] https://seanamarasinghe.com/developer/css/interoperable-css
+[6] https://www.javascriptstuff.com/what-are-css-modules/
+[7] https://webpack.js.org/loaders/css-loader/#modules
+[8] https://webpack.js.org/loaders/css-loader/#composing
+[9] https://webkul.com/blog/understanding-the-scope-in-css-variables/
+[10] https://magento.github.io/pwa-studio/technologies/basic-concepts/css-modules/#how-it-works","Увод
+Какво представляват CSS модулите?
+Защо са ни необходими CSS Modules?
+Композиция в CSS Modules
+Зависимости и някои уточнения
+Interoperable CSS
+CSS Modules и React
+Някои недостатъци на CSS Modules
+Заключение","Има примерен програмен код, който показва
+как се работи със CSS Modules, 
+как се прави композиция,
+как се използват ключовите думи import и export,
+показани са някои особености и предимства при писането чрез CSS Modules.","Целта на презентацията е да покаже какво представляват CSS Modules, как действат, с какво ни улесняват, каква е тяхната функционалност и как се програмира с тях. Разглежда се също какво е Interoperable CSS, показват се някои предимства и недостатъци на CSS Modules.
+","CSS Modules, Interoperable CSS, 
+global scope, local scope, composition,
+Webpack, Browserify, composes,
+import, export, CSS Modules compiler,
+loader, React",
+1,2017_18,66,,Framework7 - разработка на уеб приложения за Android и iOS,"[1] https://framework7.io/
+[2] Getting started with Framework 7: An HTML framework for building mobile apps [https://blog.pusher.com/getting-started-framework-7/], посетен последно на 
+[1] https://en.wikipedia.org/wiki/Software_framework. 
+[2]  https://framework7.io/docs/introduction.html 
+[3] https://www.academia.edu/33673842/Framework7_tutorial 
+[4] https://javatpoints.wordpress.com/2017/12/28/getting-started-with-framework7/ 
+[5] https://www.tutorialspoint.com/framework7/framework7_layouts.htm
+",,,,,,
+1,2013,77,24,Mobx - управление на състоянието,"[1]  https://mobx.js.org/README.html
+[2]  https://mobx.js.org/assets/action-state-view.png
+[3] https://mobx.js.org/observable-state.html
+[4]  https://mobx.js.org/actions.html
+[5] https://mobx.js.org/react-integration.html
+[6] https://reactjs.org/
+[7] https://www.hiremotely.com/blog/flux-redux-mobx-react-state-management
+[8] https://egghead.io/articles/what-is-state-why-do-i-need-to-manage-it","https://blog.logrocket.com/redux-vs-mobx/
+https://habr.com/en/post/480692/
+https://www.tabnine.com/blog/redux-vs-mobx/","1. Какво е MobX? 
+2. Какво означава ""управление на състоянието"" и защо ни трябва?
+3. Какво е observable?
+4. Реактивни React компоненти
+5. React интеграция
+6. MobX vs Redux","Има примери за как се прави едно състояние observable, как се маркират полета с анотации, за които се говори в презентацията, как един компонент се прави реактивен, как да направим собствен компонент и как да интегрираме с React.","Презентацията цели да покаже плюсовете 
+на MobX и защо човек може да предпочете да използва тази библиотека.
+Дадени са препоръки за тези, които започват както и се демонстрира 
+как се интегрира с React.","състояние, управление на състоянието, склад,
+ действие, редукция, деривация, observable, observer, интеграция.",
+1,2013,83,25,URL rewriting,"[1.] http://coding.smashingmagazine.com/2011/11/02/introduction-to-url-rewriting/
+[2.] http://www.computerhope.com/jargon/u/url.htm
+[3.] https://www.addedbytes.com/articles/for-beginners/url-rewriting-for-beginners/
+[4.] https://www.huify.com/blog/what-is-a-url-and-how-does-it-work
+[5.] http://en.wikipedia.org/wiki/Rewrite_engine
+[6] https://docs.oracle.com/javase/tutorial/networking/urls/definition.html
+[7] http://httpd.apache.org/docs/2.0/misc/rewriteguide.html
+[8] https://aloneonahill.com/blog/url-rewriting-for-beginners/
+[9] http://httpd.apache.org/docs/current/rewrite/intro.html 
+[10] https://en.wikipedia.org/wiki/URL ",https://wiredelta.com/url-rewrite/,"1.Какво е URL? 
+2.Какво е пренаписване на URL адрес? ","1.Какво е URL? 
+2.Общ преглед на URL 
+3.Къде се намира URL адресът? 
+4.Как да отворите URL 
+5.Какви знаци не са разрешени в URL адрес? 
+6.Какво е пренаписване на URL адрес? 
+7.Как помага пренаписването на URL адрес? 
+8.Пренаписване на URL адрес срещу пренасочване 
+9.Платформи и инструменти 
+10.Основно пренаписване на URL адреси 
+11.Модели и заместители ","Целта на презентацията е да даде информация за URL адреси, начина им на ползване, структурата им и пренаписавне на URL адрес.
+Как се пренаписва URL адрес?
+За какво служи?
+С какво помага?","URL
+http
+https
+www
+apache
+IIS
+ISAPI_Rewrite 
+mod_rewrite",
+,2014_15,,,Clipping и Masking в CSS,"[1] https://www.html5rocks.com/en/tutorials/masking/adobe/
+[2] https://css-tricks.com/clipping-masking-css/
+[3] http://www.sarasoueidan.com/blog/css-svg-clipping/
+[4] https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+[5] https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape ",,,,,,
+,2017_18,,27,Оценка на javascript приложенията,"https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e [1] https://medium.com/reloading/javascript-start-up-performance-69200f43b201
+[2] https://crossbrowsertesting.com/blog/development/use-google-analytics-find-devices-customers-use/
+[3] https://devcraftweekly.com/archives/devcraft-25-communication-strategies-for-digital-nomads-the-cost-of-javascript-introduction-to-jenkins/
+[4] http://shop.oreilly.com/product/9780596806149.do
+[5] https://developers.google.com/web/fundamentals/performance/prpl-pattern/","[1] The Cost of JavaScript
+[https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization]
+
+[2] Minification vs Uglification
+[https://stackoverflow.com/a/19694522/13213781]
+
+[3] Evaluation of Performance breakdown
+[https://twitter.com/kristoferbaxter/status/908144931125858304]
+
+[5] PRPL Pattern
+[https://web.dev/apply-instant-loading-with-prpl/]
+
+Preload Critical Resources
+[https://web.dev/preload-critical-assets/]
+
+Async vs Defer
+[https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html]
+
+Service Workers Cache Storage
+[https://web.dev/service-workers-cache-storage/]
+
+[6] Bundling
+[https://medium.com/@samccone/performance-futures-bundling-281543d9a0d5]
+
+[7] Gzip vs Brotli
+[https://blog.cloudflare.com/results-experimenting-brotli/]
+
+[8] Threads
+[https://pnfrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/]
+[https://web.dev/mainthread-work-breakdown/]
+
+[10] V8 JavaScript Engine
+[https://v8.dev/docs]
+[https://medium.com/@_lrlna/garbage-collection-in-v8-an-illustrated-guide-d24a952ee3b8]
+[https://dev.to/edisonpappi/how-javascript-engines-chrome-v8-works-50if]
+","Цената на JavaScript
+1. какво прави приложението тежко за клиента - различни метрики
+2. как да подобрим скоростта на приложението до състояние на използваемост
+
+PRPL шаблон
+1. какво представлява като цяло и какво решение ни предлага
+2. обяснение с точност на отделните елементи от шаблона
+
+Видове оптимизации за намаляване на размера на приложението
+
+Що е то JavaScript Engine и как работят
+
+Инструменти за оценяване на JavaScript приложения (ще бъде дописано с повече информация за финална версия)
+
+Google Analytics (ще бъде дописано с повече информация за финална версия)
+
+
+
+","1. Как се оптимизира JavaScript приложение
+2. Как JavaScript блокира основната нишка
+3. PRPL pattern
+4. Async vs Defer
+5. JavaScript Engines
+6. Lighthouse and DevTools","Идеята на презентацията е да се запознаем с различни метрики по които можем да определим дали дадено JavaScript приложение е оптимално за клиента. 
+По този начин всъщност намираме в кои области приложението е тежко и се нуждае от подобрение. 
+
+Ще се запознаем с конкретни начини за преодоляване на трудностите, които забавят изпълнението на приложението. 
+Ще научим как браузърът успява да изпълни кода. 
+Също така, презентацията покрива темата за  различни видове налични статични инструменти за проверка скоростта на приложението и как да получим статистика за това какви устройства са най-разпространени в целевата група клиенти.","Бавно JavaScript приложение
+оптимизации
+бързо и леко JS приложение
+намаляване на трафика
+четене и компилиране
+изпълнение
+PRPL - push/preload, first paint, pre-cache, lazy load
+Service Workers
+минимални ресурси 
+кеширане
+lazy-load
+code-splitting, bundlnig, minification, uglification, compression, code-stripping
+LightHouse
+DevTools
+JavaScript Engines
+JavaScript Static Analysis Tools
+Google Analytics",Последните две секции от реферата (Инструменти и GA) ще бъдат допълнени с още информация за финалната версия 
+,2014_15,,28,"CSS регресивно тестване  (CasperJS), Библиотеки phantomjs и PhantomCSS. Resemble.js: Анализ и сравнение на изображения посреством JavaScript и HTML. SlimerJS","http://casperjs.org/, https://github.com/Huddle/PhantomCSS, http://tldr.huddle.com/blog/css-testing/
+https://github.com/Huddle/Resemble.js [1] http://slimerjs.org; [2] http://phantomjs.org",,,,,,
+,2014_15,,29,Styled JSX,"[1] https://github.com/zeit/styled-jsx#syntax-highlighting
+[2] https://blog.bitsrc.io/styled-jsx-for-react-how-and-why-d1b536feb4da",,,,,,
+,2014_15,,30,Responsive images,"[1] http://googlechrome.github.io/samples/picture-element/
+[2] http://www.html5rocks.com/en/tutorials/responsive/picture-element/
+[3] https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/, последно посетен на 20.12
+[4] https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes, последно посетен на 20.12, 
+[5] https://cloudfour.com/thinks/responsive-images-101-definitions/, последно посетен на 18.12 4
+[6] https://cloudfour.com/thinks/responsive-images-101-part-8-css-images/ 20.12.","[1] https://medium.com/@elad/a-complete-guide-for-responsive-
+images-b13db359c6c7
+[2] https://tomroth.com.au/dpr/
+[3] https://btechgeeks.com/what-are-good-css-breakpoint-values-
+for-responsive-design/
+[4] https://cloudfour.com/thinks/responsive-images-101-definitions/
+[5] https://cloudfour.com/thinks/responsive-images-101-part-2
+-img-required/
+[6] https://cloudfour.com/thinks/responsive-images-101-part-3
+-srcset-display-density/
+[7] https://cloudfour.com/thinks/responsive-images-101-part-4
+-srcset-width-descriptors/
+[8] https://cloudfour.com/thinks/responsive-images-101-part-5
+-sizes/
+[9] https://cloudfour.com/thinks/responsive-images-101-part-6
+-picture-element/
+[10] https://cloudfour.com/thinks/responsive-images-101-part-7
+-type/
+[11] https://developer.mozilla.org/en-US/docs/Web/CSS/@media/
+resolution
+[12] https://developer.mozilla.org/en-US/docs/Web/CSS/@media/
+-webkit-device-pixel-ratio
+[13] https://developer.mozilla.org/en-US/docs/Learn/HTML/
+Multimedia_and_embedding/Responsive_images#
+Resolution_switching_Different_sizes,","Какво представляват адаптивните изображения?
+Кратка терминология на адаптивните изображения
+1.Размер на изгледа
+2.Плътност на дисплея
+3.Точки на адаптация на снимките
+8 метода за имплементиране:
+С HTML
+1.Display Density Descriptor Method
+2.Width Descriptor Method
+3.Art Direction Method
+4.Image Types Method
+Със CSS
+5.Функция image-set()
+6.Resolution Media Queries
+7.Art Direction Method
+8.Image Types Method
+Обобщение","Демонстрация на art direction метода
+Пример показващ работата на Width Descriptor метода",Запознаване с основната терминология на адаптивните изображения. Запознаване с основните методи за реализация на адаптивни изображения. Предимства на адаптивните изображения.,"responsive, image, display, desnity, descriptor, type, width, device, pixel, ratio, art, direction, method, resolution, media, query, breakpoint, srcset, size, picture, source, dot",
+,2014_15,,31,CSS Shapes,http://www.html5rocks.com/en/tutorials/shapes/getting-started/ [1] https://css-tricks.com/examples/ShapesOfCSS/; [2]https://www.w3schools.com/howto/howto_css_shapes.asp ; [3]http://www.cssportal.com/css3-shapes/ ,,,,,,
+,2014_15,,32,Multi-touch Web Development,"http://www.html5rocks.com/en/mobile/touchandmouse/
+https://www.html5rocks.com/en/mobile/touch/
+http://blog.teamtreehouse.com/building-multi-touch-web-applications",,,,,,
+,2020,,33,Тестване с Jestjs,"[1] https://github.com/facebook/jest
+[2] https://flaviocopes.com/jest/
+[3] https://www.valentinog.com/blog/jest/
+[4] https://jestjs.io/","[1]         ""Testing JavaScript with Jest"" - https://flaviocopes.com/jest/
+[2]         ""Jest Tutorial for Beginners"" - https://www.valentinog.com/blog/jest/
+[3]         ""W3.CSS Tutorial"" - https://www.w3schools.com/w3css/default.asp
+[4]         ""HTML Tutorial"" - https://www.w3schools.com/html/default.asp
+[5]         ""CSS Tutorial"" - https://www.w3schools.com/css/default.asp
+[6]         ""JavaScript Tutorial"" - https://www.w3schools.com/js/default.asp
+","Jest
+1. Въведение
+2. Инсталация
+3. Как да стартираме Jest с VS code
+4. Matchers
+5. Инициализация
+6. Тестване на асинхронен код
+7.  Заключение
+8.  Източници
+","Има примерен код, който позква: 
+- Kак се инсталира Jest
+- Как се изпозлва matcher-и
+- Как се изпозлват обратните извиквания
+- Как се изпозлват async и await","Идеята на презентация е да се запознаем с библютеката Jest, която се изпозлва за тестване на JavaScript код.
+Ще разгледаме как се инсталира библютеката, как да я добавим към кода си и основните фукции, които се изпозлват за тестване.","въведение в jest; matchers; тестване на асунгронен код; 
+jest инсталация; toBe; toEqual; toBeNull; toBeDefined; toMatch; toContain; beforeAll; beforeEach; afterEach; afterAll; describe; test; callback; expect; yarn; ",
+,2014_15,,34,Високопроизводителни анимации за уеб,"http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+https://www.html5rocks.com/en/tutorials/speed/layers/
+https://www.html5rocks.com/en/tutorials/speed/scrolling/
+https://blogs.igalia.com/itoral/2013/06/06/on-webkit-layers-and-accelerated-compositing/
+http://www.w3schools.com/css/css3_animations.asp
+[1] https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108
+[2] https://www.html5rocks.com/en/tutorials/speed/layers/
+[3] https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29
+[4] https://css-tricks.com/almanac/properties/w/will-change/
+[5] http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+[6] https://www.html5rocks.com/en/tutorials/speed/scrolling/",,"1.Въдение
+2.Атрибути за анимиране
+3.Преходи
+4.Трикове и оптимизации
+5.Въпроси
+6.Източници","Има примери за:
+- ефект на всяка от стойностите на
+animation-direction 
+- ефект на всяка от стойностите на
+animation-fill-mode
+- ефект от положителни 
+и отрицателни стойности на
+animation-delay 
+-Плъзгащо се меню, върху
+което демонстрираме оптимизации","Запознаваме се с атрибутите за 
+анимация и преходи, както и тяхната
+функционалност.
+Развиваме пример, в който използваме
+трикове за оптимизации и наблюдаваме
+техният ефект върху бързодействието 
+на страницата.
+","@keyframes, animation-name, animation-duration,
+animation-delay, animation-iteration-count, animation-direction
+animation-timing-function, animation-fill-mode, transition,
+will-change, критичен път на изобразяване, transform, opacity",
+,2014_15,,,Компресиране на текст в уеб,"http://www.html5rocks.com/en/tutorials/speed/txt-compression/
+https://www.html5rocks.com/en/tutorials/speed/txt-compression/#toc-introduction
+http://www.searchenginepeople.com/blog/5-ways-to-streamline-your-web-content.html
+https://github.com/mainroach/compression/tree/master/css-danger-min
+https://github.com/jed/140bytes/wiki/Byte-saving-techniques
+https://en.wikipedia.org/wiki/Huffman_coding
+https://en.wikipedia.org/wiki/HTTP_compression
+https://en.wikipedia.org/wiki/DEFLATE
+http://howtounix.info/howto/Apache-gzip-compression-with-mod_deflate
+https://http2.github.io/faq/#why-do-we-need-header-compression
+http://mainroach.blogspot.bg/2013/08/css-compression-property-name.html
+http://mainroach.blogspot.bg/2013/08/css-compression-block-sorting.html",,,,,,
+,2014_15,,,Компресиране на изображения в уеб,"http://www.html5rocks.com/en/tutorials/speed/img-compression/
+http://www.html5rocks.com/en/tutorials/speed/img-compression/
+https://github.com/rflynn/imgmin
+https://developers.google.com/speed/
+https://www.html5rocks.com/en/mobile/high-dpi/
+http://yuiblog.com/blog/2008/12/05/imageopt-4/
+""https://www.impulsecreative.com/blog/optimize-your-images-for-web""   ""https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web""    ""https://kinsta.com/blog/optimize-images-for-web""  ""https://httparchive.org/reports/page-weight""    ""https://mashable.com/2013/10/29/image-compressors/?europe=true""      ""https://www.abetterlemonadestand.com/optimizing-images-for-web/""",,,,,,
+,2014_15,,37,Производителност при зареждане на скриптове в уеб,"http://www.html5rocks.com/en/tutorials/speed/script-loading/
+[1]https://www.html5rocks.com/en/tutorials/speed/script-loading/
+[2]https://stackoverflow.com/questions/5250412/how-exactly-does-script-defer-defer-work 
+[3] https://github.com/h5bp/lazyweb-requests/issues/42 
+[4]https://stackoverflow.com/questions/29918246/javascript-inline-vs-external-script-whats-the-difference
+[5] https://bitsofco.de/async-vs-defer/
+[6] https://github.com/getify/LABjs 
+[7] https://caniuse.com/#search=async",,,,,,
+,2014_15,,38,Shadow DOM 101,"http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
+[1] https://developers.google.com/web/fundamentals/web-components/shadowdom 
+[2] https://hayato.io/2016/shadowdomv1/
+[3] https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+[4] https://blog.imaginea.com/everything-you-need-to-know-about-shadow-dom/
+[5] https://www.w3.org/TR/dom41/#shadow-trees
+[6] http://w3c.github.io/webcomponents/spec/shadow/
+[7] https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+[8] https://dom.spec.whatwg.org/#dom-element-attachshadow","[1]https://www.researchgate.net/figure/Example-of-DOM-Node-Tree_fig1_254002847,[2]https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction,[3]https://lh3.googleusercontent.com/e7bsHMnAPkUCZ7EblW6MLgf-VMJPzWkOFpBTjPLRp8KRGzYRGnJCiZlXkloNFvTISzEv9A=s151,[4]https://developers.google.com/web/fundamentals/web-components/shadowdom,[5]https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM","1. Какво е DOM - DOM и JS, достъпване на DOM, основни типове данни и интерфейси 
+2. Какво е Shadow DOM - създаване на shadow DOM, композиция и слотове, стилизиране, разширени теми
+3. Заключение",Примерен програмен код за боравене с DOM и Shadow DOM API,"Целта на презентацията е запознаване с DOM и Shadow DOM, както и основните функциоланости, които те предлагат.","Shadow DOM, DOM, JavaScript, HTML, CSS, ",
+,2014_15,,,"Shadow DOM 201, CSS and Styling. Advanced Concepts & DOM APIs","http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
+[1] https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
+[2] https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/
+[3] https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/
+[4] https://developers.google.com/web/fundamentals/web-components/shadowdom
+[5] https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+[6] https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+[7] https://bitsofco.de/what-is-the-shadow-dom/
+[8] https://stackoverflow.com/questions/45917672/what-are-the-drawbacks-of-using-shadow-dom#:~:text=Use%20Shadow%20DOM%20only%20if,third%20party%20components%20or%20library.",,,,,,
+,2018_19_new_12ed,,40,PostCSS - преобразуване на CSS с JavaScript,"[1] https://postcss.org/
+[2] https://en.wikipedia.org/wiki/PostCSS 
+[3] https://www.smashingmagazine.com/2015/12/introduction-to-postcss/",,,,,,
+,2014_15,,,HTML template ,"http://www.html5rocks.com/en/tutorials/webcomponents/template/ [1]https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
+[2]https://www.quackit.com/html_5/tags/html_template_tag.cfm
+[1] https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment       
+[2] https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement/content
+[3] https://www.geeksforgeeks.org/html-template-tag/
+[4] https://www.w3schools.com/whatis/whatis_htmldom.asp
+[5] https://developer.mozilla.org/en-US/docs/Web/API/Node  [6] https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection [7] https://developer.mozilla.org/en-US/docs/Web/API/Document",,,,,,
+,2018_19_new_12ed,,42,Обектно ориентиран CSS (OOCSS),https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/,"https://www.hongkiat.com/blog/basics-of-object-oriented-css/
+https://www.keycdn.com/blog/oocssКак работи CSS?","1. Какво е CSS?
+2. Как работи CSS?
+3. Какво е ООП?
+4. Какво прави CSS обектно ориентиран?
+5. Приложение на OOCSS
+",,"Обяснение какво е CSS
+разглеждане как работи CSS
+Обяснение какво е ООП
+разглеждане как CSS може да бъде обектно ориентиран?
+Приложение на OOCSS
+","CSS, OOCSS, OOP, структура, стил, skin,",
+,2014_15,,43,HTTPS и HTTP - сигурност в PHP,"[1] https://www.izooto.com/blog/understanding-http-https-protocols  
+[2] https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/ 
+[3] https://www.tutorialspoint.com/http/index.htm  
+[4] https://www.cloudflare.com/learning/ssl/what-is-https/
+[5] https://www.globalsign.com/en/blog/ssl-vs-tls-difference
+[6] https://www.php.net/manual/en/security.php 
+[7] https://www.acunetix.com/websitesecurity/php-security-1/ 
+[8] https://blog.sqreen.com/top-10-security-best-practices-for-php
+
+[9] http://www.html5rocks.com/en/tutorials/security/transport-layer-security/ 
+[10] http://www.html5rocks.com/en/tutorials/security/content-security-policy/ Content Security Policy Reference,  https://content-security-policy.com ; Content Security Policy (CSP),  https://developer.mozilla.org ",https://www.w3schools.com/whatis/whatis_http.asp https://www.guru99.com/difference-http-vs-https.html ,1. Какво е HTTP 1.1 Какво е HTTP Request 1.2 Какво е HTTP Response 1.3 Как Request и Response си взаимодействат  2. Какво е HTTPS и защо е нужен 2.1 SSL и TSL  3. Защита в PHP 3.1 SQL injections,,,"HTTP, HTTPS , SSL, TLS , PHP, Security",Трябва да разширя информацията относно сигурността в PHP и видовете заплахи и подробности за тях. Трябва да добавя css стайлинг и javascript заедно със снимки
+,2014_15,,,Прецизно аудио в Уеб,"[1] https://www.nature.com/articles/srep07861
+[2] https://books.google.bg/books?id=jzbUUL0xJAEC&pg=PA24&redir_esc=y#v=onepage&q&f=false
+[3] https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html
+[4] https://hypertextbook.com/facts/2003/ChrisDAmbrose.shtml
+[5] https://source.opennews.org/articles/audio-browser/
+[6] https://www.speedtest.net/global-index/bulgaria
+[7] https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+[8] https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Audio_codecs
+[9] https://books.google.bg/books?id=2e-LQgAACAAJ&dq=eric%20shurman%20willian%20pardi%20Dynamic%20HTML%20in%20Action%20Second%20edition&hl=bg
+[10] https://trends.google.com/trends/explore?date=2004-01-01%202020-12-01&geo=US&q=java%20applet,Flash%20player
+[11] https://gamedev.stackexchange.com/questions/74973/maximum-audio-delay-before-the-player-notices
+[12] https://www.sweetwater.com/insync/better-latency-than-never-latency-tips-hints/
+[13] https://caniuse.com/?search=web%20audio%20api
+[14] https://webaudioapi.com/book/Web_Audio_API_Boris_Smus_html/ch01.html
+[15] https://www.oreilly.com/library/view/web-audio-api/9781449332679/
+[16] https://www.diffen.com/difference/AAC_vs_MP3
+[17] https://en.wikipedia.org/wiki/Head-related_transfer_function
+[18] https://softwareengineering.stackexchange.com/questions/47076/is-flash-really-superior-to-java-applets
+[19] http://www.html5rocks.com/en/tutorials/audio/scheduling/",,,,,,
+,2014_15,,45,Скалируема и модулна архитектура за CSS (smacss),"[1] http://smacss.com/
+[2] http://smartpoint.bg/uploads/files/9f3776388c0da3d932e9398daf7a45b6.pdf 
+[3] https://www.toptal.com/css/smacss-scalable-modular-architecture-css",,,,,,
+,2014_15,,46,Изграждане на 3D в Уеб,"http://www.html5rocks.com/en/tutorials/casestudies/movikantirevo/
+https://3dtransforms.desandro.com/
+https://www.youtube.com/watch?v=v3xIwjse36A
+https://www.tutorialspoint.com/webgl
+https://www.khronos.org/webgl/
+[1] https://www.youtube.com/watch?v=v3xIwjse36A
+[2] https://www.w3schools.com/css/css3_3dtransforms.asp
+[3] https://www.w3schools.com/cssref/css3_pr_perspective.asp
+[4] https://threejs.org/
+[5] https://3dtransforms.desandro.com/perspective
+[6] https://www.khronos.org/webgl/
+","https://en.wikipedia.org/wiki/Computer_animation
+https://learn.fmi.uni-sofia.bg/course/view.php?id=7187
+https://3dtransforms.desandro.com/
+https://www.w3schools.com/html/html5_canvas.asp
+https://www.w3schools.com/HTML/html5_svg.asp
+http://inmosystems.com/blog/surrogate-rings-webgl-three-js
+https://learnopengl.com/Getting-started/Shaders
+https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html
+https://en.wikipedia.org/wiki/Three.js
+https://marmelab.com/blog/2017/06/15/animate-you-world-with-threejs-and-tweenjs.html
+https://chandlerprall.github.io/Physijs/","Въведение
+HTML & CSS
+SVG & Canvas
+Java Script
+WebGL & GLSL
+Модерни JS Библиотеки
+","Роботска ръка, която хваща бонбон. Използвани технологии Javascript & Three.js ",Ще се запознаем със основните технологии изграждащи 3D анимации в Уеб.,"HTML, CSS, SVG, Canvas, JS, WebGL,GLSL",
+,2017,,47,WebSocket с PHP,"[1] http://www.phpbuilder.com/articles/application-architecture/optimization/creating-real-time-applications-with-php-and-websockets.html 
+[2] https://en.wikipedia.org/wiki/WebSocket; 
+[3] http://php.net/manual/en/index.php; 
+[4] http://socketo.me/docs/",,,,,,
+,2017_18,,48,Приложения с PHP и MySql на AWS,"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html https://en.wikipedia.org/wiki/Amazon_Web_Services, https://aws.amazon.com/ec2/, https://aws.amazon.com/s3/, https://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/installation.html, http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html, http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html, http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html, https://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/basic-usage.html, https://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUT.html, https://en.wikipedia.org/wiki/LAMP_(software_bundle), https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+[1]https://cloudacademy.com/blog/aws-ec2-instance-types-explained/ [2]https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html [3]https://www.cloudways.com/blog/host-php-on-aws-cloud/ [4]https://www.infoq.com/news/2020/07/aws-serverless-lamp/ [5] https://www.clariontech.com/blog/how-to-integrate-aws-with-php-applications",,,,,,
+,2014_15,,,Прихващане на аудио и видео в HTML5,"http://www.html5rocks.com/en/tutorials/getusermedia/intro/
+http://www.html5rocks.com/en/tutorials/webaudio/fieldrunners/
+http://learningthreejs.com/blog/2012/02/07/live-video-in-webgl/
+https://webaudiodemos.appspot.com/input/index.html
+https://webaudiodemos.appspot.com/AudioRecorder/index.html https://w3c.github.io/mediacapture-main/getusermedia.html
+https://davidwalsh.name/browser-camera
+[1] W3C Recommendation 3 October 2017, 
+https://www.w3.org/TR/html52/semantics-embedded-content.html#the-track-element
+[2] Developer.Mozilla.org,
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/
+Video_and_audio_content
+https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/
+Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video",,,,,,
+,2014_15,,50,Drag and Drop,"[1] http://www.creativebloq.com/html5/developer-s-guide-html5-apis-1122923 ;
+[2] http://www.html5rocks.com/en/tutorials/dnd/basics/
+[3] https://www.w3schools.com/Html/html5_draganddrop.asp
+[4] https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[5] https://blog.mathewgrabau.ca/javascript-drag-drop-starter/,https://javascript.info/mouse-drag-and-drop,
+[6] https://www.youtube.com/watch?v=C22hQKE_32c&ab_channel=TraversyMedia,https://www.kryogenix.org/code/browser/custom-drag-image.html,
+[7] https://codepen.io/SitePoint/pen/epQPNP",,,,,,
+,2014_15,,,Библиотека jQuery,"[1] http://www.jquery.com
+[2] http://www.tutorialspoint.com/jquery/jquery-quick-guide.htm, [4] http://jqfundamentals.com/
+[3] Gary Bettencourt, ""Intro to jQuery"",  http://samples.tdcommunity.net/samples/TDMobile/Documents/Introduction%20to%20jQuery.pdf, последно посетен на 05.12.2018
+[4] Tutorialspoint, ""jQuery - web application library"",  http://www.tutorialspoint.com/jquery/jquery_tutorial.pdf, последно посетен на 05.12.2018
+[5] GeeksforGeeks, ""jQuery - introduction"", https://www.geeksforgeeks.org/jquery-introduction/,  последно посетен на 05.12.2018
+[6] W3schools, ""jQuery tutorial"",  https://www.w3schools.com/jquery/,  последно посетен на 05.12.2018",,,,,,
+,2014_15,,52,MongoDB за уеб приложения. MEAN стек.,"[1] http://docs.mongodb.org/ecosystem/tutorial/getting-started-with-java-driver/
+[2] https://www.tutorialspoint.com/mongodb/
+[3] https://www.educba.com/how-to-build-web-applications-using-mongodb/
+[4] https://angular.io/guide/architecture ,  
+https://medium.com/@devathon_/mean-vs-mern-stack-development-5ba3e517bc68 , 
+ https://www.ibm.com/cloud/learn/mean-stack-explained , 
+ https://phoenixnap.com/kb/cassandra-vs-mongodb ,  
+https://www.guru99.com/mongodb-vs-mysql.html ,  
+https://hackr.io/blog/what-is-mongodb-applications-advantages-examples ,  
+https://www.mongodb.com/what-is-mongodb",https://www.w3schools.in/mongodb/history/ https://www.tutorialspoint.com/mongodb/mongodb_advantages.htm https://www.upgrad.com/blog/mongodb-real-world-use-cases https://docs.mongodb.com/manual/reference/mongo-shell https://angular-templates.io/tutorials/about/learn-how-to-build-a-mean-stack-application https://www.tutorialspoint.com/meanjs/meanjs_project_setup.htm https://expressjs.com/en/starter/hello-world.html,"1. Какво е MongoDB?
+2. Пример за колекция?
+3. CRUD в MongoDB?
+4. Защо MongoDB е полезен?
+5. MEAN стек
+6. Как работи MEAN стека?
+","Презентацията съдържа примери относно използването на CRUD операциите в MongoDB, как изглежда една колекция в MongoDB, както и каква е архитектурата на едно MEAN приложение","Да покаже какво е MongoDB и защо всъщност се използва MongoDB. Показва съставните елементи на MongoDB заедно с командите, чрез които даден потребител може да взаимодейства с една MongoDB база от данни. Въвежда в MEAN стека.",,
+,2013_14,84,53,Добри и лоши практики при изграждане и софтуерната архитектура на уеб сайтове," [1] http://www.nngroup.com/articles/top-10-application-design-mistakes/,
+[2] http://webstyleguide.com/wsg3/10-forms-and-applications/3-designing-web-applications.html,
+[3] http://websitesforarchitects.org/understanding-websites-architects/5-mistakes-architects-make-with-website-design/, 
+[4] http://www.nngroup.com/articles/top-10-ia-mistakes/,
+[5] http://www.fastcompany.com/1594118/why-cant-worlds-best-architects-build-better-web-sites ; [6] http://www.webpagesthatsuck.com/, 
+[7] http://sixrevisions.com/usabilityaccessibility/information-architecture-101-techniques-and-best-practices/, 
+[8] http://www.w3.org/DesignIssues/Principles https://www.agilebusiness.org/content/philosophy-and-fundamentals
+[1] https://stackify.com/web-application-architecture/ 
+[2] https://hackr.io/blog/web-application-architecture-definition-models-types-and-more 
+[3] https://www.educative.io/blog/how-to-design-a-web-application-software-architecture-101
+[4] https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html
+[5] https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513807]
+[6] https://dzone.com/articles/the-importance-of-a-good-software-architecture
+[7] https://mbakeranalecta.github.io/spfe-open-toolkit/spfe-docs-essays/bottom-up-ia.html
+[8] https://www.nngroup.com/articles/top-10-ia-mistakes/","https://kinsta.com/blog/web-design-best-practices/#what-defines-web-design-best-practices,https://www.teach-ict.com/gcse_new/networks/peer_peer/miniweb/pg5.htm,https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1","Архитектури
+                    Избор на архитектура
+                    Важността на избора
+                    „Добри“ архитектури
+                    Видове архитектури
+   Дизайн
+        Основи принципи на дизайна
+                    Подбор на цветове
+                    Шрифтове
+                    Разположение на ключови елементи
+                    Мобилни приложения","Има примери за оптималното изпозлване на всяка от описаните архитектури, заедно с предимства и недостатъци за всяка от тях. Относно дизайна има примери за избор на цветова схема, както и картинка описваща оптималното разпредение на ключовите елементи","Да ни представи най-използваните архитектури за изработка на приложения, заедно с техните добри и лошо страни, както и да се опита да ни научи в кой сценарии е подходящо да бъде изпозлвана всяка от тях. Освен това презентацията цели да ни помогне да стилизираме самата страница и да я направим по интуитивна за потребителя.",,
+,2013_14,85,54,"Nginx. Архитектура, инсталиране, конфигуриране, виртуални хостове.","[1] http://www.aosabook.org/en/nginx.html
+[2] http://www.thegeekstuff.com/2013/11/nginx-vs-apache/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheGeekStuff+(The+Geek+Stuff)
+[3] http://nginx.org/en/docs/windows.html
+[4] http://nginx.org/en/linux_packages.html
+[5] https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3
+[6] https://www.nginx.com/resources/wiki/
+[1] https://en.wikipedia.org/wiki/Nginx
+[2] https://www.aosabook.org/en/nginx.html","[1] https://ma.ttias.be/enable-ipv6-connectivity-for-nginx/
+[2] https://stackoverflow.com/questions/59846238/guide-on-how-to-use-regex-in-nginx-location-block-section
+[3] https://stackoverflow.com/questions/16302897/nginx-location-not-equal-to-regex","1. Какво е уеб сървър
+2. Какво е NginX
+3. Особености на NginX
+4. Пример с обяснения по него и кратко представяне на функционалностите на уеб сървъра
+
+",примерна конфигурация с два сървърни блока,"Да запознае слушателите с уеб сървърите, какво е NginX и какви са предимствата му и да представи примерна конфигурация, показваща основните опции, които биха били необходими при конфигуриране на NginX server","NginX, web server, server block, configuration, open source, installation, architecture, high perforamce, concurrency, load balancer, reverse proxy",
+,2013_14,86,55,"Apache. Архитектура, инсталиране, конфигуриране, виртуални хостове.","[1] https://httpd.apache.org/docs/2.4/getting-started.html
+[2] http://httpd.apache.org/download.cgi
+[3] https://httpd.apache.org/docs/2.4/install.html
+[4] https://httpd.apache.org/docs/2.4/configuring.html
+[5] https://httpd.apache.org/docs/2.4/vhosts/
+[6] https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Apache_HTTP_Server.html
+[7] http://apachecon.com/2007/notes/t02-notes.pdf 
+[8] Max Koh, Anatomy of a website: website architecture, https://blog.optimalworkshop.com/anatomy-website-website-architecture
+[2] Turorial: Key Principles of software architecture design, https://www.tutorialspoint.com/software_architecture_design/key_principles.html
+[3] Tutorial: Website development, https://www.tutorialspoint.com/internet_technologies/websites_development.html,
+[4] Charles Jackson, Importance of having a website,  http://smallbusiness.chron.com/importance-having-website-48042.html
+[5] Web development definition,  https://www.techopedia.com/definition/23889/web-development
+[6] Patrick J. Lynch and Sarah Horton, Designing Web Applications,   http://webstyleguide.com/wsg3/10-forms-and-applications/3-designing-web-applications.html                 
+[7] Jakob Nielsen, Top 10 Application-Design Mistakes,  https://www.nngroup.com/articles/top-10-application-design-mistakes/","[0]https://www.wpbeginner.com/glossary/apache/ - посетен на 13.11.2021 
+[1] https://www.educba.com/virtual-host/ - посетен на 16.11.2021 
+[2] https://www.hostinger.com/tutorials/what-is-apache#So_What_is_Apache – посетен на 19.11.2021
+[3] http://www.blogjava.net/zhyiwww/archive/2008/05/09/199541.html.21 - посетен на 20.11.21
+[4] http://ggn.dronacharya.info/Mtech_IT/Downloads/QuestionBank/ISem/InternetWebTechnology/Section-C/lecture28_11052016.pdf  - посетен на 20.11.21
+
+","1.        Какво е уеб сървър
+2.        Какво е Apache?
+3.        Архитектура на Apache сървър.
+4.        Как работи Apache?
+5.        Инсталиране на Apache за Ubuntu
+6.        Уеб хостване
+7.        Виртуални хостове
+8.        Конфигуриране на виртуален хост
+",команди за инсталация и конфигурация на Apache под Ubuntu.,"Да ни запознае с уеб сървърите и по-конкретно Apache,
+като ни запознае с неговата архитектура, начин на работа, какво представляват виртуалните хостове и как те се конфиругират на Ubuntu
+","apache, apache architecture, web server, virtual hosts,web hosting, apache core, apache modules, configuration of virtual hosts,apache work",
+,2013_14,87,,Приложение на видовете UML диаграми за Уеб,"[1] http://uwe.pst.ifi.lmu.de/ , 
+[2] MagicDraw plugin http://www.csun.edu/~twang/595WEB/Slides/UWE.pdf 
+[3] https://www.slideshare.net/adorepump/umlbased-web-engineering-uwe-presentation  
+[4] https://en.wikipedia.org/wiki/UML-based_Web_Engineering
+[1] https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[2] https://github.com/mdn/simple-web-worker
+[3] https://github.com/mdn/simple-shared-worker
+[4] https://www.w3schools.com/html/html5_webworkers.asp
+[5] https://www.html5rocks.com/en/tutorials/workers/basics
+[6] https://developer.mozilla.org/en-US/docs/Web/API/Transferable",,,,,,
+,2013_14,88,57,Apolo graphql,"https://www.apollographql.com/docs/tutorial/introduction/
+[1]: https://www.apollographql.com/  
+[2]: https://principledgraphql.com/ 
+[3]: https://www.apollographql.com/docs/tutorial/client/ 
+[4]: https://github.com/r-spacex/SpaceX-API ","[1] https://graphql.org/learn/, 
+[2] https://graphql.org/learn/thinking-in-graphs/,
+[3] https://graphql.org/learn/queries/,
+[4] https://graphql.org/learn/schema/,
+[5] https://graphql.org/learn/validation/,
+[6] https://graphql.org/learn/execution/,
+[7] https://www.apollographql.com/docs/intro/platform/,
+[8] https://blog.bitsrc.io/should-i-use-apollo-for-graphql-936129de72fe,
+[9] https://www.apollographql.com/docs/react/,
+[10] https://www.apollographql.com/docs/react/get-started/,
+[11] https://www.apollographql.com/docs/react/data/queries/,
+[12] https://www.apollographql.com/docs/react/data/mutations/,
+[13] https://www.apollographql.com/docs/react/caching/overview/,
+[14] https://hasura.io/learn/graphql/ios/apollo-client/,
+[15] https://www.apollographql.com/docs/ios/,
+[16] https://www.apollographql.com/docs/android/,
+[17] https://www.apollographql.com/docs/apollo-server/,
+[18] https://www.apollographql.com/docs/apollo-server/getting-started/n,
+[19] https://www.apollographql.com/docs/apollo-server/integrations/middleware/,
+[20] https://www.apollographql.com/docs/apollo-server/schema/schema/,
+[21] https://www.apollographql.com/docs/apollo-server/data/resolvers/,
+[22] https://www.apollographql.com/docs/federation/
+[23] https://www.apollographql.com/docs/studio/getting-started/,
+[24] https://www.apollographql.com/docs/apollo-server/data/errors/",,,"Кратко представяне на GraphQL и неговите възможности и синтаксис, връзката между GraphQL и Apollo, основни разлики с REST, по-подробна информация за Apollo Server, Apollo Client (React, Android, iOS), Apollo Federation и Apollo Studio. Кеширането и предимствата от неговото използване, какво са мутации и query-та в света на GraphQL. Схема, типове и resolver функции, хващане на грешки. Предимствата на Apollo и бъдещето на неговата екосистемата. ","apollo, graphql, поле, полета, заявка, заявки, server, схема, обект, типове, client, грешки, query, react, resolver, type, операция, изпълнение, apollo server, apollo client, apollo federation, apollo studio, кеш, mutation",
+,2013_14,89,58,Web workers,"[1] http://www.html5rocks.com/en/tutorials/workers/basics/ 
+[2] http://www.w3schools.com/html/html5_webworkers.asp
+[3] https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[4] https://stackoverflow.com/questions/2773682/what-are-the-use-cases-for-web-workers
+[5] https://developers.google.com/web/updates/2011/12/Transferable-Objects-Lightning-Fast","[1] https://johnresig.com/blog/web-workers/ 
+[2] https://www.freecodecamp.org/news/web-workers-in-action-2c9ff33be266/ 
+[3] https://crackingthefrontendinterview.com/webworker-demo-1/
+[4] http://html5doctor.com/server-sent-events/
+[5] https://github.com/mdn/simple-web-worker
+[6] https://github.com/mdn/simple-shared-worker","Презентацията започва с кратко въведение, което цели да рамкира по интересн начин темата за Web Workers. След което последователно разглеждаме:
+1. Семантиката на проблема, който води до ""раждането"" на Web Worker-ите;
+2. Къде и кога се използват;
+3. Dedicated Web Worker;
+4. Shared Web Worker;
+5. Трансфер на данни чрез изпращане на съобщения между Worker и родитеслки скрипт;
+6. Област на достъп на Web Worker.",Две хубави демота са представни накрая на реферата с линкове;,"Идеята на презентацията е да резюмира по интересeн и достъпен начин причината за появата на Web Worker-ите в JS и тяхната инициализация, действие и особености. Разглеждаме два типа помощници - Dedicated Worker и Shared Worker, като с много лесни примери представям основните разлики. Рамкира с най-важното, без супер много отегчаващи детайли, както и през цялото време се набляга над ползите от използването на такъв тип програмиране в JS.","JavaScript, WEB, worker, dedicated, shared, multithreading, event, handler, message, passing, scope, efficient",
+,2013_14,90,,Angular.js ,"[1] http://angularjs.org/ 
+[2] https://docs.angularjs.org/guide
+    [1] https://www.w3schools.com/angular/angular_directives.asp
+    [2] https://docs.angularjs.org/guide/directive#what-are-directives-
+    [3] https://www.tutorialspoint.com/angularjs/angularjs_controllers.htm
+    [4] https://www.javatpoint.com/angularjs-data-binding
+    [5] https://stackoverflow.com/questions/24360295/what-is-scope-in-angularjs
+    [6] https://www.w3schools.com/angular/angular_filters.asp
+    [7] https://codewithshadman.com/angularjs-service/
+    [8] https://www.geeksforgeeks.org/interesting-facts-and-features-about-angularjs/
+    [9] https://www.linkedin.com/pulse/some-interesting-facts-angularjs-apparrant-technologies
+    [10] https://data-flair.training/blogs/angularjs-directives/
+    [11] https://www.w3schools.com/angular/angular_validation.asp
+    [12] https://docs.angularjs.org/guide/compiler ",,,,,,
+,2013_14,94,60,Mustache и Handlebars темплейти,"[1] https://www.sitepoint.com/creating-html-templates-with-mustachejs/
+[2] https://github.com/spullara/mustache.java
+[3] http://mustache.github.io/mustache.5.html
+[p4] https://jknack.github.io/handlebars.java/gettingStarted.html",,,,,,
+,2013_14,98,,Bootstrap,"[1] http://gitmostwanted.com/top/stars/     
+[2] https://getbootstrap.com/docs/4.1/about/overview/                                                           
+[3] https://getbootstrap.com/                                                                                                     
+[4] https://getbootstrap.com/docs/4.1/getting-started/download/
+[5] http://getbootstrap.com/docs/4.1/getting-started/contents/ 
+[6] http://getbootstrap.com/docs/4.1/getting-started/download/#bootstrapcdn
+[7] http://getbootstrap.com/docs/4.1/getting-started/download/#package-managers
+[8] https://getbootstrap.com/docs/4.1/components/
+[9] https://getbootstrap.com/docs/4.0/getting-started/introduction/#important-globals
+[10] https://getbootstrap.com/docs/4.1/layout/overview/#containers
+[11] https://getbootstrap.com/docs/4.1/layout/grid/
+[12] https://getbootstrap.com/docs/4.1/components/buttons/
+[13] https://getbootstrap.com/docs/3.3/css/#images
+[14] https://getbootstrap.com/docs/4.1/components/dropdowns/
+[15] https://getbootstrap.com/docs/4.1/components/scrollspy/
+[16] https://getbootstrap.com/docs/4.0/components/navs/#tabs
+[17] https://getbootstrap.com/docs/4.1/components/tooltips/
+[18] https://getbootstrap.com/docs/4.1/components/popovers/
+[19] https://getbootstrap.com/docs/4.1/components/alerts/
+[20] https://getbootstrap.com/docs/4.1/components/collapse/
+[21] https://getbootstrap.com/docs/4.1/components/carousel/
+[22] http://getbootstrap.com/getting-started/, 
+[23] https://bootstrapthemes.co",,,,,,
+,2020,,62,Gatsby JS - генератори на статични сайтове,"[1] https://www.gatsbyjs.org/tutorial/
+[1] https://www.mediacurrent.com/blog/what-is-gatsbyjs
+[2] https://www.youtube.com/watch?v=GuvAMcsoreI""
+[3] https://www.gatsbyjs.com/features/
+[4] https://dev.to/developertharun/why-you-should-use-gatsbyjs-and-when-not-to-use-it-oli
+[5] https://www.gatsbyjs.com/use-cases/
+[6] https://www.gatsbyjs.com/tutorial",,,,,,
+,2015_16_new,,63,Генератор на статични сайтове - Jekyll,"[1] https://jekyllrb.com/
+[1] https://jekyllrb.com/
+[2] https://en.wikipedia.org/wiki/Jekyll_(software)
+[3] https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
+[4] http://literaturegeek.com/2015/12/08/WhyJekyllGitHub
+[5] http://jekyllbootstrap.com/lessons/jekyll-introduction.html
+[6] https://jonpersson.co/blog/static-sites/",,,,,,
+,2015_16_new,,64,Phoenix,"[1] https://phoenixframework.org/
+
+[1] https://www.toptal.com/phoenix/phoenix-rails-like-framework-web-apps.
+[2] https://hexdocs.pm/phoenix/overview.html#content.
+[3] https://prograils.com/posts/top-websites-built-with-elixir-phoenix
+[4] https://phoenixframework.org/#testimonials-wrap
+[5] https://elixir-lang.org/development.html
+[6] https://plataformatec.com/en/why-us/elixir/
+[7] https://elixir-lang.org/install.html
+[8] https://hexdocs.pm/phoenix/installation.html
+[9] https://www.wintermeyer-consulting.de/books/phoenix/1.5/phoenix-basics.html
+[10] https://hexdocs.pm/phoenix/request_lifecycle.html#content
+[11] https://www.tutorialandexample.com/phoenix-tutorial/
+[12] https://hexdocs.pm/phoenix/views.html#rendering-templates
+[13] https://v2.14islands.com/blog/2016/08/16/phoenix-framework/
+[14] https://erlang.org/doc/man/supervisor.html
+[15] https://logos-download.com/38328-lonely-planet-logo-download.html
+[16] https://www.cargosense.com/static/img/cargosense-og-preview.png
+[17] https://static-assets.bleacherreport.net/img/br_630_height.png
+[18] https://www.worldchildcancer.org/sites/default/files/everydayhero_image.jpg
+[19] https://www.aina-wireless.com/wp-content/uploads/2019/10/Voicelayer-logo-320x120.png
+[20] https://www.wintermeyer-consulting.de/books/phoenix/1.5/images/hello-world-first-view.png
+[21] https://www.wintermeyer-consulting.de/books/phoenix/1.5/images/hello-world.png",,,,,,
+,2015_16_new,,65,ReactJS ,"https://facebook.github.io/react-native/
+https://github.com/reflux/refluxjs
+https://github.com/reactjs/redux
+https://facebook.github.io/flux/docs/todo-list.html
+https://www.w3.org/TR/DOM-Level-3-Events/
+http://thenewstack.io/javascripts-history-and-how-it-led-to-reactjs/
+https://blog.risingstack.com/react-js-best-practices-for-2016/
+[1] [https://www.c-sharpcorner.com/article/what-and-why-React.js/],последно посетен на 03.12.2018
+[2] [https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/],последно посетен на 03.12.2018
+[3] [https://hackernoon.com/react-js-a-better-introduction-to-the-most-powerful-ui-library-ever-created-ecd96e8f4621],последно посетен на 03.12.2018
+[4] [https://en.wikipedia.org/wiki/React_(JavaScript_library)],последно посетен на 03.12.2018
+[7] [https://medium.com/@phongp27/remarkable-with-react-9bfe32b66dc3],последно посетен на 03.12.2018
+[8] [https://codepen.io/philmayfield/pen/MwRgyN], последно посетен на 03.12.2018
+[9] [https://codepen.io/pjmtokyo/pen/JdjRQK?editors=0110#0],последно посетен на 03.12.2018
+[10] [https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-reactjs-and-react-native/],последно посетен на 06.12.2018","[1] https://reactjs.org/docs/components-and-props.html
+[2] https://reactjs.org/docs/state-and-lifecycle.html
+[3] https://reactjs.org/tutorial/tutorial.html#why-immutability-is-important
+[4] https://www.c-sharpcorner.com/article/what-and-why-reactjs/
+[5] https://www.taniarascia.com/getting-started-with-react/","1. Какво е React.js?
+2. Минимални изисквания, преди да започнем работа с React
+3. Какви са характеристиките на React?
+4. Как да инсталираме React?
+5. React Developer Tools
+6. JSX: JavaScript + XML
+7. React Native
+8. Еднопоточно предаване на данни
+9. Защо неизменността е важна?
+10. Приготвяне на React приложение за крайния потребител
+","- примерчета за различните видове инсталация/ползване на React
+- примерчета за различните видове компоненти
+- команди за употреба на React Create App
+- команди за production build","Представяне на React библиотеката, как се ползва и инсталира. Какви качества има и защо се е зародил този hype по нея. Основни концепции за предаване и съхранение на данните. Полезни допълнителни инструменти за работа.","React, React Dev Tools, Components, props, immutability",
+,2018_19_new_12ed,,66,"Bulma css framework. Шаблони, примери.","https://bulma.io/
+https://jenil.github.io/bulmaswatch/",,,,,,
+,2016_new,,67,ECMAScript 2016/6/ ES 7+,"[1] https://medium.freecodecamp.org/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5
+[2] http://es6-features.org
+[3] ttp://exploringjs.com/es6
+[4] https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla 
+[5] https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla
+[6] https://medium.freecodecamp.org/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e
+[9] https://www.linkedin.com/pulse/some-interesting-facts-angularjs-apparrant-technologies","https://www.freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5
+https://www.benmvp.com/blog/learning-es6-history-of-ecmascript
+https://exploringjs.com/es6/ch_about-es6.html#sec_designing-es6
+https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e
+https://hub.packtpub.com/ecmascript-7-what-expect","1. Какво е ECMAScript?
+2. let & const - разлики с var
+3. Arrow functions
+4. Template literals
+5. Spread operator
+6. Rest operator","примери за най-важните нови неща
+добавени в ECMAScript 6/7+","представяне на нагледни примери
+за това как се използват новите 
+функционалности","ECMAScript, Arrow functions, Spread,
+Rest, Template literals",
+,2016_new,,68,PHP 7+ (новости спрямо 5+),"[1] http://php.net/manual/en/migration70.new-features.php
+[2] https://www.reddit.com/r/PHP/comments/3vxqu0/eli5_new_ast_in_php_7
+[3] https://www.aerospike.com/blog/php7_php5
+[4] https://www.tutorialspoint.com/php7/php7_introduction.htm
+[5] http://php.net/manual/en/migration70.new-features.php","[1] http://php.net/manual/en/migration70.new-features.php
+[2] https://www.tutorialspoint.com/php7/php7_introduction.htm
+[3] https://www.aerospike.com/blog/php7_php5","Разгледани са следните новости: декларация на скаларни типове, деклариране на return типа, ?? оператор, <=> оператор, define(), анонимни класове, unicode, unserialize(), assert(), новости при генераторите и др.","Примерен код е приложен към всички споменати в презентацията новости, с цел да се видят на практика как тези новости подобряват работата на програмиста.","Презентацията има за цел да запознае слушателите с основните новости, възникнали в PHP7+ спрямо PHP 5.","PHP, PHP7, WWW, Web, Backend, Development, New, Features",
+,2016_new,,69,JavaScript Lint,"[1] http://www.javascriptlint.com/
+[2] https://barrgroup.com/Embedded-Systems/How-To/Lint-Static-Analysis-Tool
+[3] https://www.sitepoint.com/comparison-javascript-linting-tools/
+[4] https://www.codereadability.com/what-are-javascript-linters/
+[5] https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76
+[1] https://en.wikipedia.org/wiki/Lint_(software)
+[2] https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important
+[3] https://eslint.org/
+[4] https://www.w3schools.com/js/js_mistakes.asp
+[5] https://prettier.io/
+[6] https://medium.com/dailyjs/getting-started-with-prettier-writing-clean-concise-code-6838e0912175
+[7] https://medium.com/@MartinCorevski/why-not-have-them-all-together-standard-js-with-prettier-and-eslint-fix-9a4d96ca0030
+[8] https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
+[9] https://docs.npmjs.com/downloading-and-installing-node-js-and-npm","[1] https://www.perforce.com/blog/qac/what-lint-code-and-
+why-linting-important
+[2] https://www.freecodecamp.org/news/what-is-
+linting-and-how-can-it-save-you-time/
+[3] https://www.javascriptlint.com/
+[4] https://www.uplers.com/blog/front-end-
+linting-tools-for-web-development/
+[5] hhttps://eslint.org/docs/rules/
+[6] https://www.testim.io/blog/what-is-a-linter-
+heres-a-definition-and-quick-start-guide/
+[7] https://nodejs.org/en/download/
+[8] https://eslint.org/docs/user-guide/
+configuring/rules#configuring-rules
+
+
+",,"- примери за това как може да се
+използват линтовете
+- инсталиране на ESLint
+- примери за използване на
+правила в ESLint","Увод в линтовете, какво 
+представляват, как работят;
+Преглед на различните ползи от
+тях, сравнение между различните
+Джаваскрипт линтове;
+Работа с ESLint и различни примери","линт, линтинг, ESLint, Джаваскрипт, 
+правила, JSHint, JSCS, StandardJS,
+",
+,2016_new,,70,Foundation framework,"http://foundation.zurb.com
+[1] https://foundation.zurb.com/showcase/about.html
+[2] https://foundation.zurb.com/templates-previews-sites-f6/product-page.html
+[3] https://foundation.zurb.com/sites/docs/rtl.html
+[4] https://foundation.zurb.com/building-blocks/
+[5] https://www.valuebound.com/resources/blog/develop-responsive-web-applications-
+using-foundation-framework
+[6] https://foundation.zurb.com/building-blocks/blocks/floated-label-wrapper.html
+[7] https://foundation.zurb.com/building-blocks/blocks/pagination-pointed.html
+[8] https://foundation.zurb.com/building-blocks/blocks/polls.html",,,,,,
+,2016_new,,71,Уеб компоненти. Примери/демо.,"[1] https://beta.webcomponents.org/introduction
+[2] http://w3c.github.io/webcomponents/spec/
+[3] http://webcomponents.org/
+[4] http://w3c.github.io/webcomponents/spec/custom/ 
+[5] https://html.spec.whatwg.org/multipage/scripting.html 
+[6] https://www.webcomponents.org/polyfills 
+[7] https://www.polymer-project.org/1.0/ 
+[8] http://www.html5rocks.com/en/tutorials/webcomponents/template/ 
+[9]http://www.html5rocks.com/en/tutorials/webcomponents/customelements/ 
+[10] https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements 
+[11] http://code.tutsplus.com/tutorials/intro-to-shadow-dom--net-34966 
+[12]https://toddmotto.com/web-components-concepts-shadow-dom-imports-templates-custom-elements/",,,,,,
+,2016_new,,72,Hypertext Transfer Protocol (HTTP/1.1): Authentication. Примери.,"https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Authentication.html , 
+https://blogs.msdn.microsoft.com/chiranth/2013/09/20/ntlm-want-to-know-how-it-works/
+https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
+https://tiptopsecurity.com/how-does-https-work-rsa-encryption-explained/
+https://nordicapis.com/3-common-methods-api-authentication-explained/
+https://blogs.msdn.microsoft.com/chiranth/2013/09/20/ntlm-want-to-know-how-it-works/
+https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2#grant-type-authorization-code
+[1]https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
+[2]https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ 
+[3]https://blog.wildix.com/basic-digest-authentication/
+[4]https://www.securitydrops.com/http-digest/
+[5]https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication
+[6]https://tools.ietf.org/html/rfc7235
+[7]https://tools.ietf.org/html/rfc6750
+[8]https://en.wikipedia.org/wiki/Basic_access_authentication
+[9]https://en.wikipedia.org/wiki/Digest_access_authentication
+[10]https://blog.usejournal.com/http-in-depth-dfdac806c2c0","[1] https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155 
+[2] https://www.extrahop.com/resources/protocols/http/ 
+[3] https://www.ssl.com/faqs/what-is-https/ 
+[4] https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers 
+","Какво са HTTP и HTTPS?
+Как работят?
+Основни понятия
+Криптиране
+Удостоверяване","Примери за основните понятия, криптиране и за основните видове удостоверяване",Запознаване с HTTP и HTTPS. Кои протоколи използват и как работят. Основни понятия в контекста на HTTP и HTTPS. Какво означава криптиране на данни и как се извършва криптиране/декриптиране. Какво е удостоверяване и как ни помага/защитава от интернет заплахи. Основни видове удостоверяване.,"HTTP, HTTPS, TCP, SSL, TLS, port 80, port 443, url, header, query parameter, verb, status code, encryption, authentication, authorization, Basic authentication, Bearer authentication, API key, OAuth 2.0",
+,2020_new,,73,PHP Package Development Standards. Coding styles.,"[1] http://php-pds.com/
+[2] https://www.php-fig.org/psr/",,,,,,
+,2016_new,,,Laravel Web Framework,"[1] https://laravel.com/
+[1] https://laravel.com
+[2] https://asperbrothers.com/blog/laravel-ecosystem-tools
+[3] https://medium.com/vehikl-news/a-brief-history-of-laravel-5d55970885bc",,,,,,
+,2016_17_new_7ed,,75,Споделяне на ресурси от различни източници (CORS). Примери.,"[1] http://www.html5rocks.com/en/tutorials/cors/
+[2] http://restlet.com/blog/2015/12/15/understanding-and-using-cors/
+[1]https://www.w3.org/wiki/CORS#Why_is_there_a_preflight_request.3F https://www.w3.org/TR/cors/ 
+[2]https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Preflighted_requests
+[3]https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing 
+[4]https://fetch.spec.whatwg.org/#http-cors-protocol
+""[1] http://www.html5rocks.com/en/tutorials/cors/
+[2] http://restlet.com/blog/2015/12/15/understanding-and-using-cors/
+[1]https://www.w3.org/wiki/CORS#Why_is_there_a_preflight_request.3F https://www.w3.org/TR/cors/ 
+[2]https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Preflighted_requests
+[3]https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing 
+[4]https://fetch.spec.whatwg.org/#http-cors-protocol""",https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS https://medium.com/@electra_chong/what-is-cors-what-is-it-used-for-308cafa4df1a https://auth0.com/blog/cors-tutorial-a-guide-to-cross-origin-resource-sharing/  https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS https://www.aspiresport.eu/project/background https://morioh.com/p/3d5ffc21ace4 https://blog.bitsrc.io/4-ways-to-reduce-cors-preflight-time-in-web-apps-1f47fe7558,"Увод
+Какви заявки използват CORS?
+Как работи CORS?
+Прости CORS заявки
+Предварителни (preflight) CORS заявки
+Заявки с потребителски идентификационни данни (credentials)
+Източници",,,"CORS, preflight, simple request, credentials ",
+,2016_17_new_7ed,,76,WebVTT (Web Video Text Tracks),"[1] http://gingertech.net/2011/06/27/recent-developments-around-webvtt/ 
+[2] http://gingertech.net/2011/06/27/recent-developments-around-webvtt/ 
+[3] Live WebVTT Validator, https://quuz.org/webvtt/
+http://www.w3schools.com/tags/av_met_addtexttrack.asp",,,,,,
+,2016_17_new_7ed,,77,Аудио филтри за уеб. Примери.,"[1] http://noisehack.com/custom-audio-effects-javascript-web-audio-api/
+[2] http://noisehack.com/how-to-build-monotron-synth-web-audio-api/
+[3] http://noisehack.com/how-to-build-supersaw-synth-web-audio-api/
+[1] http://www.smartjava.org/content/exploring-html5-web-audio-api-filters/ 
+[2] https://webaudio.github.io/web-audio-api/#audionode
+[3] https://en.wikipedia.org/wiki/Sound#Definition [4] https://github.com/andysylvester/TSW_WebAudioPrimer [5] https://www.engineersgarage.com/tutorials/audio-filters-basics-of-audio-filters-5-8/ [6] https://webaudioapi.com/samples/ [7] https://css-tricks.com/introduction-web-audio-api/",,,"Реферата съдържа примерен код, за това как се работи с билбиотеката WebAudio Api. Обяснени са основните принципи при работа със звук в browser. Има примери, които показват различните видове на вълни, както и са обяснени някои от най-основните аудио филтри, като са дадени два различни проекта, с които могат да се тестват какво правят аудио филтрите в реална среда.",Построяване на основи за работа с WebAudio API. Основните филтри и какво правят те. Примери за всеки един филтър.,"Web audio api, audio filters,",
+,2016_17_new_7ed,,78,"JSON Web Token (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Algorithms (JWA)","https://tools.ietf.org/html/rfc7519  [2] https://github.com/jwtk/jjwt [1] https://en.wikipedia.org/wiki/JSON 
+[2] https://scotch.io/tutorials/the-anatomy-of-a-json-web-token 
+[3] https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec 
+[4] https://en.wikipedia.org/wiki/JSON_Web_Signature 
+[5] https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3 
+[6] https://auth0.com/blog/json-web-token-signing-algorithms-overview/
+[1]http://self-issued.info/docs/draft-ietf-jose-json-web-encryption.html","[1]https://jwt.io/introduction
+[2]https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3
+[3]https://openid.net/specs/draft-jones-json-web-token-07.html                                          
+[4]https://openid.net/specs/draft-jones-json-web-signature-04.html         
+[5]https://medium.com/swlh/json-web-signature-jws-and-jws-detached-for-a-five-year-old-88729b7b1a68              
+[6]https://medium.com/aeturnuminc/encrypt-and-decrypt-sensitive-data-with-jwe-70421722f7e5
+[7]https://docs.pingidentity.com/bundle/developer/page/qyf1601508076594.html",,"1.JSON WEB TOKEN
+-token
+-структура
+-начин на работа
+-плюсове 
+-минуси
+2.Json Web signature
+-елементи
+-сериализация
+3.Json Web encryption
+-сериализация
+4.Json Web algorithms","Запознава ни с Json web token, json web signature, json web encryption и json web algorithms. Структурата им, как се използват и връзката помежду им.","json web token, json web algorithms, json web signature, json web encryption, сериализация, токен",
+,2016_17_new_7ed,,79,HammerJS - поддръжка на жестове в уеб приложенията,"[1] http://hammerjs.github.io/ 
+[2] https://www.w3.org/TR/pointerevents/#the-touch-action-css-property",,,,,,
+,2016_17_new_7ed,,,Разгръщане на уеб приложения с Apache/Php под Docker под Windows,"[1] https://docs.docker.com/engine/installation/windows/ , 
+[2] https://docs.docker.com/engine/getstarted/step_one/
+[3] https://docs.docker.com/engine/installation/windows/ 
+[4] https://docs.docker.com/engine/getstarted/step_one/
+[5] https://medium.com/@vi1996ash/steps-to-build-apache-web-server-docker-image-1a2f21504a8e
+[6] https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
+[7] https://docs.docker.com/get-started/part3/#introduction
+[1] https://docs.microsoft.com/en-us/learn/modules/intro-to-docker-containers/
+[2] https://docs.docker.com/docker-for-windows/install/
+[3] https://docs.docker.com/docker-for-windows/install-windows-home/
+[4] https://docs.docker.com/engine/reference/commandline/build/
+[5] https://docs.docker.com/engine/reference/builder/
+[6] https://docs.docker.com/engine/reference/commandline/run/
+[7] https://docs.docker.com/engine/reference/commandline/ps/
+[8] https://medium.com/@vi1996ash/steps-to-build-apache-web-server-docker-image-1a2f21504a8e
+[9] https://dev.to/concatly/how-to-deploy-a-dockerize-a-basic-php-application-4756
+[10] https://devopscube.com/what-is-docker/
+[11] https://www.datree.io/resources/docker-best-practices",,,,,,
+,2018_19_new_11ed,,81,Progressive Web Apps(PWA),"[1] https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/
+[2] https://developers.google.com/web/fundamentals/codelabs/push-notifications/
+[3] https://w3c.github.io/manifest/
+[4] https://developers.google.com/web/progressive-web-apps/
+https://web.dev/pwa-checklist/ 
+https://developers.google.com/web/showcase/2016
+https://developers.google.com/web/showcase/2017
+https://developers.google.com/web/showcase/tags/progressive-web-apps
+https://devathon.com/blog/top-10-best-pwa-frameworks/
+https://web.dev/add-manifest/
+https://medium.com/@blockchain_simplified/progressive-web-app-development-technical-components-of-pwa-139ba8e0f0a6","[https://www.magestore.com/blog/pwa-vs-native-app-and-how-to-choose-between-them/[1] What are  [ https://developers.google.com/web/progressive-web-apps/
+https://web.dev/pwa-checklist/ 
+https://developers.google.com/web/showcase/tags/progressive-web-apps,
+https://www.pinterest.com/pin/50313720822517247/
+https://love2dev.com/blog/twitter-pwa-windows-store/
+https://www.forbes.com/sites/forbespr/2017/03/07/forbes-launches-all-new-mobile-web-experience-for-forbes-com/?sh=31c640ba5168 
+https://app.starbucks.com/
+https://www.windowscentral.com/uber-talks-about-progressive-web-app-why-desktop-important
+https://medium.com/deity-io/4-examples-of-excellent-progressive-web-apps-f33b4316cfed","Какво е Progressive Web Apps (PWA)?
+Как работи PWA?
+Видове PWA приложения
+Защо да изберем PWA
+Native срещу PWA
+Предимства и недостатъци?",,Дава ясна представа какво представляват прогресивните уеб приложения. Кои големи компании решавата да използват PWA. Ясна разлика между нейтив приложения и уеб прогресивните. Основни ползи при използването на PWA,"PWA, Native, Low connection, web, iOS, android, mobile",
+,2018_19_new_11ed,,82,"WebAssembly-основи, примери","[1] https://webassembly.org/, 
+[2] https://www.funkykarts.rocks/demo.html
+[1] https://doi.org/10.1145/3140587.3062363, 
+[2] https://webassembly.github.io/spec/core/_download/WebAssembly.pdf, 
+[3] https://www.tutorialspoint.com/webassembly/index.htm, 
+[4] https://medium.com/@robaboukhalil/porting-games-to-the-web-with-webassembly-70d598e1a3ec, 
+[5] https://github.com/flightcrank/asteroids
+[6] https://youtu.be/njt-Qzw0mVY","[1] https://developer.mozilla.org/en-US/docs/WebAssembly
+[2] https://webassembly.github.io/spec/core/ 
+[3] https://wasdk.github.io/WasmFiddle/ 
+[4] https://emscripten.org/docs/ 
+[5] https://www.youtube.com/watch?v=3sU557ZKjUs","Съдържание 
+Какво е WebAssembly?
+Какви са целите на WASM? 
+Къде е мястото на WASM в уеб света? 
+Основни понятия 
+Javascript API за WASM 
+Вариатни за използване на WASM в приложение
+Ползване директно на WASM 
+Компилиране от С/С++
+Компилиране от Rust
+Примери
+Примери с онлайн WASM асемблер
+Пример с Emscripten",Сайтове с мини примери: https://wasdk.github.io/WasmFiddle/ https://webassembly.github.io/wabt/demo/wasm2wat/,"Дава дефиниция на WebAssembly. Представя текстовия формат WebAssembly text.
+Показва какво ни дава WebAssembly и какво е нужно за развитието му. Показва как WebAssembly и Javascript работят заедно. Разглежда пример с Emscripten
+","WebAssembly, Wasm, Emscripten, WAT",
+,2018_19_new_11ed,,83,Технология Blazor,"[1] https://blazor.net/
+[2] https://www.dotnetcurry.com/dotnet/1460/blazor-getting-started
+[1] https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor/
+[2] https://docs.microsoft.com/en-us/aspnet/core/blazor/ 
+[3] https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor
+[4] https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing/","[1] https://blazor-university.com/overview/what-is-blazor/ 
+[2] https://www.pragimtech.com/blog/blazor/what-is-blazor/","1. Защо Blazor? 
+2. Какво е Blazor?
+3. Как работи?
+4. Blazor WebAssembly
+5. Blazor Server
+6. Основни разлики",,"Презентацията представя в общи 
+линии идеята на Blazor 
+технологията, начина на работа на
+приложенията, използващи я.","Blazor, Razor, .NET",
+,2018_19_new_11ed,,84,imba,"[1] http://imba.io/guides/essentials/introduction
+[2]https://medium.freecodecamp.org/introduction-to-imba-the-alternative-to-javascript-e2aa1e3d1769",,,,,,
+,2018_19_new_11ed,,85,Micro Frontends,"[1] https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16
+[2] https://xebia.com/blog/the-monolithic-frontend-in-the-microservices-architecture/
+[3] https://developers.google.com/web/fundamentals/web-components/customelements
+[4] https://micro-frontends.org/ 
+[5] https://hub.packtpub.com/what-micro-frontend/ 
+[6] https://martinfowler.com/articles/micro-frontends.html 
+[7] https://en.wikipedia.org/wiki/Microservices 
+[8] https://martinfowler.com/articles/microservices.html 
+[9] https://medium.com/@PepsRyuu/micro-frontends-341defa8d1d4 ","[1]https://blog.bitsrc.io/state-of-micro-frontends-9c0c604ed13a
+[2]https://www.tomsoderlund.com/programming/micro-frontends-a-microservice-approach-to-front-end-web-development
+[3]https://medium.com/@lucamezzalira/micro-frontends-decisions-framework-ebcd22256513",1.Въведение 2.Какво е Micro Service 3.Какво е Micro Frontend 4.Micro Frontend комуникация 5.Примери 6.Предимства 7.Недостатъци 8.Източници,няколко реда код за илюстрация на възможни методи за комуникация между различните микро-услуги,"Целта на презентацията е да ни въведе в света на Micro Frontends. Разглеждат се предимствата и недостатъците на този модел, както и се дават примери за приложението му.","Monolith, micro-services, micro-frontends",
+,2018_19_new_11ed,,86,GraphQL - принципи. Интеграция с Php. Примери.,[1] https://graphql.github.io/,"[1] https://www.redhat.com/en/topics/api/what-is-graphql 
+[2] https://en.wikipedia.org/wiki/GraphQL
+[3] https://en.wikipedia.org/wiki/API
+[4] https://graphql.org/foundation/
+[5] https://docs.github.com/en/graphql/overview/explorer 
+[6] https://www.youtube.com/watch?v=eIQh02xuVw4","1. Увод
+2. Заявки и мутации в Graphql
+3. Типове и схеми в Grapqhl 
+4. Graphql в 100 секунди ",Няколко примерни заявки и примерни отговори от сървъра,Целта на презентацията е да ни запознае с най-оснобните концепции в Graphql и да покаже какви са предимствата му пред другите алтернативи.,"graphql, query, mutation, subscription, API, enumeration, schema, scalar types, interface, alias",
+,2018_19_new_11ed,,87,WebExtensions - разширения за firefox,"[2] https://webextensions-experiments.readthedocs.io/en/latest/index.html
+[1] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+[1]https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+[2]https://kotlinlang.org/docs/reference/faq.html
+[3]https://www.jetbrains.com/mps/concepts/domain-specific-languages/
+[4]https://medium.com/kotlin-thursdays/static-web-with-kotlin-dsls-9ff53a604bd2","[1] https://en.wikipedia.org/wiki/Browser_extension 
+[2] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions
+[3] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension
+[4] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions 
+[5] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts 
+[6] https://firefox-source-docs.mozilla.org/toolkit/components/extensions/webextensions/background.html 
+[7] https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples 
+","1. Какво представляват уеб разширенията?
+2. Кратка история
+3. Какво може да прави едно браузър разширение?
+4. Структура на едно уеб разширение
+    4.1 Manifest.json
+    4.2. Фонови скриптове (Background scripts)
+    4.3. Скриптове за съдържание (Content scripts)
+    4.4. Достъпни в мрежата ресурси (Web accessible resources)
+    4.5.Допълнителни страници(Extension pages)
+5. WebExtensions API на Firefox
+6. Разлики между различните API-та за уеб разширения
+7. Няколко примерни уеб разширения
+    7.1. chill-out
+    7.2. beastify
+Източници, Списък с фигури, Списък с примерен програмен код, Изготвил","няколко реда код за да се илюстрира структуртата на manifest.json; 2 примерни уеб разширения, написани с API-то на Firefox","Целта на презентацията е да ни запознае с уеб разширенията - какво представляват, за какво се използват. Разглеждаме малко по-подробно JavaScript API-то на Firefox за уеб разширения, разликите между различните API-та, както и 2 примерни уеб разширения.","Web extensions, Browser Extensions, Firefox, manifest.json, content scripts, background scripts, JacaScript API",
+,2018_19_new_12ed,,88,Писане на хипертекс (html) посредством Kotlin DSL,"[1] https://github.com/Kotlin/kotlinx.html
+[2] https://kotlinlang.org/docs/reference/type-safe-builders.html","1. https://www.jetbrains.com/mps/concepts/domain-specific-languages/ 
+2. https://medium.com/kotlin-thursdays/static-web-with-kotlin-dsls-9ff53a604bd2
+3. https://livebook.manning.com/book/kotlin-in-action/chapter-11/
+4. https://play.kotlinlang.org/byExample/09_Kotlin_JS/06_HtmlBuilder?_gl=1*1sd43u0*_ga*NDM5MjUxNzcyLjE2NDE5OTYxMzY.*_ga_J6T75801PF*MTY0MjE3NzM0Ny40LjEuMTY0MjE3NzM1Mi4w&_ga=2.185246697.1381142997.1642177349-439251772.1641996136",,Примерен код на функции,"Инфо за DSLs, как можем да
+пишем HTML код чрез Kotlin
+DSL и предимствата му","HTML, DSL, HTML DSL,
+Kotlin DSL, kotlinx.html",
+,2018_19_new_12ed,,89,Elasticsearch с php,"[1] https://www.elastic.co/
+[2] https://github.com/elastic/elasticsearch
+[1]https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+[2]https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
+[3]https://medium.com/@igorkopanev/a-brief-explanation-of-the-inverted-index-f082993f8605
+[4]https://codingexplained.com/coding/elasticsearch/understanding-the-inverted-index-in-elasticsearch
+[5]https://www.compose.com/articles/how-scoring-works-in-elasticsearch","1.https://www.elastic.co/ 
+2.https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html 
+3.https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html 
+4.https://www.elastic.co/guide/en/kibana/current/index.html 
+5.https://getcomposer.org/","1. Въведение 
+2. Elasticsearch 
+3. Функционалности 
+4. Структура на данните 
+5. ELK Stack 
+6. HTTP Server 
+7. Стартиране локално 
+8. Примерни заявки 
+9. PHP Клиент 
+10. Източници","Примерни заявки за работа с Elasticsearch
+Примерна работа с PHP клиент",Целта е да се представят функционалностите на системата Elasticsearch и да се даде примерното ѝ използване с помощта на PHP клиент,"elasticsearch, distributed, performance, kibana, analytics, queries, big data, http, server, php, search",
+,2018_19_new_12ed,,90,Web Performance Timing APIs,"[1] https://techblog.constantcontact.com/software-development/measure-page-load-times-using-the-user-timing-api/
+[2] https://w3c.github.io/perf-timing-primer/
+[3] https://pxpx.co.uk/blog/article/intro-web-timing-apis
+[1] https://www.w3.org/TR/performance-timeline-2/
+[2] https://www.w3.org/TR/hr-time-2/
+[3] https://www.w3.org/TR/server-timing/
+[4] https://www.w3.org/TR/user-timing-1/
+[5] https://www.w3.org/TR/resource-timing-1/
+[6] https://www.w3.org/TR/performance-timeline-2/
+[7] https://css-tricks.com/paint-timing-api/
+[8] https://html.spec.whatwg.org/multipage/browsing-the-web.html#history-handling-behavior
+","[1] https://www.w3.org/TR/hr-time-3/
+[2] https://www.w3.org/TR/navigation-timing/
+[3] https://www.w3.org/TR/navigation-timing-2/
+[4] https://www.w3.org/TR/performance-timeline/
+[5] https://www.w3.org/TR/resource-timing-2/
+[6] https://www.rfc-editor.org/rfc/rfc2119
+[7] https://www.rfc-editor.org/rfc/rfc2119
+[8] https://www.rfc-editor.org/rfc/rfc8174","1. Въведение
+2. Resource Timing API
+3. Performance Timeline API
+4. High Resolution Time
+5. Navigation Timing API
+6. User Timing API","Код 1. Измерване на време за зареждане на снимки
+Код 2. EntryType демонстрация
+Код 3. Тестване на разлика между два Date.now()
+Код 4. Стойности на worker & context
+Код 5. Представяне на събития на времева линия
+Код 6. Стойности на worker & context след промяната
+Код 7. Използване на интерфейсите от User Timing API","Представяне на основните Web Performance Timeline APIs, как и за какво се използват и какво е тяхното развитие.","resource timing, navigation timing, waterfall, user timing, performance timeline",
+,2018_19_new_12ed,,91,Тестване на уеб приложения със Cypress,[1] https://www.cypress.io/,,"1.Какво е Cypress?
+2.Какво ни предоставя Cypress?
+3.Функционалности
+4.Въведение
+4.1.Организиране на директориите
+4.2.Повторяемост
+4.3.Интеракции с елементите
+4.4.Променливи и псевдоними
+4.5.Условно тестване
+4.6.Изпълнение на тестовете
+5.Обобщение","Тестване на прости елементи.
+Примери за основните функции","Представяне на Cypress, 
+Основни предимства, какви уникални
+възможности предоставя,
+основни тестови похвати","cypress, test, testing, ui, e2e, ci/cd, integration",
+,2018_19_new_12ed,,,Полезни разширения за разработката на уеб с Visual Code Editor,"[1] https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development
+[1] https://code.visualstudio.com/docs/editor/extension-gallery
+[2] https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
+[3] https://www.digitalocean.com/community/tutorials/how-to-debug-javascript-with-google-chrome-devtools-and-visual-studio-code
+[4] https://fireflysemantics.medium.com/running-javascript-snippets-in-vscode-quokka-js-f8e88b42e947
+[5] https://medium.com/swlh/top-vs-code-extensions-for-web-developers-1e038201a8fc
+[6] https://www.digitalocean.com/community/posts/6-awesome-css-extensions-for-vs-code
+[7] https://codeforgeek.com/best-visual-studio-code-extensions-web-development/
+[8] https://dev.to/hb/top-10-vscode-extensions-as-a-web-developer-m3f
+",,,,,,
+,2018_19_new_12ed,,93,Работа с кампании (UTM),"[1] https://www.crazyegg.com/blog/utm-codes-guide-with-examples/
+[2] https://agencyanalytics.com/blog/utm-tracking",,,,,,
+,2018_19_new_12ed,,94,NativeScript,[1] https://www.nativescript.org/,,,,,,
+,2018_19_new_12ed,,95,Coffeescript,[1] https://coffeescript.org/,,,,,,
+,2018_19_new_12ed,,,Виртуална реалност в уеб - WebVR. Примери.,[1] https://webvr.info/samples/,,,,,,
+,2018_19_new_12ed,,97,Motion UI - създаване на CSS анимации,"[1] https://zurb.com/playground/motion-ui
+
+[1] https://zurb.com/blog/introducing-the-new-motion-ui
+[2] https://www.inboundnow.com/motion-ui-and-how-it-helps-to-increase-attention-span-of-users/
+[3] https://github.com/foundation/motion-ui/blob/master/docs/animations.md
+[4] https://www.creativebloq.com/inspiration/css-animation-examples
+[5] https://zurb.com/playground/motion-ui
+[6] https://www.motocms.com/blog/en/ui-motion-design/
+[7] https://www.hongkiat.com/blog/animations-transitions-motion-ui/
+[8] https://github.com/foundation/motion-ui/blob/master/docs/classes.md#transition-classes
+[9] https://github.com/foundation/motion-ui/blob/master/docs/javascript.md
+[10] https://www.dreamerux.com/articles/tag/motion
+[11] http://babich.biz/3-key-uses-for-animation-in-mobile-ui-design/
+[12] https://designmodo.com/web-design-trends-2020/
+"," https://github.com/foundation/motion-ui/tree/master/docs
+ https://www.geeksforgeeks.org/what-is-motion-ui/""
+ https://www.hongkiat.com/blog/animations-transitions-motion-ui/","1. За какво се използва Motion UI? 
+2. Основни типове предварително дефинирани класове
+3. Keyframe функции
+     3.1. fade
+     3.2. hinge
+     3.3. shake
+     3.4. slide
+     3.5. spin
+     3.6. wiggle 
+     3.7. zoom
+4. Комбинирани функции
+5. Реален пример за Motion UI
+",Примери за прилагане на Motion UI в реална среда.,"Представяне на основната идея на Motion UI. Изличане на основните класове и обяснения за функциите им. Показване на основните промени, които можем да направим и как да ги комбинираме.","Motion UI, keyframe, keyframe функции, keyframe анимации, mixin, fade, zoom, shake, wiggle, hinge, slide, spin",
+,2018_19_new_12ed,,98,Разработване на достъпни уеб приложения - ARIA spec. ,"[1] https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets
+[2] https://www.w3.org/TR/2018/WD-html-aria-20181214/",,,,,,
+,2018_19_new_12ed,,99,Опълномощаване с OAuth2 (authorization),"[1] https://tools.ietf.org/html/rfc6749#section-3.1
+[2] https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85
+1. OAuth 2.0 Simplified by Aaron Perecki</li>
+2. OAuth 2 in Action by Justin Richer and Antonio Sanso</li>
+3. https://en.wikipedia.org/wiki/OAuth>
+4. https://oauth.net/2/ >
+5. https://tools.ietf.org/html/rfc6749#section-3.1>
+6. https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85>
+7. https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2>",,,,,,
+,2018_19_new_12ed,,100,Уязвимости в уеб приложения - инжекции (OWASP-A1). Примери.,"Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur when untrusted data is sent
+to an interpreter as part of a command or query. The attacker’s hostile data can trick the
+interpreter into executing unintended commands or accessing data without proper authorization.; 
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+1. https://www.acunetix.com/blog/articles/injection-attacks/
+2. https://www.acunetix.com/websitesecurity/sql-injection/
+3. https://www.acunetix.com/websitesecurity/sql-injection2/
+4. https://www.acunetix.com/blog/articles/blind-out-of-band-sql-injection-vulnerability-testing-added-acumonitor/
+5. https://portswigger.net/web-security/sql-injection
+6. https://www.acunetix.com/blog/web-security-zone/nosql-injections/
+7. https://www.netsparker.com/blog/web-security/what-is-nosql-injection/
+8. https://www.acunetix.com/blog/web-security-zone/os-command-injection/
+9. https://www.synopsys.com/glossary/what-is-ldap-injection.html","https://www.synopsys.com/glossary/what-is-ldap-injection.html 
+https://crashtest-security.com/command-injection/
+https://www.imperva.com/blog/sql-injection-attacks-so-old-but-still-so-relevant-heres-why-charts/","1. Начало
+2. Какво са инжекции?
+3. SQL инжекции
+4. NoSQL инжекции
+5. OS инжекции
+6. LDAP инжекции
+","1. Пример за различни видове SQL инжекции
+2. Пример за NoSQL инжекции","Запознаване с OWASP, запознаване с инжекции, разновидности и примери.","injections, sql, nosql, query, blind, time-based, DB, MySQL",
+,2018_19_new_12ed,,101,Уязвимости в уеб приложения - дефектна аутентикация (OWASP-A2). Примери.,"Application functions related to authentication and session management are often implemented
+incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit
+other implementation flaws to assume other users’ identities temporarily or permanently., 
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+https://auth0.com/blog, 
+https://doubleoctopus.com/security-wiki/threats-and-tools/, 
+https://www.imperva.com/learn/application-security/, 
+https://owasp.org/www-community/attacks/, 
+https://www.esds.co.in/blog/what-do-you-know-about-broken-authentication-and-session-breach/, 
+https://auth0.com/blog/different-ways-to-implement-multifactor/, 
+https://usersnap.com/blog/registration-forms/  ","[1] https://www.php.net/manual/en/ref.session.php
+[2] https://www.youtube.com/watch?v=i89a4Zbzy20
+[3] https://www.thesslstore.com/blog/the-ultimate-guide-to-session-
+hijacking-aka-cookie-hijacking/
+[4] https://ocw.mit.edu/courses/electrical-engineering-and-computer-
+science/6-858-computer-systems-security-fall-2014/index.html
+[5] https://owasp.org/www-community/attacks/?fbclid=IwAR2
+oJKRtfmdnylrelB8zhiTX5DK6EHra1E8BdETPR4MBfYw27XTrwSh2qtE
+[6] https://www.ptsecurity.com/ww-en/analytics/web-vulnerabilities-2020/","1. Въведение в проблема за интернет
+сигурността и дефектната аутентикация
+2. Сесии - същност и имплементация
+3. Възможни атаки срещу дефектна
+аутентикация и лоша имплементация на сесии. Примери
+4. Заключение и добри практики
+","1. Имплементация на сесии за достъп до защитен ресурс
+2. Пример за подслушване на трафик
+3. Пример за крадене на сесии
+4.Пример за brute force","Запознаване със състоянието на интернет сигурността в момента.
+Запознаване със сесии, как и кога се ползват.
+Запознаване с проблемни начини за имплементация на оторизация и последствията от тях.
+Запознаване с решенията и добрите практики, за избягване на тези проблеми.","web security, sessions, session management, session hijacking, session fixation, brute force, authentication",
+,2018_19_new_12ed,,102,Уязвимости в уеб приложения - излагане на чуствителни данни (OWASP-A3). Примери.,"Many web applications and APIs do not properly protect sensitive data, such as financial,
+healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit
+card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra
+protection, such as encryption at rest or in transit, and requires special precautions when
+exchanged with the browser., 
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+https://www.ibm.com/security/data-breach
+https://raw.githubusercontent.com/OWASP/Top10/master/2017/OWASP%20Top%2010-2017%20(en).pdf
+https://www.contrastsecurity.com/knowledge-hub/glossary/sensitive-data-exposure
+https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
+https://insights.sei.cmu.edu/sei_blog/2018/07/10-types-of-application-security-testing-tools-when-and-how-to-use-them.html
+",,,,,,
+,2018_19_new_12ed,,103,Уязвимости в уеб приложения -  външни XML данни (OWASP-A4). Примери.,"Many older or poorly configured XML processors evaluate external entity references within XML
+documents. External entities can be used to disclose internal files using the file URI handler,
+internal file shares, internal port scanning, remote code execution, and denial of service attacks,
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf",,,,,,
+,2018_19_new_12ed,,104,Уязвимости в уеб приложения -  дефектен контрол на достъпа (OWASP-A5). Примери.,"Restrictions on what authenticated users are allowed to do are often not properly enforced.
+Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access
+other users' accounts, view sensitive files, modify other users’ data, change access rights, etc.,
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf",,,,,,
+,2018_19_new_12ed,,105,Уязвимости в уеб приложения - дефектна конфигурация на сигурността (OWASP-A6). Примери.,"Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure
+default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured
+HTTP headers, and verbose error messages containing sensitive information. Not only must all
+operating systems, frameworks, libraries, and applications be securely configured, but they must
+be patched and upgraded in a timely fashion.
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf",,,,,,
+,2018_19_new_12ed,,106,Уязвимости в уеб приложения - XSS - изпълнение на външни скриптове (OWASP-A7). Примери.,"XSS flaws occur whenever an application includes untrusted data in a new web page without
+proper validation or escaping, or updates an existing web page with user-supplied data using a
+browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the
+victim’s browser which can hijack user sessions, deface web sites, or redirect the user to
+malicious sites.
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf","[1] https://excess-xss.com
+[2] https://www.ptsecurity.com/ww-en/analytics/knowledge-base/what-is-a-cross-site-scripting-xss-attack
+[3] https://www.acunetix.com/blog/articles/dom-xss-explained
+[4] https://www.acunetix.com/websitesecurity/cross-site-scripting
+[5] https://en.wikipedia.org/wiki/Cross-site_scripting
+[6] https://www.netsparker.com/blog/web-security/private-data-stolen-exploiting-css-injection
+[7] https://www.veracode.com/security/xss
+[8] https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+[9] https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src
+","Какво е XSS?
+Как работи XSS?
+Какво е злонамерен JS?
+Как се инжектира JS?
+Последствията от злонамерен JS
+Типове XSS атаки
+Persistent (stored) XSS
+Reflected (non-persistent) XSS
+DOM-based XSS
+Как да се предпазим от XSS?
+Енкодинг
+Валидация
+Content security policy","- инжекции на злонамерен JS през различни контексти
+- Content security policy header","Запознаване със същността на cross-site scripting атаките, техните разновидности и начини на осъществяване. Разглеждат се примери за инжектиране на злонамерен JS и последствията oт отва, както и полезни практики и техники за избягване на подобни проблеми.","cross-site scripting, злонамерен JS, инжекция, persistent XSS, reflected XSS, DOM-based XSS, енкодинг, валидация, content security policy",
+,2018_19_new_12ed,,107,Уязвимости в уеб приложения - несигурна десериализация (OWASP-A8). Примери.,"Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not
+result in remote code execution, they can be used to perform attacks, including replay attacks,
+injection attacks, and privilege escalation attacks. 
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf","[1] https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization
+[2] https://portswigger.net/web-security/deserialization
+[3] https://portswigger.net/web-security/deserialization/exploiting
+[4] https://www.neuralegion.com/blog/deserialization/#deserialization-attack-examples
+[5] https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection
+[6] https://owasp.org/www-community/attacks/Path_Traversal","Сериализация и десериализация - значение
+Несигурна десериализация
+Как и кога
+Последствия
+Предотвратяване
+Интересни примери","- сериализация <-> десериализация с JS и JSON
+- инжектиране на обект при несигурна десериализация
+- DoS атака","Кратко въведение в сериализацията и десериализацията, представяне на възможните уязвимости и причините за възникване на проблема, представяне на решения за предотвратяване",,
+,2018_19_new_12ed,,108,Уязвимости в уеб приложения - използване на компоненти с известни уязвимости (OWASP-A9). Примери.,"Components, such as libraries, frameworks, and other software modules, run with the same
+privileges as the application. If a vulnerable component is exploited, such an attack can facilitate
+serious data loss or server takeover. Applications and APIs using components with known
+vulnerabilities may undermine application defenses and enable various attacks and impacts.
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+[1] OWASP Top 10 https://www.cloudflare.com/learning/security/threats/owasp-top-10/ [2] OWASP A9 A year later https://www.youtube.com/watch?v=H9kcnBccDZ4 [3] Heartbleed exploit https://heartbleed.com/ ",,,,,,
+,2018_19_new_12ed,,109,Уязвимости в уеб приложения - недостатъчно наблюдение и водене на журнални файлове  (OWASP-A10). Примери.,"Insufficient logging and monitoring, coupled with missing or ineffective integration with incident
+response, allows attackers to further attack systems, maintain persistence, pivot to more systems,
+and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over
+200 days, typically detected by external parties rather than internal processes or monitoring. 
+[1] https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+
+[1] https://owasp.org/www-project-top-ten/2017/A10_2017-Insufficient_Logging%2526Monitoring
+[2] https://owasp.blogspot.com/2017/08/owasp-top-10-2017-project-update.html
+[3] https://www.sumologic.com/glossary/log-file/
+[4] https://www.loganalyzer.net/log-analysis-tutorial/what-is-log-file.html
+[5] https://serverfault.com/questions/498246/how-to-check-web-server-logs-for-sql-injection
+[6] https://www.netsparker.com/blog/web-security/session-hijacking/
+[7] https://pentest-tools.com/blog/xss-attacks-practical-scenarios/
+[8] https://blog.codeasite.com/how-do-i-find-apache-http-server-log-files/
+[9] http://httpd.apache.org/docs/2.4/logs.html
+[10] https://resources.infosecinstitute.com/topic/log-analysis-web-attacks-beginners-guide/","https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html#event-data-sources
+https://httpd.apache.org/docs/2.4/logs.html
+https://owasp.org/www-community/Threat_Modeling
+https://owasp.org/www-community/Threat_Modeling_Process
+https://newrelic.com/resources/white-papers/log-management-best-practices",,,"Кои са източници на данни за логовете?
+Къде да записваме данните за събития?
+Какво да включваме в логовете - за какви събития?
+Какво да логваме - какви атрибути да имат логовете?
+Какво да НЕ включваме в логовете?
+Какъв формат трябва да са логовете?
+Kои са нивата на сигурност при логовете?
+Кратко въведение в откриването на заплахи.","Логове
+Лог файлове
+Monitoring
+Threat modeling","Тази година е OWASP-A9.
+С журнални файлове не се има впредвид файлове, които имат за цел да пазят журнална информацията за файлови системи или бази данни, които използват журнали за пазене на файловата система или базата данни във валидно състояние след crash ами ""ЛОГ"" файлове. "
+,2018_19_new_12ed,,110,Микроформати - видове. Примери. ,"[1] http://microformats.org/tag/foaf 
+[2] https://www.w3.org/People/Bos/DC-microformat/",,,,,,
+,2020_new_14ed,,111,Софтуерни шаблони за създаване (в php),[1] https://designpatternsphp.readthedocs.io/en/latest/Creational/README.html,,,,,,
+,2020_new_14ed,,112,Софтуерни шаблони; структурни (в php),"[1] https://designpatternsphp.readthedocs.io/en/latest/Structural/README.html
+
+[1]https://refactoring.guru/design-patterns/structural-patterns
+[2]https://www.script-tutorials.com/design-patterns-in-php/
+[3]https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm -- info about design patterns at all, not only in php",,,,,,
+,2020_new_14ed,,113,Софтуерни шаблони за поведение (в php),"[1] https://designpatternsphp.readthedocs.io/en/latest/Behavioral/README.html
+
+https://refactoring.guru/design-patterns/behavioral-patterns
+https://sourcemaking.com/design_patterns/behavioral_patterns
+https://www.journaldev.com/1624/command-design-pattern",,,,,,
+,2020_new_14ed,,114,Софтуерни шаблони - други (в php),[1] https://designpatternsphp.readthedocs.io/en/latest/More/README.html,,,,,,
+,2018_19_new_12ed,,115,"Създаване на диаграми с chartjs. Примери, добри практики. Видове диаграми.","https://www.chartjs.org/docs/latest/
+
+[1] https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/#9-mixed-chart 
+[2] https://codepen.io/DanEnglishby/pen/RYbMJj","https://tobiasahlin.com/blog/introduction-to-chartjs/,
+https://www.toptal.com/designers/data-visualization/data-visualization-best-practices,
+https://visme.co/blog/data-visualization-best-practices/
+","1.        Въведение - Какво представлява Chart.js?
+2.        Как се използва Chart.js? 
+3.        Видове диаграми и особености при създаването им
+4.        Добри практики при създаването на диаграми
+",Програмен код за създаване на всеки от основните видове диаграми,"Презентацията цели да запознае аудиторията с библиотеката Chart.js – за какво и как се използва тя, особености при създаване на различни видове диаграми, както и добри практитки, които може да се приложат за постигане на по-добри резултати.","диаграми, колонна диаграма, стълбовидна диаграма, линейна диаграма, кръгова диаграма, пръстеновидна диаграма, радарна диаграма, мехурчеста диаграма",
+,2020_new_14ed,,116,Accelerated Mobile Pages (AMP),"[1] https://dzone.com/articles/what-is-an-accelerated-mobile-page-amp-and-how-do
+
+[2] https://amp.dev/ 
+[3] https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages",,,,,,
+,2018_19_new_12ed,,117,Стартиране на Lamp приложение посредством Kubernetes,"http://docs.heptio.com/content/tutorials/lamp.html
+
+[1] http://blog.adnansiddiqi.me/getting-started-with-docker/
+[2] http://blog.adnansiddiqi.me/create-your-first-php-mysql-application-in-docker/
+[3] https://medium.com/faun/deploy-your-first-scaleable-php-mysql-web-application-in-kubernetes-33ed7ab66595
+[4] https://github.com/kadnan/LearningK8s
+[5] https://docs.docker.com/engine/reference/builder/
+[6] https://searchitoperations.techtarget.com/definition/Docker-image
+[7] https://www.electronicdesign.com/technologies/dev-tools/article/21801722/whats-the-difference-between-containers-and-virtual-machines",,,,,,
+,2018_19_new_12ed,,118,Тестване на уеб приложения със Selenoid,"[1] https://www.swtestacademy.com/selenoid-tutorial/ 
+[2] https://www.youtube.com/watch?v=HH3NFy174kg","https://www.guru99.com/difference-automated-vs-manual-testing.html
+https://www.testrigtechnologies.com/tool-based-testing-top-10-automation-testing-tools/
+https://www.swtestacademy.com/selenoid-tutorial/
+https://www.guru99.com/introduction-to-selenium.html
+https://en.wikipedia.org/wiki/Docker_(software)
+https://aerokube.com/selenoid/latest/
+https://medium.com/javarevisited/selenide-in-testing-process-automatisation-through-selenoid-in-the-docker-container-48e659d2ee72
+https://docs.docker.com/desktop/windows/install/
+https://github.com/aerokube/cm/releases/tag/1.8.1
+https://github.com/aerokube/selenoid
+https://apiquet.com/2018/10/09/c-web-testing-automation/
+https://thingsolver.com/hello-docker/","1. Въведение – накратко за софтуерното тестване и автоматичните тестове
+2. Какво е Selenoid?
+3. Накратко за Selenium, Selenium Grid, Docker
+4. Конфигуриране на Selenoid
+5. Някои функции на Selenoid
+6. Полезни въпроси и отговори
+7. Обобщение
+8. Източници и списък с фигури","Как да конфигурираме Selenoid, как да използваме основните функции на Selenoid","Презентацията започва с въведение в софтуерното тестване и автоматичните тестове. Основната ѝ тема е един конкретен инструмент за автоматизация и паралелно изпълнение на тестове – Selenoid. Обяснява се какво представлява той, как се конфигурира, кои са основните му предимства. Отговаря се на някои полезни въпроси, свързани с него.","тестове, автоматизация, инструмент, паралелно изпълнение, контейнери, функции, конфигурация, пестене на време, бързина",
+,2018_19_new_12ed,,119,Постоянна интеграция на уеб приложения с Concourse CI,https://concourse-ci.org/,,,,,,
+,2018_19_new_12ed,,120,TypeScript,"[1] https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html
+[2] https://www.typescriptlang.org/docs/handbook/declaration-files/deep-dive.html
+
+[1]https://www.typescripttutorial.net/ 
+[2]http://aaronpowell.github.io/talks/typescript/#/4/2 
+[3]https://www.educative.io/blog/typescript-tutorial,
+[4]https://www.altexsoft.com/blog/typescript-pros-and-cons/, 
+[5]https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted, 
+[6]https://2018.stateofjs.com/javascript-flavors/typescript/, 
+[7]http://earlbarr.com/publications/typestudy.pdf 
+[8]https://jaxenter.com/dev-report-javascript-164201.html 
+[9]https://www.tutorialsteacher.com/typescript 
+[10]https://github.com/DefinitelyTyped/DefinitelyTyped
+[11] https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple","[1] https://www.geeksforgeeks.org/difference-between-TypeScript-and-JavaScript/ 
+[2] https://en.wikipedia.org/wiki/TypeScript#History
+[3] https://jackthenomad.com/why-TypeScript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164
+[4] https://www.stxnext.com/blog/TypeScript-pros-cons-JavaScript/
+[5] https://2018.stateofjs.com/JavaScript-flavors/TypeScript/
+[6] https://dev.to/akashshyam/to-TypeScript-or-to-not-3ad0
+[7] https://flaviocopes.com/TypeScript/
+[8] https://www.typescriptlang.org/docs/handbook/2/generics.html",,,,,
+,2018_19_new_12ed,,,Servant,[1] https://www.servant.dev/ ,,,,,,
+,2018_19_new_12ed,,122,Разработване на мулти-тенант приложения с Php,"https://whatis.techtarget.com/definition/multi-tenancy
+[2] https://medium.com/pgs-software/aws-microservices-in-php-a-multi-tenant-framework-f1339ce0c1d7",https://en.wikipedia.org/wiki/Multitenancy https://www.archdaily.com/892501/sprzeczna-4-bbgk-architects/5ad091c7f197cc5c96000685-sprzeczna-4-bbgk-architects-building-scheme https://lakshaysuri.wordpress.com/2019/01/06/dynamic-table-creation-in-spring/ https://www.youtube.com/watch?v=60ccSmOxpMw https://laravel-news.com/multi-tenant https://laravel.com/docs/8.x/middleware#middleware-groups https://laravel.com/docs/8.x/migrations https://tenancyforlaravel.com/docs/v3/installation/ https://tenancyforlaravel.com/docs/v3/tenants/#tenants https://tenancyforlaravel.com/docs/v3/tenant-identification/#domain-identification,"1. Какво е мулти-тенант?
+2. Примери на продукти с архитектурата
+3. Алтернативна архитектура
+4. Мулти-тенант PHP
+5. Предимства и недостатъци",,Тази презентация цели да покаже накратко съдържанието на реферата по темата. В нея се запознаваме с идеята за архитектурата мулти-тенант и разглеждаме как можем да я приложим в PHP проект. ,,
+,2020_new_14ed,,123,Configure SSL on XAMPP,"[1]  https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69
+[2] https://letsencrypt.org/how-it-works/
+
+[1]https://medium.com/@ajtech.mubasheer/setup-https-in-xampp-for-localhost-bc3d01393f31
+[2]https://www.ssldragon.com/blog/how-to-install-an-ssl-certificate-for-localhost-xampp/
+[3]http://robsnotebook.com/xampp-ssl-encrypt-passwords/
+[4]https://www.digicert.com/ssl/
+[5]https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69
+[6]https://letsencrypt.org/how-it-works/#
+[7]https://en.wikipedia.org/wiki/Let's_Encrypt",,,,,,
+,2020_new_14ed,,124,WebRTC - принципи на работа. WebRTC с Php,"[1] https://www.html5rocks.com/en/tutorials/webrtc/basics/
+[2] https://github.com/nielsbaloe/webrtc-php
+[3] https://gist.github.com/greenido/6238800",,,,,,
+,2020_new_14ed,,125,Използване на SVG в уеб,"[1] https://css-tricks.com/gotchas-on-getting-svg-into-production/
+
+[1] https://www.sitepoint.com/add-svg-to-web-page, 
+[2]https://www.sitepoint.com/svg-scalable-vector-graphics-overview,  
+[3] https://svgontheweb.com,  
+[4]https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web, 
+[5] https://www.lifewire.com/using-svg-in-web-design-3470014, 
+[6] https://www.w3schools.com/graphics/svg_intro.asp, 
+[7]https://www.creativebloq.com/features/all-you-need-to-know-about-svg-on-the-web, 
+[8]https://css-tricks.com/using-svg
+[9]https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL",[1] https://www.w3schools.com/graphics/svg_intro.asp              [2] https://www.lifewire.com/using-svg-in-web-design-3470014  [3] https://en.wikipedia.org/wiki/Scalable_Vector_Graphics ,"1.Въведение в SVG
+2.Какви възможности
+ ни дава SVG?
+3.Начини за добавяне на SVG в 
+Уеб страница
+4.За какво се използва SVG?
+5.Предимства на SVG
+","Различни примери, демонстриращи функционалностите на SVG – 
+код + резултат от изпълнение на кода
+","Целта на презентацията е да ни запознае със Scalable Vector Graphics (SVG), функционалностите, които предоставя този тип графика, приложението, което намира в уеб и основните й предимства ","SVG, XML, векторна графика, SVG функционалности",
+,2018_19_new_12ed,,126,Автоматизирано тестване в Php. PhpUnit.,"[1] https://www.hongkiat.com/blog/automated-php-test/
+[2] https://www.valuebound.com/resources/blog/understanding-phpunit-and-how-to-write-unit-test-cases
+
+[1] https://www.hongkiat.com/blog/automated-php-test/
+[2] https://www.valuebound.com/resources/blog/understanding-phpunit-and-how-to-write-unit-test-cases
+[3] https://agileforall.com/a-dozen-reasons-why-test-first-is-better-than-test-later-pt-3/
+[4] https://docs.behat.org/en/v2.5/quick_intro.html
+[5] https://phpunit.de/getting-started/phpunit-9.html
+[6] https://martinfowler.com/articles/mocksArentStubs.html
+[7] https://phpunit.readthedocs.io/en/9.3/assertions.html
+[8] https://phpunit.readthedocs.io/en/9.3/fixtures.html",,,,,,
+,,,127,HTML 5 Geolocation API,"[1] https://www.w3schools.com/html/html5_geolocation.asp
+[2] https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+
+[1] https://www.w3schools.com/html/html5_geolocation.asp 
+[2] https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API 
+[3] https://www.w3.org/TR/geolocation-API/ 
+[4] https://hacks.mozilla.org/2013/10/who-moved-my-geolocation/","[1] https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation 
+[2] https://developer.mozilla.org/en-US/docs/Web/API/Navigator 
+[3] https://www.w3.org/TR/geolocation/ 
+[4] https://www.tutorialrepublic.com/html-tutorial/html5-geolocation.php 
+[5] https://www.w3.org/TR/permissions/#dfn-request-permission-to-use [6] https://medium.com/swlh/navigator-interface-accessing-the-user-agent-with-javascript-a9445f8592ab [7] https://wpt.fyi/results/geolocation-API?label=experimental&label=master&aligned ","1.Въведение
+2.Сигурност
+3.Navigator интерфейс
+4.Основни обекти в HTML Geolocation APIи връзката между тях
+5.Пример","Код, представляваш нагледно употребата на свойствата на различните обекти в HTML Geolocation API","Запознаване с основните обекти съставящи структурата на HTML Geolocation Api, техните свойства и начин на употреба","локация, geolocation, разрешение, достъп, местоположение, позиция, координати",
+,,,128,Препоръки за сигурност за студенти в уеб. Генериране и използване на цифров подпис.,"[1] https://www.onlineuniversities.com/internet-security/
+[2] https://its.ucsc.edu/security/student.html
+[3] https://www.it.ucla.edu/security/resources/security-best-practices/top-10-it-security-recommendations
+[4] https://blog.rsisecurity.com/cyber-security-in-education-what-you-need-to-know/
+
+[5] https://security.berkeley.edu/resources/best-practices-how-to-articles/top-10-secure-computing-tips
+[6] https://www.securedatarecovery.com/resources/students-guide-to-internet-security-and-safety
+[7] https://www.cyberdegrees.org/resources/internet-safety-for-college-students/","[1]  https://support.microsoft.com/en-us/office/obtain-a-digital-certificate-and-create-a-digital-signature-e3d9d813-3305-4164-a820-2e063d86e512
+[2]  https://www.adobe.com/sign/how-to/create-digital-signature.html
+[3]  https://www.docusign.com/learn/how-create-digital-signatures
+[4]  https://www.assuresign.com/blog/electronic-signatures-vs-digital-signatures/
+","1.Въведение
+2.Основни заплахи
+3.Често срещани грешки в сигурността
+4.""Топ 10"" съвета за сигурност
+5.Полезни страници
+6.Какво представлява цифровия подпис
+7.За какво се използват най-често цифровите подписи
+8.Как да си създадем цифров подпис с примери
+9.Какви са предимствата на цифровите подписи
+10.Разликата между цифрови подписи и електронни подписи
+","Примери за създаване на цифров подпис с:
+1. Microsoft - https://support.microsoft.com/en-us/office/obtain-a-digital-certificate-and-create-a-digital-signature-e3d9d813-3305-4164-a820-2e063d86e512
+2. Adobe Sign - https://www.adobe.com/sign/how-to/create-digital-signature.html","Презентацията цели да запознае със уеб сигурността, основни заплахи и съвети как да се справим с тях. Запознава със цифровия подпис, какво представлява, за какво помага, какви предимства има и как да го създадем.","уеб сигурност, цифров подпис, електронен подпис",
+,,,,NA,[1] http://webtech.w3c.fmi.uni-sofia.bg/w14labs/GIT_BG.html,,,,,,
+,,,130,Криптографско API в Web,"[1] https://www.w3.org/TR/WebCryptoAPI/
+
+[1] https://developers.cloudflare.com/workers/runtime-apis/web-crypto#supported-algorithms
+[2] https://docs.w3cub.com/dom/web_crypto_api/supported_algorithms/
+[3] https://webkit.org/blog/7790/update-on-web-cryptography/
+[4] https://dev.to/voraciousdev/a-practical-guide-to-the-web-cryptography-api-4o8n
+[5] https://techterms.com/definition/cryptography#:~:text=Cryptography%20is%20the%20science%20of,used%20to%20protect%20digital%20data.","[1] https://www.w3.org/TR/WebCryptoAPI/
+[2] https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences
+[3] https://github.com/diafygi/webcrypto-examples
+[4] https://dev.to/voraciousdev/a-practical-guide-to-the-web-cryptography-api-4o8n
+[5] https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto","1. Въведение
+2. Концепции
+3. Криптографски операции
+4. Сценарии",,"Идеята на презентацията да запознае слушателите с основни криптографски концепции като симетрично и асиметрично криптиране, както и трите интерфейса на Web Crypto API. Разглеждаме няколко фундаментални метода за манипулация на данни и криптографски ключове, като тези методи принадлежат на SubtleCrypto интерфейса. Като за финал се запознаваме с две приложения на API-то в реални системи.","криптография, симетрично криптиране, асиметрично криптиране, публичен ключ, частен ключ, декриптиране, Javascript",
+,,,131,Интернационализация с JavaScript. Globalize.,"[1] https://www.sitepoint.com/how-to-implement-internationalization-i18n-in-javascript/
+
+[1] https://www.sitepoint.com/how-to-implement-internationalization-i18n-in-javascript/
+[2] https://github.com/globalizejs/globalize
+[3] https://phrase.com/blog/posts/step-step-guide-javascript-localization/
+[4] https://github.com/sitepoint-editors/introducing-globalize
+[5] https://ipdata.co/blog/guide-to-internationalization-in-javascript/",,,,,,
+,,,,NA,,,,,,,
+,,,133,The App Shell model архитектура for Progressive Web App (PWA),[1] https://developers.google.com/web/fundamentals/architecture/app-shell,,,,,,
+,,,134,Запис на потребителско видео през уеб,[1] https://developers.google.com/web/fundamentals/media/recording-video,,,,,,
+,,,,Уеб технологиите в разработването на мобилни приложения с React Native,"[1] https://reactnative.dev/
+[2] https://github.com/facebook/react-native
+[3] https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df",,,,,,
+,,,,motion UI,[1] https://zurb.com/playground/motion-ui,,,,,,
+,,,137,Инсталиране и настройка на Apache сървър под линукс и Windows. Активиране на vhost и https. ,"[1] http://httpd.apache.org/docs/2.4/
+[2] https://letsencrypt.org/getting-started/
+[3] https://github.com/certbot/certbot/issues/1985 
+[4] https://certbot.eff.org/lets-encrypt/debianbuster-apache
+[5] https://httpd.apache.org/docs/current/mod/directives.html
+[6] http://httpd.apache.org/download.cgi
+[7] https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-debian-10
+","[1] https://www.layerstack.com/resources/tutorials/Installing-Apache-server-on-Linux-Cloud-Servers
+[2] https://www.sitepoint.com/how-to-install-apache-on-windows/
+[3] https://httpd.apache.org/docs/2.4/vhosts/examples.html
+[4] https://ubuntu.com/tutorials/install-and-configure-apache#5-activating-virtualhost-file
+[5] https://www.hostinger.com/tutorials/what-is-apache","1. Що е то Apache?
+2. Уеб сървър
+3. VHOST
+4. Инсталиране и конфигуриране на Apache под Linux
+5. Конфигуриране на vhost
+6. Инсталиране и конфигуриране на Apache под Windows
+7. Конфигуриране на vhost",,"Запознаване с Apache, web server и vhost. Инструкции за исталиране и конфигуриране на Apache под Линукс и под Уиндоус.",,
+,,,138,Frontend интернационализация на уеб приложения,"[1] https://www.smashingmagazine.com/2014/06/css-driven-internationalization-in-javascript/
+[2] https://css-tricks.com/snippets/css/internationalization-language-css/",,,,,,
+,,,139,"Safe Exam Browser (SEB) и SEBConfigTool - архитектура, настройки и начини на употреба.",[1] https://safeexambrowser.org/windows/win_usermanual_en.html#starting,,,,,,
+,,,140,OpenID Connect,"[1] https://auth0.com/docs/protocols/openid-connect-protocol
+[2] The OpenID Connect Handbook
+[3] https://openid.net/specs/openid-connect-core-1_0.html
+[4] https://www.gluu.org/blog/oauth-vs-openid-whats-the-difference/
+[5] https://developers.onelogin.com/openid-connect
+[6] https://www.okta.com/identity-101/whats-the-difference-between-oauth-openid-connect-and-saml/
+[7] https://auth0.com/docs/flows/hybrid-flow  
+[8] https://openid.net/connect/faq/","[1]https://connect2id.com/learn/openid-connect?fbclid=IwAR1IvYGUigaTFgjiyJX2oOdCRL0CTNWSeT3Xio3-2zEALGmBlcmrHYIM5JA
+[2]https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2?fbclid=IwAR126yB8rcHuPXZiCJidPBzn3V6p9Ut8xuDr93S8fQEEPsL5PRAxNZpYg0g
+[3]https://connect2id.com/learn/oauth-2
+[4]https://datatracker.ietf.org/doc/html/rfc6749",1. Въведение със Скалата 2. Какви проблеми има 3. Как OpenID Connect ги решава   ,"Дал съм пример, използвайки следния сайт: https://openidconnect.net/ , който е направен за симулиране на един OpenID Connect flow. Там ясно се вижда всяка стъпка и как токените и кодовете се разменят. ","Запознаване с OpenID Connect, проблемите, който решава, неговата конкуренция от страна на SAML и връзката му със OAuth2. ","OpenID Connect, Single Sign on, OAuth2, SAML",
+w15,,,141,CSS Grid,"[1] https://www.freecodecamp.org/news/complete-css-grid-tutorial/
+[2] https://1linelayouts.glitch.me/ 
+[3] https://web.dev/content-visibility/
+[4] https://css-tricks.com/snippets/css/complete-guide-grid/
+[5] https://www.w3schools.com/css/css_grid.asp","[1]https://css-tricks.com/snippets/css/complete-guide-grid/
+[2]https://gridbyexample.com/examples/
+
+
+","1. Основи
+2. Grid Container
+3. Grid Item
+4. Grid в действие
+5. За автора
+6. Източници","Има кратки примери за всяко от 
+изброените свойства, както и 
+няколко по-големи примера в 
+последния раздел, ползващи
+комбинация от няколко свойства","Запознаване със системата за 
+позициониране на елементи CSS 
+Grid, с подробно разглеждане на
+наличните свойства, всяко едно 
+илюстрирано с пример.
+ 
+","CSS, HTML, grid, item, container, разполагане, 
+позициониране, мрежа",
+w15,,,142,"Session and state management in ASP.NET Core","[1] https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-3.1
+[2] Cache in-memory in ASP.NET Core - by Rick Anderson, John Luo, and Steve Smith https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-5.0",[3]https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-6.0,,,,,
+,,,143,Spring Boot + Session Management,[1] https://www.javainuse.com/spring/springboot_session,"[1] https://www.baeldung.com/spring-boot-start
+[2] https://medium.com/adessoturkey/introduction-to-spring-boot-458cb814ec1
+[3] https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm
+[4] https://www.javadevjournal.com/spring/spring-session","1. Въведение в Spring и Spring Boot
+2. Примерно приложение със Spring Boot
+3. Въведение в Spring Session
+4. Добавяне на Spring Session към
+    примерното приложение","Има примерен код за Spring Boot
+приложение със прост фронт-енд,
+REST API и използване на
+Spring Session","Запознаване със Spring Boot и
+Spring Session чрез създаване
+на примерно приложение","Spring, Boot, Session, Java, HTTP",
+,,,,ORM in Php (НЕ),"[1] https://www.doctrine-project.org/
+",,,,,,
+,,,145,Real-world bad practices in HTML,"[1] https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+[2] https://www.webfx.com/blog/web-design/20-html-best-practices-you-should-follow/ 
+[3] https://google.github.io/styleguide/htmlcssguide.html 
+[4] https://www.sitepoint.com/how-good-are-your-html-and-css-comments/
+[5] https://www.campaignmonitor.com/blog/email-marketing/2019/05/correct-doctype-to-use-in-html-email/
+[6] https://www.problogdesign.com/general-tips/30-bad-practices-of-web-designers/  
+[7] https://www.accessibility-developer-guide.com/examples/headings/bad-example/  
+[8] https://www.netguru.com/blog/10-common-front-end-mistakes-and-how-to-avoid-them  
+[9] https://www.whoishostingthis.com/resources/html-for-beginners/  
+[10] https://www.htmhell.dev/
+[11] https://itnext.io/html-underrated-tags-119ef3e45b94  
+[12] http://html5doctor.com/avoiding-common-html5-mistakes/  
+[13] https://www.htmhell.dev/
+","[1]https://line25.com/articles/10-html-tag-crimes-you-really-shouldnt-commit
+[2]https://www.tatianeaguirres.com/blog/2020-12-28-10-bad-frontend-practices-to-let-go-before-the-new-year/
+[3]https://www.w3schools.com/html/html5_syntax.asp","1.Въведение
+2.Неправилно използвани тагове и често срещани грешки
+ - Използване на ""Inline Style""
+ - Записване на текст с главни букви
+ - Погрешно използване на <section>
+ - Погрешно използване на <nav>
+ - Погрешно използване на <figure>
+ - Използване на булеви атрибути
+3.Десет често срещани лоши практики в HTML
+ - (block) и (inline) елементи
+ - Липсващ ALT атрибут
+ - Използване на списък
+ - Тагове <b> и <i>
+ - Тагът за нов ред <br/>
+ - Тагове <s> и <strike>
+ - ""Inline style"" - border
+ - Текст форматиращи таговете
+ - Тагове <blink> и <marquee>
+4.Лоши практики в истински сайтове
+ - Неефективен ""placeholder""
+ - Бутон чрез таг за линк
+ - Лошо представено меню
+ - Изображение за бутон
+5.Коментари в кода
+6.Ресурси",Примерен код за всяка лоша практика представена в реферата и код с възможен начин за предотвратяване на тази практика.,"Презентацията цели да представи, кои са често срещаните лоши практики при писането на HTML код. Как да избягваме тези лоши практики и какви възможни решения има за подобряването на код, който е написан чрез тези лоши практики.  Също така са представени и добри и лоши практики при писането на коментари към кода и защо коментарите са полезни. В презентацията е представен и пример за лоша практика, която се срещат в реални сайтове и също така как би могло да бъдат коригирана, като в реферата са представени повече примери.  ","HTML, лоши практики, тагове, ""Inline Style"", коментари в кода",
+,,,,Изграждане на настолни приложения посредством уеб технологии (Electron),"[1] https://www.electronjs.org/docs
+[2] https://medium.com/@voltx180/a-beginners-guide-to-electron-js-1679fd7b6e4f
+[3] https://levelup.gitconnected.com/creating-an-app-for-mac-using-electron-react-express-rollup-yarn-and-supercollider-843740672d6
+[4] https://www.intertech.com/why-major-companies-are-using-electron-to-build-cross-platform-apps/
+[5] https://docs.npmjs.com/creating-a-package-json-file
+[6] https://blog.stevensanderson.com/2019/11/01/exploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app/",,,,,,
+,,,147,Добри практики в PHP. Примери.,"[1] https://phptherightway.com/
+[2] https://wiki.php.net/rfc 
+https://phpbestpractices.org/
+https://www.php.net/
+https://lokalise.com/blog/internationalization-vs-localization/",,,,,,
+,,,148,"Разлики при криптиране, хеширане и посоляване (salt vs. pepper)
+","[1] https://en.m.wikipedia.org/wiki/Pepper_(cryptography)
+[2] https://www.php.net/manual/en/function.password-hash.php 
+https://www.thesslstore.com/blog/difference-encryption-hashing-salting/ 
+https://www.comparitech.com/blog/information-security/encryption-hashing-salting/
+
+https://cybernews.com/security/hashing-vs-encryption/
+
+","Някои се повтарят
+[1] https://www.thesslstore.com/blog/difference-encryption-hashing-salting
+[2] https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.741.6752&rep=rep1&type=pdf
+[3] https://searchsqlserver.techtarget.com/definition/hashing
+[4] https://php.watch/articles/php-hash-benchmark
+[5] https://www.php.net/manual/en/function.hash.php
+[6] https://en.m.wikipedia.org/wiki/Pepper_(cryptography)
+[7] https://en.m.wikipedia.org/wiki/Salt_(cryptography)
+[8] https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/","1.Криптиране 
+2.Хеширане
+3.Salt vs Pepper",,"Презентацията цели да създаде начална представа за криптирането и хеширането, като засегне основните прилики и разлики. Също така да покаже какво представлява посоляването и да даде някои негови разновидности/подобрения/засилвания.","криптография, криптосистеми, хеширане, хеш, ключове, посоляване, salt and pepper, php хеширане",
+,,,149,Шаблон за уеб тестване blackhole-proxy,[1] https://www.automatetheplanet.com/black-hole-proxy-pattern/,,,,,,
+,,,150,WebXR,"[1] https://immersive-web.github.io/webxr-samples/
+[2] https://www.w3.org/TR/webxr/
+[3] https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API","[1] https://threejs.org/examples/?q=webxr
+[2] https://xr4all.eu/xr/
+[3] https://en.wikipedia.org/wiki/Reality%E2%80%93virtuality_continuum
+[4] https://github.com/godber/presentations.phxvr.org/blob/main/webvr-1/reveal.js/markdown.md","1. Reality-virtuality continuum
+2. XR устройства
+3. Какво е WebXR 
+4. Как се използва WebXR
+5. Пример с AR
+6. Пример с VR",,"Запознаване с основните понятия свързани с разширената реалност, WebXR интерфейса и два примера- за AR и VR",,
+,,,151,Създаване на тестове за уеб посредством headless браузър ,"[1] https://www.automatetheplanet.com/headless-execution-webdriver-tests-edg/
+https://saucelabs.com/blog/headless-browser-testing-101
+https://www.softwaretestinghelp.com/headless-browser-testing/
+https://phantomjs.org/
+https://htmlunit.sourceforge.io/
+https://medium.com/@koalamango/headless-testing-with-phantomjs-and-casperjs-9f6c5f975087
+https://www.methodsandtools.com/tools/casperjs.php
+https://codecept.io/puppeteer/
+https://www.softwaretestingmaterial.com/headless-browser-testing-using-htmlunitdriver/
+https://www.toolsqa.com/selenium-webdriver/selenium-headless-browser-testing/
+https://www.selenium.dev/ecosystem/
+https://medium.com/@koalamango/headless-testing-with-phantomjs-and-casperjs-9f6c5f975087
+http://docs.casperjs.org/en/latest/modules/index.html
+https://github.com/ariya/phantomjs/issues/15344
+https://codilime.com/software-testing-best-practices-for-2020-and-beyond/
+https://www.browserstack.com/guide/10-test-automation-best-practices
+https://www.blazemeter.com/blog/top-15-ui-test-automation-best-practices-you-should-follow",,,,,,
+,,,152,Jenkins Pipeline,"[1] https://www.jenkins.io/doc/book/pipeline/
+[2] https://www.lambdatest.com/blog/what-is-jenkins/
+[3] https://www.jenkins.io/doc/pipeline/tour/hello-world/
+[4] https://www.guru99.com/jenkin-continuous-integration.html
+[5] https://www.jenkins.io/solutions/pipeline/
+[6] https://www.jenkins.io/doc/book/pipeline/jenkinsfile/","[7] https://www.edureka.co/blog/what-is-jenkins/ 
+[8] https://www.guru99.com/jenkins-pipeline-tutorial.html
+[9] https://www.tutorialandexample.com/advantages-and-disadvantages-of-jenkins/
+[10] https://www.cloudbees.com/jenkins/what-is-jenkins
+[11] https://en.wikipedia.org/wiki/Oracle_Corporation","1. Въведение
+2. История
+3. Какво представлява?
+4. Защо Jenkins?
+5. Как работи?
+6. Pipeline
+7. Заключение",,,"pipeline, integration, git, server, plugins","Трябва да довърша Pipeline секцията. Там мисля да сложа реален пример как може да се интегрира дженкинс в текущия проект.
+
+Да добавя още снимки"
+,,,153,Новият подход за ранкиране в гугъл: Core Web Vitals,"[1] https://nitropack.io/blog/post/core-web-vitals-everything-you-need-to-know#.XvM42hU9tVU.facebook
+[2] https://yoast.com/core-web-vitals/",,,,,,
+,,,154,Онион рутиране,"[1] https://www.onion-router.net/Publications/CACM-1999.pdf
+[2] https://en.wikipedia.org/wiki/Onion_routing
+[3] https://www.youtube.com/watch?v=QRYzre4bf7I  
+ https://www.youtube.com/watch?v=lVcbq_a5N9I
+https://www.avast.com/c-vpn-proxy-tor-which-is-best 
+https://www.linuxjournal.com/content/tor-hidden-services 
+https://en.wikipedia.org/wiki/Onion_routing
+https://cdn.ttgtmedia.com/rms/pdf/Hiding%20Behind%20the%20Keyboard_Ch%202.pdf
+https://metrics.torproject.org/networksize.html?start=2020-08-11&end=2020-11-09
+https://trac.torproject.org/projects/tor/wiki/TorRelayGuide
+https://www.youtube.com/watch?v=gIkzx7-s2RU",https://www.fortinet.com/resources/cyberglossary/proxy-server   https://www.usnews.com/360-reviews/vpn/what-is-a-vpn   https://www.geeksforgeeks.org/onion-routing/   http://geography.oii.ox.ac.uk/the-anonymous-internet/   https://en.wikipedia.org/wiki/Garlic_routing   https://www.kaspersky.com/blog/deep-web-dark-web-darknet-surface-web-difference/38623/,"1.Въведение
+2.Какво е прокси?
+3.Какво е VPN?
+4.Онион рутиране
+5.Допълнения, и промени по онион рутирането
+6.Относно дълбоката и мрачната мрежи
+7.Малко статистики за TOR",Примерен код за създаване на скрита услуга,"Презентацията цели да запознае с технологията ""онион рутиране"" - начин на действие, плюсове и минуси","onion routing, proxy, vpn, tor, garlic routing, deep web, dark web, nodes, layers, keys",
+,,,,Elm за уеб  (НЕ),"[1] https://elm-lang.org/ 
+[2] https://blog.bitsrc.io/getting-started-with-elm-language-for-web-apps-49418c6adc17?gi=40e20eda9e73
+[3] https://guide.elm-lang.org/
+[4] https://elmprogramming.com/
+[5] https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/
+[6] https://auth0.com/blog/a-brief-history-of-javascript/
+[7] https://guide.elm-lang.org/
+[8] https://elmprogramming.com/
+[9] https://elm-lang.org/assets/papers/concurrent-frp.pdf
+[10] https://redux.js.org/understanding/history-and-design/prior-art
+[11]https://using.tech/posts/elm/",,,,,,
+,2018_19_new_12ed,,,Large-scale Geospatial Visualization with kepler.gl (НЕ),"[1] https://kepler.gl/ 
+[2] https://www.youtube.com/watch?v=y-SA6bOv4Eo",,,,,,
+,2020_21_w16,,157,Browser Object Model (BOM),[1] https://www.javatpoint.com/browser-object-model,[1]https://devtut.github.io/javascript/bom-browser-object-model.html#introduction                   [2]https://doi.org/10.1002/9781118722176.ch8                                                                     [3]https://doi.org/10.1002/9781119209423.ch8                                                        [4]https://doi.org/10.1002/9781119366560.ch12,"1.Browser Object Model 
+2.Window обект
+3.Location обект
+4.Navigation обект
+5.History обект
+6.Screen обект
+7.Document обект
+8.Обобщение
+","Съдържат графика наBOM,  както и примери с код показващи как работят определени функции.","Презентацията цели да запознае читателя с основите на BOM структурата му, основните обекти и техните най- опотребявани методи. ","BOM, window, location, navigator, scree, history, documen, assign, replace",
+,2020_21_w16,,158," CSS Object Model (CSSOM),","[1] https://developer.mozilla.org/en-US/docs/Web/Houdini
+[2] https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
+[3] https://css-tricks.com/an-introduction-and-guide-to-the-css-object-model-cssom/","[1] https://developer.mozilla.org/en-US/docs/Web/Guide/Houdini
+[2] https://developer.mozilla.org/en-US/docs/Web/API/CSS_Properties_and_Values_API/guide
+[3] https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
+[4] https://css-tricks.com/an-introduction-and-guide-to-the-css-object-model-cssom/
+[5] https://developer.mozilla.org/en-US/docs/Web/API/CSS_Typed_OM_API
+[6] https://www.hongkiat.com/blog/css-object-model-cssom/",,,Различни API-та за динамично променяне на CSS и примери,"CSS, CSSOM, JavaScript",
+,2020_21_w16,,159,JSONP и JSON,"[1] https://www.w3schools.com/js/js_json_jsonp.asp
+[2] https://blog.logrocket.com/jsonp-demystified-what-it-is-and-why-it-exists/
+[3] https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
+","[1] Jonathan Freeman, “What is JSON? A better format for data exchange“, публикуван на Oct 25, 2019, (https://www.infoworld.com/article/3222851/what-is-json-a-better-format-for-data-exchange.html)
+[2] MDN Contributors, “Working with JSON”, последно редактиран на Oct 8, 2021, (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+[3] Squarespace Contributors, “What is JSON?”, последно посетен на Nov 20, 2021, (https://developers.squarespace.com/what-is-json)
+[4] Oracle Contributors, “What is JSON”, последно посетен на Dec 10, 2021, (https://www.oracle.com/database/what-is-json/)
+[5] Jason Lengstorf, “JSON: What It Is, How It Works, & How to Use It”, публикуван на July 2, 2009, (https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
+[6] Benjamin Krause, ""What’s JSON? Practical basic knowledge"", последно редактирана на Oct 12, 2021, (https://www.opc-router.com/what-is-json/)
+[7] Maciej Cieślar, “JSONP demystified: What it is and why it exists”, публикуван на Nov 21 2019, (https://blog.logrocket.com/jsonp-demystified-what-it-is-and-why-it-exists/)
+[8] Newbedev Contributors, ”What is JSONP, and why was it created?”, последно посетен на Nov 18, 2021, (https://newbedev.com/what-is-jsonp-and-why-was-it-created)
+[9] FileCloud Blog Contributors, ”Using JSONP for cross domain requests”, последно посетен на Nov 18, 2021, (https://www.getfilecloud.com/blog/using-jsonp-for-cross-domain-requests/)
+[10] Kunal Tandon, “Understanding JSON, JSONP, CORS and bypassing CORS with JSONP”, публикуван на Aug 30 2019, (https://medium.com/developers-arena/understanding-json-jsonp-cors-and-bypassing-cors-with-jsonp-fa5f0cc4edd4)
+[11] Dylan Tack, “Using JSONP Safely”, публикуван на Sep 24 2010, (https://www.metaltoad.com/blog/using-jsonp-safely)
+[12] MDN Contributors, “Cross-Origin Resource Sharing (CORS)"", последно редактиран на Oct 30 2021, (https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+[13] W3Schools Contributors, “JSONP”, последно посетен на Nov 20, 2021, (https://www.w3schools.com/js/js_json_jsonp.asp)
+[14] MDN Contributors, “Same-origin policy”, последно редактиран на Oct 14 2021, (https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)","1. JSON - JavaScript Object Notation
+1.1. Какво е JSON 
+1.2. Анатомия на JSON формата
+1.3. Примерни данни в JSON формат
+1.4. Използване на формата JSON
+1.5. JSON или XML
+1.6. REST vs SOAP: връзката JSON
+1.7. Ограничения при JSON формата
+1.8. Получаване на JSON документ
+2. JSONP - JSON с Padding 
+2.1. Какво е JSONP
+2.2. Как работи JSONP
+2.3. Ограничения на техниката JSONP 
+2.4. Как работи CORS накратко
+","1. Пример за допустимите видове стойности в JSON формат
+2. Пример за представянето на данни в JSON формат
+3. Пример за представянето на данни в XML формат
+4. Пример за получаване на JSON документ
+5. Пример за работа с JSONP техниката ","Първата част на презентацията цели да запознае четящия с JSON формата - неговия синтаксис, доспустими типове, кога се ползва и как, неговите предимства и недостатъци. Кратко представяне на неговия предшественик XML формата и защо JSON e по-предпочитан. Втората част на презентацията цели да запознае четящия с JSONP техниката - техника позволяваща обмена на данни в JSON формат между домейни от различен произход. Споменати се нейните недостатъци и алтернативното съвремненно решение CORS. ","JSON, JavaScript Object Notation, Javascript, REST, SOAP, XML, JSONP, JSON with Padding, Same origin policy, Cross-Origin Resource Sharing, CORS, Cross-Site Scripting, XSS",
+,2020_21_w16,,,NA,,,,,,,
+,2020_21_w16,,161,Конвенции за писане на качествен код с PHP. Примери.,"[1] https://laravel.com/docs/8.x/contributions#security-vulnerabilities
+[2] https://doc.owncloud.org/server/9.0/developer_manual/general/codingguidelines.html","[1] https://phptherightway.com/
+[2] https://phpbestpractices.org/",,,,,
+,2020_21_w16,,162,"Малко популярни тагове в HTML (например: progress, meter, blockquote, audio, output, picture, template,  time, video, wbr)","[1] http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/
+[2]  http://thenewcode.com/866/Using-The-HTML5-progress-Element 
+[3] https://css-tricks.com/html5-progress-element/
+[4] https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+[5] https://dev.to/emmabostian/10-html-element-you-didnt-know-you-needed-3jo4
+","[1] https://www.computerhope.com/jargon/h/html-progress-tag.htm#examples
+[2] https://www.w3schools.com/tags/tag_meter.asp
+[3] https://www.oxfordwebstudio.com/en/did-you-know/what-is-html
+[4] https://http//www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/
+[5] [https://www.w3schools.com/tags
+
+
+","1. Увод
+2. Тагът <progress>
+3. Taгът <meter>
+4. Taгът <blockquote>
+5. Taгът <audio>
+6. Taгът <output>
+7. Taгът <picture>
+8. Taгът <template>
+9. Taгът <time>
+10. Taгът <video>
+11. Taгът <wbr>",,"Презентацията запознава с няколко 
+по-малко популярни HTML тага.
+","HTML, less,popular,tags,progress,
+meter, blockquote,audio, output,
+picture, template, time,video, wbr",
+,2020_21_w16,,163,Генератори на CSS,"[1] https://www.smashingmagazine.com/2021/03/css-generators/
+",[1]  https://shadows.brumm.af/                                                                                                 [2]  https://9elements.github.io/fancy-border-radius/#30.30.30.33--                               [3] https://larsenwork.com/easing-gradients/                                                                       [4] https://learnui.design/tools/data-color-picker.html#palette                                         [5] https://codepen.io/yaphi1/pen/oNbEqGV                                                                        [6] https://coolors.co/  ,"CSS генератори, свойства и функции свързани с тях","За всеки генератор има пример, показващ какво прави генератора","Разгледани са няколко онлайн CSS генератора, както и техните характеристики","CSS generators, gradient, box-shadow,fluid typography,palette generator,border-radius",
+,2020_21_w16,,164,Инспектиране на CSS анимации,"[1] https://developer.chrome.com/docs/devtools/css/animations/
+",,,,,,
+,2020_21_w16,,165,Работа с менюта - примери.,[1] https://css-tricks.com/in-praise-of-the-unambiguous-click-menu/,[1] https://www.codinglabweb.com/2021/05/drop-down-navigation-bar-html-css.html     [2]https://css-tricks.com/solved-with-css-dropdown-menus/ [3]https://www.smashingmagazine.com/2009/03/designing-drop-down-menus-examples-and-best-practices/,"1. Увод
+2. Падащи менюта
+3. Какво всъщност е <menu> елементът в html
+4. Видове менюта
+  4.1. Задействани от курсора на мишката менюта
+  4.2. Менюта за разделяне на бутона
+  4.3. Задействани при щракване
+5. Добри практики - примери
+
+","За всяка реализация на меню (с кликване, със задържане на курсора върху нея) има примери","Презентацията разглежда различни начини за създаване на меню, както и техните пюсове и минуси. Предоставени са примери за използването им.","menu, CSS, hover-triggered menus, click-triggered menus, ",
+,2020_21_w16,,166,Достъпност в уеб (accesability),"[1] https://www.smashingmagazine.com/2021/03/good-better-best-untangling-complex-world-accessible-patterns/
+[2] https://stevefaulkner.github.io/HTML5accessibility/","[1] https://www.w3.org/WAI/fundamentals/accessibility-intro/ 
+[2] https://www.w3.org/WAI/business-case/ 
+[3] https://www.w3.org/WAI/media/av/users-orgs/#benefits
+[4] https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+/HTML
+[5] https://uxmag.com/articles/accessibility-in-ux-the-case-for-
+radical-empathy
+[6] https://www.w3.org/TR/media-accessibility-reqs/#summary-
+of-accessible-media-requirements-by-type-of-disability
+","1. Какво е уеб достъпност?
+2. Кого се стремим да достигнем?
+3. Защо е важно Web да бъде
+достъпен?
+4. Бизнес аргументи за ползите от 
+дигитална достъпност
+5. Как да проектираме с мисъл за 
+достъпност?
+6. Използвана литература","Примери за това как да се 
+използват дадени HTML елементи
+с мисъл за достъпност","Разгледано е защо е важно уеб да 
+бъде достъпен, както за хората
+с увреждания така и за хората
+без такива. 
+Обърнато е внимание 
+на видовете увреждания и
+нуждите на хората за пълноценно
+използване на уеб. 
+Дадени са примери за проектиране
+с мисъл за достъпност и бизнес
+ползите от това","достъпност, увреждания, 
+приобщаваща практика, осезаемост,
+използваемост, разбираемост, 
+съвместимост, добра семантика, 
+текстова алтернатива",
+,2020_21_w16,,167,RDBMS за уеб.Основни операции по експорт/импорт на Mysql 8. Нови характеристики.,[1] https://www.codeproject.com/Tips/5297218/Top-8-New-SQL-Features-of-MySQL-8,,,,,,
+,2020_21_w16,,168,Работа с различните хора в екипа по Уеб базиран софтуерен проект,[1] https://www.howtodeal.dev/,,,,,,
+,2020_21_w16,,169,Работни рамки в уеб - характеристики и примери,"[1] Chris Nokleberg and Brad Hawkes. 2021. Best Practice: Application Frameworks: While powerful, frameworks are not for everyone. Queue 18, 6, Pages 40 (November-December 2020), 26 pages. DOI:https://doi.org/10.1145/3442632.3447806
+",,,,,,
+,,,170,Microservices / микроуслуги,[1] https://selects.acm.org/selections/getting-started-with-microservices,[1] https://www.oreilly.com/content/a-quick-and-simple-definition-of-microservices/         [2]https://enterprisersproject.com/article/2017/8/how-explain-microservices-plain-english   [3] https://www.marcobehler.com/guides/java-microservices-a-practical-guide#_java_microservice_architecture        [4]https://regupathit.medium.com/quarkus-vs-micronaut-a-deep-comparison-84cae4fea966,,,,,
+,,,171,Добавяне на React към уеб сайт,"https://reactjs.org/docs/add-react-to-a-website.html
+https://medium.com/better-programming/how-to-embed-a-react-application-on-any-website-1bee1d15617f","[1] https://reactjs.org/docs/add-react-to-a-website.html
+[2] https://betterprogramming.pub/how-to-embed-a-react-application-on-any-website-1bee1d15617f
+[3] https://www.youtube.com/watch?v=YnrgTBdhgV4
+[4] https://reactjs.org/docs/getting-started.html
+[5] https://reactjs.org/tutorial/tutorial.html
+[6] https://create-react-app.dev/docs/deployment/
+[7] https://github.com/jollyjerr/react-widget
+[8] https://gist.githubusercontent.com/gaearon/0b180827c190fe4fd98b4c7f570ea4a8/raw/b9157ce933c79a4559d2aa9ff3372668cce48de7/LikeButton.js
+[9] https://gist.github.com/gaearon/246f6380610e262f8a648e3e51cad40d","1.Реакт, Началото
+2.Динамична добавка или Ново начало
+3.Изборът бе направен
+4.За една минута
+5.Няколко съвета за продуктивност
+6.Ами как се прави с JSX?
+7.Бърза проба
+8.Добавяне на JSX към проект
+9.Пускането на JSX препроцесорът
+10.Финалът",Пример за това как се вгражда React компонент към статична уеб страница,"Презентацията ще ни запознае с една черта на ReactJS фреймуърка - вграждането му към уеб страници. За целта ще разгледаме двата основни начина, описани в официалната документация и поднесени с авторска нотка.","ReactJS, добавки, допълнително съдържание, интегриране на функционалности с реакт, npm, npx, html, css, adding react component to static web page",
+,,,172,"lite server , BrowserSync",https://www.npmjs.com/package/lite-server,,,,,,
+,,,173,Дефиниция на свършената работа в SCRUM и приложението и в уеб проектите(Definition of Done),[1] https://dzone.com/articles/definition-of-quotdonequot-canvas,[1] https://www.agilealliance.org/glossary/definition-of-done/,,,,,
+,,,174,Лоши практики в уеб приложенията,"API Practices If You Hate Your Customers, By Thomas A. Limoncelli
+Communications of the ACM, December 2019, Vol. 62 No. 12, Pages 38-42
+, <URL: https://cacm.acm.org/magazines/2019/12/241052-api-practices-if-you-hate-your-customers/fulltext>","[1] https://www.toptal.com/web/top-10-mistakes-that-web-developers-make
+[2] – https://www.redhat.com/en/topics/api/what-is-a-rest-api
+[3] – https://www.ravedigital.agency/blog/cross-browser-compatibility/
+[4] – https://freshsparks.com/common-web-design-mistakes-to-avoid/
+[5] – https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/
+[6] – https://www.lemonandthesea.com/blog/20-common-web-design-mistakes-2021"," - Лоша практика 1. Недовършена валидация на входните данни         - Лоша практика 2. Некачествена “RESTful” архитектура                                  - Лоша практика 3. Несъвместимост на приложението с различните браузъри                     - Лоша практика 4. Липса на дизайн, адаптиран към различни по размер екрани                             - Лоша практика 5. Липса на SSL сертификат                                       - Още лоши практики","За почти всички лоши практики има включени примери съврзани с тях. Има примери за SQLI, сгрешена Restful архитектуа на приложението и др.","В презентацията са представени някои от лошите практики от реферата. Подборът им е съобразен с времето за презентиране. Освен какви са те, присъства и информация относно това до какво биха довели и как да се справим с някои от тях.","лоши практики, проблеми, последствия, подходи, предотвратяване, примери ",
+,,,175,Дизайн на сайт - подход с точност до пиксел (pixel perfect),"[1] ""Design a pixel-perfect website"", https://alexcican.com/post/pixel-perfect/",,,,,,
+,,,176,NA,,,,,,,
+,,,177,NA,,,,,,,
+,,,178,NA,,,,,,,
+,,,179,NA,,,,,,,
+,,,180,NA,,,,,,,
