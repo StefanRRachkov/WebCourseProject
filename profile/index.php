@@ -62,18 +62,23 @@
 
             <p class='empty-message' <?php echo count($referats) > 0 ? 'hidden' : '' ?>>You have not taken any referats :(</p>
 
-            <ul class="referat-list" <?php echo count($referats) == 0 ? 'hidden' : '' ?>>
+            <table class="referat-list" <?php echo count($referats) == 0 ? 'hidden' : '' ?>>
                 <?php 
                     foreach ($referats as $ref) {
                         $title = $ref['Title'];
                         $id = $ref['Book_ID'];
+                        $edition = $ref['CourseEdition'];
 
                         $button = "<button class='return-button' referat-id=$id onClick='remove(event)'>Return</button>";
 
-                        echo "<li><a href='#'>$title</a>$button</li>";
+                        echo "<tr>";
+                            echo "<td><a href='#'>$title</a></td>";
+                            echo "<td>Edition $edition</td>";
+                            echo "<td>$button</td>";
+                        echo "</tr>";
                     }
                 ?>
-            </ul>
+            </table>
         </div>
     </section>
 
