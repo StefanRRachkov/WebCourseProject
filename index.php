@@ -14,9 +14,11 @@
 </head>
 
 <?php
+    include 'backend/DBConnection.php';
     session_start();
 
     $isLoggedIn = isset($_SESSION['user']);
+    $courseEditions = DBConnection::sharedInstance()->getCourseEditions();
 ?>
 
 <body>
@@ -94,12 +96,18 @@
                 <label for="email"> E-mail </label>
                 <input id="email" name="email" type="email" placeholder="E-mail" required>
 
-                <label for="ed"> Web Course Edition </label>
-                <select id="ed" name="ed" required>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
+                <label for="edition"> Web Course Edition </label>
+                <select id="edition" name="edition" required>
+                    <?php 
+                        foreach ($courseEditions as $value) {
+                            $edition = $value['CourseEditionID'];
+                            echo "<option value='$edition'>$edition</option>";
+                        } 
+                    ?>
                 </select>
+
+                <label for="fn"> Faculty Number </label>
+                <input id="fn" name="fn" type="number" placeholder="Faculty Number" required>
                 
                 <label for="pass"> Password </label>
                 <input id="pass" name="pass" type="password" placeholder="Password" required>
@@ -108,6 +116,8 @@
                 <input id="pass2" name="pass2" type="password" placeholder="Repeat Password" required>
 
                 <button>Register</button>
+
+                
             </form>
         </div>
 
