@@ -88,7 +88,7 @@ class DBConnection {
     }
   }
 
-  public function register($email, $password, $pass2, $first_name, $last_name, $course_edition) {
+  public function register($email, $password, $pass2, $first_name, $last_name, $course_edition, $faculty_number) {
     global $connection;
     
     if(strlen($password) < 6){
@@ -109,9 +109,9 @@ class DBConnection {
     $hashed_password = sha1($password);
     
     try {
-      $sql = 'INSERT INTO USERS (email, password, firstname, lastname, courseedition) VALUES (?, ?, ?, ?, ?)';
+      $sql = 'INSERT INTO USERS (email, password, firstname, lastname, courseedition, fn) VALUES (?, ?, ?, ?, ?, ?)';
       $stmt = $this->$connection->prepare($sql);
-      $result = $stmt->execute(array($email, $hashed_password, $first_name, $last_name, $course_edition));
+      $result = $stmt->execute(array($email, $hashed_password, $first_name, $last_name, $course_edition, $faculty_number));
     
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $this->$connection->lastInsertId();
