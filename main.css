@@ -102,6 +102,8 @@ nav {
 
 .login {
     width: 80%;
+    /* width: max-content; */
+
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -136,15 +138,17 @@ h1 {
     padding: 20px 20px;
     margin-bottom: 5%;
     flex-basis: 40%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     transition: 0.5s;
+    height: fit-content;
 }
+
 
 .signup-col h3 {
     text-align: center;
     font-weight: 600;
     line-height: 40px;
-    font-size: 30px;
+    font-size: 26px;
     margin: 10px 0px;
 }
 
@@ -162,7 +166,7 @@ h1 {
 
 .signup-col label {
     display: block;
-    margin-top: 30px;
+    margin-top: 12px;
     font-size: 16px;
     text-align: left;
 }
@@ -175,7 +179,7 @@ h1 {
     border: solid 1px #ffffff;
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 8px;
+    margin-top: 0px;
     font-size: 14px;
     width: 94%;
 }
@@ -188,13 +192,14 @@ h1 {
     border: solid 1px #ffffff;
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 8px;
+    margin-top: 0px;
     font-size: 14px;
     width: 100%;
 }
 
 .signup-col::placeholder {
     color: #e5e5e5;
+
 }
 
 .signup-col button {
