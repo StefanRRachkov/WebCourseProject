@@ -37,7 +37,7 @@ class DBConnection {
   public function getReferatsWithConditions($userId, $str_condition){
     global $connection;
 
-    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY WHERE (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId})");
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY  WHERE (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId}) AND COURSEEDITION = {$_SESSION['user_courseedition']}");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
@@ -80,6 +80,7 @@ class DBConnection {
   
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $result[0]['User_ID'];
+        $_SESSION['user_courseedition'] = $result[0]['CourseEdition'];
       } else {
         $_SESSION['loginError'] = "Wrong email or password";
       }

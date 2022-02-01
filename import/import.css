@@ -99,7 +99,7 @@ nav {
 }
 
 .edition-picker {
-    display: block;
+    display: flex;
     position: relative;
     background-color: rgba(255, 255, 255, 0.5);
     border: solid 1px #ffffff;

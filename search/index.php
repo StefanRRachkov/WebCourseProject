@@ -13,7 +13,6 @@
 
 <?php
     session_start();
-
     include '../backend/search.php';
 
     $isLoggedIn = isset($_SESSION['user']);
@@ -21,6 +20,8 @@
     if (!$isLoggedIn) {
         header('Location: ../index.php');  
     }
+
+    $courseEditions = DBConnection::sharedInstance()->getCourseEditions();
 ?>
 
 <body>
@@ -42,7 +43,6 @@
                         }
                     ?>
                     <li><a href="../aboutus/aboutUs.php">ABOUT US</a></li>
-                    <li><a href="#">COURSE EDITION</a></li>
                 </ul>   
             </div>
         </nav>
@@ -55,6 +55,24 @@
                 <input id="search_submit" value="Rechercher" type="submit">
               </form>
             </div>
+        </div>
+    </div>
+    <div class="edition-picker-wrapper">
+        <form id="course-edition-form"  action="../backend/search.php" method="POST" enctype="multipart/form-data">
+            <label for="edition">Course Edition</label>
+            <select name="edition" id="course_edition" class="edition-picker">
+                <?php 
+                    foreach ($courseEditions as $value) {
+                        $edition = $value['CourseEditionID'];
+                        echo "<option value='$edition'>$edition</option>";
+                    } 
+                ?>
+            </select>
+        </form>
+    </div>
+    <div class="pagination-wrapper">
+        <div class="pagination">
+            <a id="submit" class="page-numbers" href="#">submit</a>
         </div>
     </div>
     <div class="display">
@@ -82,7 +100,7 @@
 
 <script>
   var library = <?php 
-      echo json_encode($result); 
+        echo json_encode($result); 
     ?>;
   var library_content = document.getElementsByClassName('library')[0];
   var ref_card_list = [];
