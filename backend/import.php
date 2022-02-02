@@ -22,10 +22,14 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
           break;
       }
 
-      // id, title, references, keywords
-      array_push($valuesOfInterest, array($data[3] == '' ? NULL : $data[3], $data[4], $data[5], $data[10]));
+      // take the first keyword as the category
+      $category = explode(',', $data[10])[0];
+
+      // id, title, references, keywords, category
+      array_push($valuesOfInterest, array($data[3] == '' ? NULL : $data[3], $data[4], $data[5], $data[10], $category));
   }
 
+  // the file has only one row (the title row)
   if (count($valuesOfInterest) < 2) {
     $_SESSION['csvFileUploadError'] = 'The file has an unsupported structure';
   }
