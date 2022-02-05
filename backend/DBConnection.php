@@ -30,7 +30,7 @@ class DBConnection {
   public function getReferatsWithConditions($userId, $str_condition){
     global $connection;
 
-    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY  WHERE BOOK_ID NOT IN (SELECT BOOK_ID FROM EXPORTED_REFS WHERE EXPORTS >= MAX_EXPORTS) AND (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId}) AND COURSEEDITION = {$_SESSION['user_courseedition']}");
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY  WHERE BOOK_ID NOT IN (SELECT BOOK_ID FROM EXPORTED_REFS WHERE EXPORTS >= MAX_EXPORTS) AND (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId}) AND ({$_SESSION['user_courseedition']} IS NULL OR COURSEEDITION = {$_SESSION['user_courseedition']})");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
@@ -109,6 +109,7 @@ class DBConnection {
     
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $this->$connection->lastInsertId();
+        $_SESSION['user_courseedition'] = $course_edition;
       }
 
       $this->finishRegister();
