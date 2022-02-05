@@ -30,7 +30,7 @@ class DBConnection {
   public function getReferatsWithConditions($userId, $str_condition){
     global $connection;
 
-    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY  WHERE (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId}) AND COURSEEDITION = {$_SESSION['user_courseedition']}");
+    $query = $this->$connection->query("SELECT * FROM REF_LIBRARY  WHERE BOOK_ID NOT IN (SELECT BOOK_ID FROM EXPORTED_REFS WHERE EXPORTS >= MAX_EXPORTS) AND (MATCH(TITLE, KEYWORDS) AGAINST('%{$str_condition}%') OR '{$str_condition}' LIKE '' OR TITLE LIKE '%{$str_condition}%' OR KEYWORDS LIKE '%{$str_condition}%') AND BOOK_ID NOT IN (SELECT BOOK_ID FROM OWNED_REFS WHERE USER_ID = {$userId}) AND COURSEEDITION = {$_SESSION['user_courseedition']}");
 
     return $query->fetchAll(PDO::FETCH_ASSOC);
   }
@@ -152,6 +152,9 @@ class DBConnection {
     try {
       $sql = "DELETE FROM OWNED_REFS WHERE USER_ID = {$userId} AND BOOK_ID = {$referatId}";
       $this->$connection->exec($sql);
+
+      $return_sql = "UPDATE EXPORTED_REFS SET `Exports` = `Exports` - 1";
+      $this->$connection->exec($return_sql);
     } catch (Exception $e) {
       $_SESSION['profileError'] = $e->getMessage();
     }
@@ -165,6 +168,9 @@ class DBConnection {
     try {
       $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DEADLINE) VALUES(?, ?, ?)";
       $this->$connection->prepare($sql)->execute(array($userId, $referatId, date('Y-m-d H:i:s', $date)));
+
+      $export_sql = "INSERT INTO EXPORTED_REFS VALUES(?, ?, ?) ON DUPLICATE KEY UPDATE `Exports` = `Exports` + 1";
+      $this->$connection->prepare($export_sql)->execute(array($referatId, 1, Constants::$maxExportsPerReferat));
 
     } catch (Exception $e) {
       $_SESSION['profileError'] = $e->getMessage();
