@@ -120,6 +120,23 @@
     var ref_card = document.createElement("div");
     ref_card.classList.add("card");
 
+    if(ref["Category"].toLowerCase() == 'html')
+    {
+        ref_card.style.background = "url(../assets/html5.png)";
+    }
+    else if(ref["Category"].toLowerCase() == 'css')
+    {
+        ref_card.style.background = "url(../assets/css3.png)";
+    }
+    else if(ref["Category"].toLowerCase() == 'javascript')
+    {
+        ref_card.style.background = "url(../assets/js.png)";
+    }
+    else
+    {
+        ref_card.style.background = "url(../assets/web.png)";
+    }
+
     var ref_content = document.createElement("div");
     ref_content.classList.add("content");
 
