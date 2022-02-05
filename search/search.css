@@ -1,5 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@font-face {
+    font-family: "Cardo";
+    src: url("../assets/Cardo/Cardo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/Lato/Lato-Regular.ttf");
+}
 
 :root {
     --d: 700ms;
