@@ -98,10 +98,14 @@ nav {
     margin: 0 auto;
 }
 
-.profile-container h2 {
+.profile-container .user-info {
+    margin: 30px 0;
+}
+
+.profile-container .user-info h2 {
     text-align: center;
     padding: 0 20px;
-    margin: 30px 0;
+    margin-bottom: 20px;
 }
 
 .profile-container table.referat-list {

@@ -56,7 +56,13 @@
                 }
             ?>
 
-            <h2><?php echo $userData['EMail']; ?></h2>
+            <section class='user-info'>
+                <h2><?php echo $userData['FirstName'].' '.$userData['LastName']; ?></h2>
+                <p>Email: <?php echo $userData['EMail']; ?></p>
+                <p>FN: <?php echo $userData['FN']; ?></p>
+                <p>Course edition: <?php echo $userData['CourseEdition']; ?></p>
+            </section>
+            
 
             <p>Taken by you:</p>
 
