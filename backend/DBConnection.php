@@ -168,9 +168,11 @@ class DBConnection {
   public function takeReferat($userId, $referatId){
     global $connection;
 
+    $date = mktime(0, 0, 0, date('m'), date('d') + $this->referatTakenDaysCount, date('Y'));
+
     try {
-      $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DURATION) VALUES(?, ?, ?)";
-      $this->$connection->prepare($sql)->execute(array($userId, $referatId, $this->referatTakenDaysCount));
+      $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DEADLINE) VALUES(?, ?, ?)";
+      $this->$connection->prepare($sql)->execute(array($userId, $referatId, date('Y-m-d H:i:s', $date)));
 
     } catch (Exception $e) {
       $_SESSION['profileError'] = $e->getMessage();
