@@ -62,7 +62,7 @@
 
             <p class='empty-message' <?php echo count($referats) > 0 ? 'hidden' : '' ?>>You have not taken any referats :(</p>
 
-            <table class="referat-list" <?php echo count($referats) == 0 ? 'hidden' : '' ?>>
+            <table class="referat-list" <?php echo count($referats) == 0 ? 'hidden' : '' ?>>            
                 <?php 
                     foreach ($referats as $ref) {
                         $title = $ref['Title'];
@@ -71,11 +71,16 @@
 
                         $link = Constants::$linkPrefix.$ref['Link'];
 
+                        $deadline = date_create($ref['Deadline']);
+                        $today = date_create(date_format(new DateTime(), 'Y-m-d'));
+                        $daysLeft = $deadline->diff($today)->d;
+
                         $button = "<button class='return-button' referat-id=$id onClick='remove(event)'>Return</button>";
 
                         echo "<tr>";
                             echo "<td><a href='$link'>$title</a></td>";
                             echo "<td>Edition $edition</td>";
+                            echo "<td>$daysLeft day".($daysLeft > 1 ? 's' : '')." left</td>";
                             echo "<td>$button</td>";
                         echo "</tr>";
                     }
