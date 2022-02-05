@@ -80,7 +80,7 @@
                         echo "<tr>";
                             echo "<td><a href='$link'>$title</a></td>";
                             echo "<td>Edition $edition</td>";
-                            echo "<td>$daysLeft day".($daysLeft > 1 ? 's' : '')." left</td>";
+                            echo "<td ".($daysLeft <= 3 ? 'class="important-info"' : '').">$daysLeft day".($daysLeft > 1 ? 's' : '')." left</td>";
                             echo "<td>$button</td>";
                         echo "</tr>";
                     }

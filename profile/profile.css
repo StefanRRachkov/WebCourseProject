@@ -140,6 +140,10 @@ nav {
     border: none;
 }
 
+.profile-container table.referat-list tr td.important-info {
+    color: red;
+}
+
 .profile-container table.referat-list tr a {
     color: #000;
     text-decoration: none;
