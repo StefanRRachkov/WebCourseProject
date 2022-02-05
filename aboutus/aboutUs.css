@@ -1,7 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;600;700&display=swap");
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
 }
@@ -56,44 +60,48 @@ nav {
 }
 
 /* ---------------------photos and text------------------------- */
-body, html {
+body,
+html {
     height: 100%;
-  }
-  
-  .lusi-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/l.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .emo-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/e.jpg");
+}
+
+.lusi-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../assets/l.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
-  
-  .stef-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/s.jpg");
+}
+
+.emo-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../assets/e.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
-  
-  .hero-text {
+}
+
+.stef-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../assets/s.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
     text-align: left;
     position: absolute;
     top: 40%;
     left: 10%;
     color: white;
-  }
+}
 /* --------------------------------------------------------------------------------------------------------------- */
 
 /* footer */
@@ -108,11 +116,9 @@ body, html {
     margin-top: 25px;
 }
 
-.icons .fa {
+.icons .fab {
     cursor: pointer;
     color: #630737;
     margin: 0px 15px;
     padding: 20px 0;
 }
-
-
