@@ -57,24 +57,32 @@
             </div>
         </div>
     </div>
+    <!-- COURSE EDITION PICKER
+
     <div class="edition-picker-wrapper">
         <form id="course-edition-form"  action="../backend/search.php" method="POST" enctype="multipart/form-data">
             <label for="edition">Course Edition</label>
             <select name="edition" id="course_edition" class="edition-picker">
-                <?php 
+            <?php 
+                /*
                     foreach ($courseEditions as $value) {
                         $edition = $value['CourseEditionID'];
                         echo "<option value='$edition'>$edition</option>";
                     } 
-                ?>
+               */ 
+              ?>
             </select>
         </form>
     </div>
+
+    
     <div class="pagination-wrapper">
         <div class="pagination">
             <a id="submit" class="page-numbers" href="#">submit</a>
         </div>
     </div>
+
+    -->
     <div class="display">
         <div class="library">
         </div>
