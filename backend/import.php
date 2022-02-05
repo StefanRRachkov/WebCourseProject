@@ -25,8 +25,12 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
       // take the first keyword as the category
       $category = explode(',', $data[10])[0];
 
-      // id, title, references, keywords, category
-      array_push($valuesOfInterest, array($data[3] == '' ? NULL : $data[3], $data[4], $data[5], $data[10], $category));
+      $id = $data[3] == '' ? NULL : $data[3];
+
+      $link = $id ? "referat/$id/index.html" : NULL;
+
+      // id, title, references, keywords, category, link
+      array_push($valuesOfInterest, array($id, $data[4], $data[5], $data[10], $category, $link));
   }
 
   // the file has only one row (the title row)

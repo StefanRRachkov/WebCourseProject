@@ -68,11 +68,12 @@
                         $title = $ref['Title'];
                         $id = $ref['Book_ID'];
                         $edition = $ref['CourseEdition'];
+                        $link = $ref['Link'];
 
                         $button = "<button class='return-button' referat-id=$id onClick='remove(event)'>Return</button>";
 
                         echo "<tr>";
-                            echo "<td><a href='#'>$title</a></td>";
+                            echo "<td><a href='../$link'>$title</a></td>";
                             echo "<td>Edition $edition</td>";
                             echo "<td>$button</td>";
                         echo "</tr>";
@@ -105,7 +106,7 @@
                     return
                 }
 
-                element.closest('li').remove()
+                element.closest('tr').remove()
 
                 maybeShowEmptyMessage()
             }

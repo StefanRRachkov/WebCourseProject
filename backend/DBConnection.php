@@ -53,9 +53,9 @@ class DBConnection {
       for ($i = 1; $i < count($data); $i++) {
         $dataRow = $data[$i];
 
-        if (count($dataRow) == 5) {
-          $this->$connection->prepare("INSERT INTO REF_LIBRARY (RefID, Title, Ref, Keywords, Category, Max_Exports, CourseEdition) VALUES (?, ?, ?, ?, ?, ?, ?)")
-             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $dataRow[3], $dataRow[4], $this->maxExportsPerReferat, $edition));
+        if (count($dataRow) == 6) {
+          $this->$connection->prepare("INSERT INTO REF_LIBRARY (RefID, Title, Ref, Keywords, Category, Link, Max_Exports, CourseEdition) VALUES (?, ?, ?, ?, ?, ?, ?, ?)")
+             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $dataRow[3], $dataRow[4], $dataRow[5], $this->maxExportsPerReferat, $edition));
         }
       }
 
