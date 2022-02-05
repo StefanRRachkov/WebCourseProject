@@ -27,7 +27,7 @@ if (($handle = fopen($_FILES['uploaded-file']['tmp_name'], 'r')) !== FALSE) {
 
       $id = $data[3] == '' ? NULL : $data[3];
 
-      $link = $id ? "referat/$id/index.html" : NULL;
+      $link = $id ? "/referat/$id/index.html" : NULL;
 
       // id, title, references, keywords, category, link
       array_push($valuesOfInterest, array($id, $data[4], $data[5], $data[10], $category, $link));

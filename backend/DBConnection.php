@@ -1,23 +1,16 @@
 <?php 
 
+include 'utils/constants.php';
+
 class DBConnection {
   private $connection;
 
   private static $instance = null;
 
-  // CONFIGURATION
-  private $host = 'localhost';
-  private $user = 'root';
-  private $password = '';
-  private $database = 'WEB_TAKE_A_REF';
-
-  private $maxExportsPerReferat = 5;
-  private $referatTakenDaysCount = 5;
-
   private function __construct()  {
     global $connection;
 
-    $this->$connection = new PDO("mysql:host={$this->host};dbname={$this->database}", $this->user, $this->password);
+    $this->$connection = new PDO("mysql:host=".Constants::$host.";dbname=".Constants::$db, Constants::$user, Constants::$password);
 
     $this->$connection->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     // set the PDO error mode to exception
@@ -55,7 +48,7 @@ class DBConnection {
 
         if (count($dataRow) == 6) {
           $this->$connection->prepare("INSERT INTO REF_LIBRARY (RefID, Title, Ref, Keywords, Category, Link, Max_Exports, CourseEdition) VALUES (?, ?, ?, ?, ?, ?, ?, ?)")
-             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $dataRow[3], $dataRow[4], $dataRow[5], $this->maxExportsPerReferat, $edition));
+             ->execute(array($dataRow[0], $dataRow[1], $dataRow[2], $dataRow[3], $dataRow[4], $dataRow[5], Constants::$maxExportsPerReferat, $edition));
         }
       }
 
@@ -168,7 +161,7 @@ class DBConnection {
   public function takeReferat($userId, $referatId){
     global $connection;
 
-    $date = mktime(0, 0, 0, date('m'), date('d') + $this->referatTakenDaysCount, date('Y'));
+    $date = mktime(0, 0, 0, date('m'), date('d') + Constants::$referatTakenDaysCount, date('Y'));
 
     try {
       $sql = "INSERT INTO OWNED_REFS(USER_ID, BOOK_ID, DEADLINE) VALUES(?, ?, ?)";
