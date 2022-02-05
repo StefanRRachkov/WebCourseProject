@@ -1,18 +1,8 @@
-@font-face {
-    font-family: "Cardo";
-    src: url("../assets/Cardo/Cardo-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url("../assets/Lato/Lato-Regular.ttf");
-}
-
 :root {
     --d: 700ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
     --font-sans: "Rubik", sans-serif;
-    --font-serif: "Cardo", serif;
+    --font-serif: "Helvetica", serif;
 }
 
 .header-content {
@@ -45,7 +35,7 @@ input[type="text"] {
     height: 60px;
     font-size: 55px;
     display: inline-block;
-    font-family: "Lato";
+    font-family: "Helvetica";
     font-weight: 100;
     border: none;
     outline: none;
