@@ -17,6 +17,7 @@
     session_start();
 
     $isLoggedIn = isset($_SESSION['user']);
+    $canImport = isset($_SESSION['user_grade']) && ($_SESSION['user_grade'] > 1);
     $courseEditions = DBConnection::sharedInstance()->getCourseEditions();
 ?>
 
@@ -36,7 +37,9 @@
                     ?>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="profile">MY PROFILE</a></li>';
-                            echo ' <li><a href="import">IMPORT</a></li>';
+                            if ($canImport){
+                                echo ' <li><a href="import">IMPORT</a></li>';
+                            }
                         }
                     ?>
                     <li><a href="aboutus/aboutUs.php">ABOUT US</a></li>

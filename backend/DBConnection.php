@@ -74,6 +74,7 @@ class DBConnection {
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $result[0]['User_ID'];
         $_SESSION['user_courseedition'] = $result[0]['CourseEdition'];
+        $_SESSION['user_grade'] = $result[0]['UserGrade'];
       } else {
         $_SESSION['loginError'] = "Wrong email or password";
       }
@@ -110,6 +111,7 @@ class DBConnection {
       if ($result && $stmt->rowCount() == 1) {
         $_SESSION['user'] = $this->$connection->lastInsertId();
         $_SESSION['user_courseedition'] = $course_edition;
+        $_SESSION['user_grade'] = $result[0]['UserGrade'];
       }
 
       $this->finishRegister();

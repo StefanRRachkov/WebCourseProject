@@ -16,6 +16,7 @@
     include '../backend/search.php';
 
     $isLoggedIn = isset($_SESSION['user']);
+    $canImport = isset($_SESSION['user_grade']) && ($_SESSION['user_grade'] > 1);
 
     if (!$isLoggedIn) {
         header('Location: ../index.php');  
@@ -39,7 +40,9 @@
                     ?>
                     <?php if ($isLoggedIn){
                             echo ' <li><a href="../profile">MY PROFILE</a></li>';
-                            echo ' <li><a href="../import/index.php">IMPORT</a></li>';
+                            if ($canImport){
+                                echo ' <li><a href="../import">IMPORT</a></li>';
+                            }
                         }
                     ?>
                     <li><a href="../aboutus/aboutUs.php">ABOUT US</a></li>

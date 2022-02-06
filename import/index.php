@@ -16,8 +16,9 @@
 
     $isLoggedIn = isset($_SESSION['user']);
     $hasError = isset($_SESSION['csvFileUploadError']);
+    $canImport = isset($_SESSION['user_grade']) && ($_SESSION['user_grade'] > 1);
 
-    if (!$isLoggedIn) {
+    if (!$isLoggedIn || !$canImport) {
         header('Location: ../index.php');
     }
 
