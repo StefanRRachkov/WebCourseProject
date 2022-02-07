@@ -9,6 +9,8 @@
         {
             $condition = $_POST['search'];
         }
-        $result = DBConnection::sharedInstance()->getReferatsWithConditions($userId, $condition);
+        $new_course_edition = $_POST['courseEdition'] or $_REQUEST['courseEdition'];
+        $course_edition = $_SESSION['user_courseedition'];
+        $result = DBConnection::sharedInstance()->getReferatsWithConditions($userId, $condition, $course_edition);
     }
 ?>

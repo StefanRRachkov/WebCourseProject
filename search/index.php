@@ -60,32 +60,21 @@
             </div>
         </div>
     </div>
-    <!-- COURSE EDITION PICKER
-
-    <div class="edition-picker-wrapper">
-        <form id="course-edition-form"  action="../backend/search.php" method="POST" enctype="multipart/form-data">
-            <label for="edition">Course Edition</label>
-            <select name="edition" id="course_edition" class="edition-picker">
-            <?php 
-                /*
-                    foreach ($courseEditions as $value) {
-                        $edition = $value['CourseEditionID'];
-                        echo "<option value='$edition'>$edition</option>";
-                    } 
-               */ 
-              ?>
-            </select>
-        </form>
-    </div>
-
-    
-    <div class="pagination-wrapper">
-        <div class="pagination">
-            <a id="submit" class="page-numbers" href="#">submit</a>
+    <div class="course-edition-selector">
+        <div class="course-edition-selector-wrapper">
+            <a href="#" class="dropdown-toggle-btn effect-button">Course Edition</a>
+            <div class="dropdown">
+                <div class="dropdown-content">
+                    <?php 
+                        foreach ($courseEditions as $value) {
+                            $edition = $value['CourseEditionID'];
+                            echo "<a href='#' class='dropdown-button effect-button' id='{$edition}'>Web $edition</a>";
+                        } 
+                    ?>
+                </div>
+            </div>
         </div>
     </div>
-
-    -->
     <div class="display">
         <div class="library">
         </div>
@@ -193,6 +182,39 @@
   })
 
   loadPage();
+
+  var dropdown_toggle_btn = document.getElementsByClassName('dropdown-toggle-btn')[0];
+  dropdown_toggle_btn.addEventListener('click', (e) =>{
+    var dropdown_list = document.getElementsByClassName('dropdown-content')[0];
+    dropdown_list.classList.toggle('show');
+  });
+
+  var dropdown_btns = document.getElementsByClassName('dropdown-button');
+  dropdown_btns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+          setCourseEdition(e);
+          relaod();
+      })
+  });
+
+  function setCourseEdition(e) {
+      const element = e.target;
+      const courseEdition = element.getAttribute("id");
+      
+        console.log(courseEdition);
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.open("POST", "../backend/search.php");
+      xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhttp.onreadystatechange = () => {
+          if (xhttp.readyState !== 4 || xhttp.status !== 200) {
+              return;
+          }
+      };
+      xhttp.send("courseEdition="+courseEdition);
+
+      reload();
+  }
 
   function takeAReferat(e) {
         const element = e.target;
