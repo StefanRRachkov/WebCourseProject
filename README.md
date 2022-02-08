@@ -12,7 +12,7 @@ This is the repo for the final course project of WEB 2021/2022 course @ FMI Sofi
 ### Navigate through the repo
 * index.php - HTML/JS/PHP
 * /backend - PHP
-* /backedn/DBConnection.php - Main class of the backend
+* /backend/DBConnection.php - Main class of the backend
 * /database - SQL
 * /database/VersionUpdate - When there is an update on some of the tables you should execute these scripts
 * /database/PhpMyAdminInitialScript.sql - The initial script to populate your DB
