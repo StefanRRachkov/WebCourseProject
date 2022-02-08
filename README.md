@@ -5,6 +5,10 @@ This is the repo for the final course project of WEB 2021/2022 course @ FMI Sofi
 ### Representation of the project (Initial version)
 ![264487468_206146535041213_7672053342408956119_n](https://user-images.githubusercontent.com/25185815/149627859-eccc4de5-6fef-4ca6-b0c0-fa5a69ba685e.png)
 
+### Representation of the project (Finall DB View)
+![Final Version](https://user-images.githubusercontent.com/25185815/152954958-18e170f2-ac70-40eb-81aa-3e6ad1a5783e.PNG)
+
+
 ### Navigate through the repo
 * index.php - HTML/JS/PHP
 * /backend - PHP
