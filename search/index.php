@@ -62,13 +62,13 @@
     </div>
     <div class="course-edition-selector">
         <div class="course-edition-selector-wrapper">
-            <a href="#" class="dropdown-toggle-btn effect-button">Course Edition</a>
+            <a class="dropdown-toggle-btn effect-button">Course Edition: <?php echo $_SESSION['user_courseedition'];?></a>
             <div class="dropdown">
                 <div class="dropdown-content">
                     <?php 
                         foreach ($courseEditions as $value) {
                             $edition = $value['CourseEditionID'];
-                            echo "<a href='#' class='dropdown-button effect-button' id='{$edition}'>Web $edition</a>";
+                            echo "<a class='dropdown-button effect-button' id='{$edition}'>Web $edition</a>";
                         } 
                     ?>
                 </div>
@@ -141,10 +141,6 @@
     ref_btn.classList.add("btn");
     ref_btn.setAttribute("onclick", "takeAReferat(event)");
     ref_btn.innerHTML = "Take-a-Ref";
-    
-    ref_btn.addEventListener("click", () => {
-        
-    }); 
 
     ref_content.append(ref_title);
     ref_content.append(ref_btn);
@@ -190,30 +186,31 @@
   });
 
   var dropdown_btns = document.getElementsByClassName('dropdown-button');
-  dropdown_btns.forEach(btn => {
-      btn.addEventListener('click', (e) => {
-          setCourseEdition(e);
-          relaod();
-      })
+  var dropdown_btns_array = [...dropdown_btns];
+
+  console.log(dropdown_btns_array);
+  
+  dropdown_btns_array.forEach(btn => {
+      btn.setAttribute("onclick", "setCourseEdition(event)");
   });
 
   function setCourseEdition(e) {
-      const element = e.target;
-      const courseEdition = element.getAttribute("id");
-      
+        const element = e.target;
+        const courseEdition = element.getAttribute("id");
+
         console.log(courseEdition);
 
-      const xhttp = new XMLHttpRequest();
-      xhttp.open("POST", "../backend/search.php");
-      xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-      xhttp.onreadystatechange = () => {
-          if (xhttp.readyState !== 4 || xhttp.status !== 200) {
-              return;
-          }
-      };
-      xhttp.send("courseEdition="+courseEdition);
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "../backend/courseEditionSelector.php");
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.onreadystatechange = () => {
+            if (xhttp.readyState !== 4 || xhttp.status !== 200) {
+                return;
+            }
+        };
+        xhttp.send("courseEdition="+courseEdition);
 
-      reload();
+        dropdown_toggle_btn.innerHTML = "Course Edition: "+courseEdition;
   }
 
   function takeAReferat(e) {
@@ -265,6 +262,10 @@
   {
       unloadPage();
       loadPage();
+  }
+
+  function reloadLibrary() {
+      
   }
 
   function removeFromLibrary(id)
