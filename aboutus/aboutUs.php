@@ -151,7 +151,7 @@
 
 
     <section class="footer">
-        <p>Тhis website is a course project ot three colleagues from the Faculty of Mathematics and Informatics 
+        <p>Тhis website is a course project of three colleagues from the Faculty of Mathematics and Informatics 
             at Sofia University </p>
         <div class="icons">
             <a href="https://www.facebook.com/lusi.ivanova.17/" target="_blank"><i class="fab fa-facebook"></i></a>
