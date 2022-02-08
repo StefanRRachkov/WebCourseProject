@@ -24,5 +24,5 @@ Check What's New.md.
 * Google Meets - main verbal communication
 * Facebook - main written communication
 * Trello - main project management application
-* Git - version controll
+* Git - version control
 * GitHub - documentation
